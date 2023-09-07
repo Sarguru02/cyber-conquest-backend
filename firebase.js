@@ -6,12 +6,12 @@ const {getFirestore} = require("firebase/firestore")
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBiZguLCM8ji6xM3xEAC_0HqVnu4gDHL7s",
-  authDomain: "cyber-conquest.firebaseapp.com",
-  projectId: "cyber-conquest",
-  storageBucket: "cyber-conquest.appspot.com",
-  messagingSenderId: "271710164578",
-  appId: "1:271710164578:web:dd650dd28c61eacd87a33b",
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTHDOMAIN,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
