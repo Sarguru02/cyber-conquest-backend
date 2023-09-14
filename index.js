@@ -43,12 +43,14 @@ app.post("/participants", async (req,res)=>{
 })
 
 app.post("/rollDice", async (req, res)=>{
-    const {batchNo , teamName} = req.body;
-    const dice1 = Math.ceil(Math.random())*6;
-    const dice2 = Math.ceil(Math.random())*6;
+    const {batchNo , player} = req.body;
+    const dice1 = Math.ceil(Math.random()*6);
+    const dice2 = Math.ceil(Math.random()*6);
+    const pos = (parseInt(player.position)+parseInt(dice1)+parseInt(dice2)) % 32
 
-    await updateDoc(doc(db, batchNo, teamName), {
-        position: dice1+dice2,
+
+    await updateDoc(doc(db, batchNo, player.teamName), {
+        position: pos 
     })
     res.send({dice1, dice2, position: dice1+dice2})
 })
@@ -61,12 +63,11 @@ app.post("/current", (req,res)=>{
         req.session.idx = (req.session.idx +1) % req.session.participants.length;
         res.send(req.session.participants[idx]);
     } 
-    console.log(req.session)
 })
 
 
 app.post("/addTeam",async (req,res)=>{
-    const participant = req.body;
+    let participant = req.body.participant;
     const colName = participant.batchNo.toString();
     participant = {
         ...participant, 
@@ -84,6 +85,25 @@ app.post("/addTeam",async (req,res)=>{
 // app.post("/buy", async (req,res)=>{
     
 // })
+
+
+app.post("/money", async (req,res)=>{
+    const {batchNo, teamName, money, change} = req.body;
+    const a = await getDoc(doc(db, batchNo.toString(), teamName));
+    if(a.exists()){
+        let data = a.data();
+        if(change === "add"){
+            data = {...data, balance: data.balance+money}
+            await setDoc(doc(db, batchNo, teamName), data)
+            return res.json(data)
+        } else if(change=== "sub"){
+            data = {...data, balance: data.balance - money}
+        }
+    } else {
+        return res.status(401).json("Participant not found")
+    }
+
+})
 
 app.listen(3000, ()=>{
     console.log(`Server running on port 3000`);
