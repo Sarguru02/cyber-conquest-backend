@@ -9,12 +9,6 @@ const hexCharacters = [
     7,
     8,
     9,
-    "A",
-    "B",
-    "C",
-    "D",
-    "E",
-    "F",
   ];
 
 
