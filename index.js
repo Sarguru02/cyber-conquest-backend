@@ -7,6 +7,7 @@ const { db } = require("./firebase");
 const session = require("express-session");
 const cookieParser = require("cookie-parser");
 const { generateNewColor } = require("./utils/genColor");
+const { chance, communityChest } = require("./utils/chance_community");
 
 const app = express();
 
@@ -48,23 +49,34 @@ app.post("/rollDice", async (req, res)=>{
     const {batchNo , player} = req.body;
     const dice1 = Math.ceil(Math.random()*6);
     const dice2 = Math.ceil(Math.random()*6);
+    // const dice1 = 5;
+    // const dice2 =6;
     const pos = (parseInt(player.position)+parseInt(dice1)+parseInt(dice2)) 
     if(pos >=32){
         player.rounds = parseInt(player.rounds) +1;
         player.position = pos % 32;
-        player.balance = parseInt(playe.balance)+200;
+        player.balance = parseInt(player.balance)+200;
         await setDoc(doc(db, batchNo.toString(), player.teamName), player);
-    } else if(pos === 8){
-
-    }
-    
+    } else if(pos%32 === 11 || pos%32 === 25){
+        //----------------------------------------------------------
+        //Chance logic
+        //-----------------------------------------------------------
+        const obj = chance(player, pos%32);
+        return res.json({...obj, dice1, dice2, position: pos%32});
+    } else if(pos%32 === 2 || pos%32 === 20){
+        //----------------------------------------------------------
+        //Community chest logic
+        //-----------------------------------------------------------
+        const obj = communityChest(player, pos%32);
+        return res.json({...obj, dice1, dice2, position: pos%32})
+    }     
     else {
         player.position = pos%32;
         await setDoc(doc(db, batchNo.toString(), player.teamName),player)
     }
 
 
-    res.send({dice1, dice2, position: pos%32})
+    res.json({dice1, dice2, position: pos%32})
 })
 
 
