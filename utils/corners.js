@@ -39,4 +39,16 @@ const cryptoLocker = async (currentParticipant, pos) => {
   }
 };
 
-module.exports = { jail, cryptoLocker };
+const cornerOfConfusion = async (currentParticipant, pos) => {
+  await setDoc(
+    doc(db, currentParticipant.batchNo.toString(), currentParticipant.teamName),
+    {
+      ...currentParticipant,
+      position: pos,
+      balance: parseInt(currentParticipant.balance) * 0.9,
+    }
+  );
+  return { message: "Hahaha! I may be old, but stole ur 10% gold 💀" };
+};
+
+module.exports = { jail, cryptoLocker, cornerOfConfusion };

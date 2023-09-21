@@ -15,7 +15,7 @@ const session = require("express-session");
 const cookieParser = require("cookie-parser");
 const { generateNewColor } = require("./utils/genColor");
 const { chance, communityChest } = require("./utils/chance_community");
-const { jail, cryptoLocker } = require("./utils/corners");
+const { jail, cryptoLocker, cornerOfConfusion } = require("./utils/corners");
 
 const app = express();
 
@@ -71,10 +71,10 @@ app.post("/rollDice", async (req, res) => {
       message: "Player does not have internet connection ☹️",
     });
   }
-  //   const dice1 = Math.ceil(Math.random() * 6);
-  //   const dice2 = Math.ceil(Math.random() * 6);
-  const dice1 = 2;
-  const dice2 = 6;
+  const dice1 = Math.ceil(Math.random() * 6);
+  const dice2 = Math.ceil(Math.random() * 6);
+  //   const dice1 = 2;
+  //   const dice2 = 6;
   const pos = parseInt(player.position) + parseInt(dice1) + parseInt(dice2);
   if (pos >= 32) {
     player.rounds = parseInt(player.rounds) + 1;
@@ -98,7 +98,11 @@ app.post("/rollDice", async (req, res) => {
     return res.json({ dice1, dice2, position: pos % 32 });
   } else if (pos % 32 === 8) {
     const obj1 = cryptoLocker(player, pos % 32);
+    console.log(obj1);
     return res.json({ ...obj1, dice1, dice2, position: pos % 32 });
+  } else if (pos % 32 === 24) {
+    const obj2 = cornerOfConfusion(player, pos % 32);
+    return res.json({ ...obj2, dice1, dice2, position: pos % 32 });
   } else {
     player.position = pos % 32;
     await setDoc(doc(db, batchNo.toString(), player.teamName), player);
