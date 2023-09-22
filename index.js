@@ -21,6 +21,7 @@ const {
   cornerOfConfusion,
   incomeTax,
 } = require("./utils/corners");
+const fs = require("fs");
 
 const app = express();
 
@@ -178,21 +179,19 @@ app.post("/reset", async (req, res) => {
   res.send("Hello");
 });
 
-app.post("/money", async (req, res) => {
-  const { batchNo, teamName, money, change } = req.body;
-  const a = await getDoc(doc(db, batchNo.toString(), teamName));
-  if (a.exists()) {
-    let data = a.data();
-    if (change === "add") {
-      data = { ...data, balance: data.balance + money };
-      await setDoc(doc(db, batchNo, teamName), data);
-      return res.json(data);
-    } else if (change === "sub") {
-      data = { ...data, balance: data.balance - money };
+app.get("/properties", async (req, res) => {
+  getDoc(doc(db, "gameProperties", "propertyDocument")).then((d) => {
+    if (d.exists()) {
+      req.session.properties = d.data().propertyArray;
+      return res.status(200).send("Properties got 👍 ");
+    } else {
+      return res.status(401).json({ message: "Properties does not exist" });
     }
-  } else {
-    return res.status(401).json("Participant not found");
-  }
+  });
+});
+app.post("/getProp", async (req, res) => {
+  console.log(req.body);
+  return res.status(200).send("Hello mf");
 });
 
 app.post("/updatePoints", async (req, res) => {
@@ -202,6 +201,17 @@ app.post("/updatePoints", async (req, res) => {
     { ...currentParticipant, points: parseInt(points) }
   );
   res.json("Points updated");
+});
+
+app.get("/hello", async (req, res) => {
+  fs.readFile("./windows.json", "utf8", async (err, jsonString) => {
+    if (err) {
+      return res.status(500).send("Hello mf");
+    }
+    const qns = JSON.parse(jsonString);
+    await setDoc(doc(db, "quiz", qns[0].quizTitle), { qns });
+    return res.status(200).send("Document is set");
+  });
 });
 
 app.listen(3000, () => {
