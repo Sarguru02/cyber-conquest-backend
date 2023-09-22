@@ -22,7 +22,6 @@ const cryptoLocker = async (currentParticipant, pos) => {
       ),
       { ...currentParticipant, propertiesOwned: props, position: pos }
     );
-    console.log(props);
     return {
       message:
         "You are under cyber attack. Half of your properties are removed!",

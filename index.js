@@ -104,7 +104,6 @@ app.post("/rollDice", async (req, res) => {
     return res.json({ dice1, dice2, position: pos % 32 });
   } else if (pos % 32 === 8) {
     const obj1 = cryptoLocker(player, pos % 32);
-    console.log(obj1);
     return res.json({ ...obj1, dice1, dice2, position: pos % 32 });
   } else if (pos % 32 === 24) {
     const obj2 = cornerOfConfusion(player, pos % 32);
@@ -145,9 +144,30 @@ app.post("/addTeam", async (req, res) => {
   res.send("Team Added");
 });
 
-// app.post("/buy", async (req,res)=>{
-
-// })
+app.post("/buy", async (req, res) => {
+  const { currentParticipant, price, propertyInfo } = req.body;
+  currentParticipant.propertiesOwned.push({
+    propertyName: propertyInfo.propertyName,
+    propertyCategory: propertyInfo.category,
+    propertyValue: parseInt(price),
+  });
+  await setDoc(
+    doc(db, currentParticipant.batchNo.toString(), currentParticipant.teamName),
+    {
+      ...currentParticipant,
+      balance: parseInt(currentParticipant.balance) - parseInt(price),
+      propertiesOwned: currentParticipant.propertiesOwned,
+    }
+  );
+  req.session.properties = [
+    ...req.session.properties.filter((baka) => parseInt(baka.position) !== 5),
+    { ...propertyInfo, owner: currentParticipant.teamName },
+  ];
+  await setDoc(doc(db, "gameProperties", "propertyDocument"), {
+    propertyArray: req.session.properties,
+  });
+  res.status(200).send("Hello mf");
+});
 
 app.post("/reset", async (req, res) => {
   const batchNo = req.body.batchNo;
@@ -190,8 +210,13 @@ app.get("/properties", async (req, res) => {
   });
 });
 app.post("/getProp", async (req, res) => {
-  console.log(req.body);
-  return res.status(200).send("Hello mf");
+  const position = parseInt(req.body.position);
+  const propertyAtPosition = req.session.properties.filter((property) => {
+    if (parseInt(property.position) === position) {
+      return property;
+    }
+  });
+  return res.status(200).json({ property: propertyAtPosition[0] });
 });
 
 app.post("/updatePoints", async (req, res) => {
