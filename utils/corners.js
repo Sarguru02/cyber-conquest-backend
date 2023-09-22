@@ -51,4 +51,16 @@ const cornerOfConfusion = async (currentParticipant, pos) => {
   return { message: "Hahaha! I may be old, but stole ur 10% gold 💀" };
 };
 
-module.exports = { jail, cryptoLocker, cornerOfConfusion };
+const incomeTax = async (currentParticipant, pos) => {
+  await setDoc(
+    doc(db, currentParticipant.batchNo.toString(), currentParticipant.teamName),
+    {
+      ...currentParticipant,
+      position: pos,
+      balance: parseInt(currentParticipant.balance) * 0.65,
+    }
+  );
+  return { message: "Pay 35% as an Income Tax " };
+};
+
+module.exports = { jail, cryptoLocker, cornerOfConfusion, incomeTax };

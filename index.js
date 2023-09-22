@@ -15,7 +15,12 @@ const session = require("express-session");
 const cookieParser = require("cookie-parser");
 const { generateNewColor } = require("./utils/genColor");
 const { chance, communityChest } = require("./utils/chance_community");
-const { jail, cryptoLocker, cornerOfConfusion } = require("./utils/corners");
+const {
+  jail,
+  cryptoLocker,
+  cornerOfConfusion,
+  incomeTax,
+} = require("./utils/corners");
 
 const app = express();
 
@@ -103,6 +108,9 @@ app.post("/rollDice", async (req, res) => {
   } else if (pos % 32 === 24) {
     const obj2 = cornerOfConfusion(player, pos % 32);
     return res.json({ ...obj2, dice1, dice2, position: pos % 32 });
+  } else if (pos % 32 === 4) {
+    const obj3 = incomeTax(player, pos % 32);
+    return res.json({ ...obj3, dice1, dice2, position: pos % 32 });
   } else {
     player.position = pos % 32;
     await setDoc(doc(db, batchNo.toString(), player.teamName), player);
@@ -189,10 +197,9 @@ app.post("/money", async (req, res) => {
 
 app.post("/updatePoints", async (req, res) => {
   const { currentParticipant, points } = req.body;
-  currentParticipant.points = parseInt(points);
   await setDoc(
     doc(db, currentParticipant.batchNo.toString(), currentParticipant.teamName),
-    currentParticipant
+    { ...currentParticipant, points: parseInt(points) }
   );
   res.json("Points updated");
 });
