@@ -79,8 +79,8 @@ app.post("/rollDice", async (req, res) => {
   }
   const dice1 = Math.ceil(Math.random() * 6);
   const dice2 = Math.ceil(Math.random() * 6);
-  //   const dice1 = 2;
-  //   const dice2 = 6;
+  // const dice1 = 2;
+  // const dice2 = 3;
   const pos = parseInt(player.position) + parseInt(dice1) + parseInt(dice2);
   if (pos >= 32) {
     player.rounds = parseInt(player.rounds) + 1;
@@ -196,10 +196,24 @@ app.post("/reset", async (req, res) => {
       ],
     }).then(() => console.log("completed"));
   });
+  getDoc(doc(db, "gameProperties", "propertyDocument")).then((d) => {
+    if (d.exists()) {
+      const a = d.data();
+      setDoc(doc(db, "gameProperties", "propertyDocument"), {
+        propertyArray: a.propertyArray.map((b) => {
+          b.owner = "";
+          return b;
+        }),
+      }).then(() => {
+        console.log("Success");
+      });
+    }
+  });
   res.send("Hello");
 });
 
 app.get("/properties", async (req, res) => {
+  console.log(req.session);
   getDoc(doc(db, "gameProperties", "propertyDocument")).then((d) => {
     if (d.exists()) {
       req.session.properties = d.data().propertyArray;
@@ -237,6 +251,35 @@ app.get("/hello", async (req, res) => {
     await setDoc(doc(db, "quiz", qns[0].quizTitle), { qns });
     return res.status(200).send("Document is set");
   });
+});
+
+app.post("/rent", async (req, res) => {
+  const { property, player } = req.body;
+  const owner = getDoc(doc(db, player.batchNo.toString(), property.owner)).then(
+    (d) => (d.exists() ? d.data() : "")
+  );
+  await setDoc(doc(db, owner.batchNo.toString(), owner.teamName), {
+    ...owner,
+    balance: parseInt(owner.balance) + parseInt(property.price) * 0.5,
+  });
+  await setDoc(doc(db, player.batchNo.toString(), player.teamName), {
+    ...player,
+    balance: parseInt(player.balance) - parseInt(property.price) * 0.5,
+  });
+  return res.send("Rent paid successfully");
+});
+
+app.post("/quiz", async (req, res) => {
+  const { propertyName } = req.body;
+  const docRef = await getDoc(doc(db, "quiz", "Windows"));
+  if (docRef.exists()) {
+    const qns = docRef.data().qns;
+    const idx = Math.floor(Math.random()*qns.length)
+    return res.json({qzObj: qns[idx]})
+  } else {
+    console.log("Hello")  
+  }
+  return res.send("OK")
 });
 
 app.listen(3000, () => {
