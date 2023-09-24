@@ -77,11 +77,12 @@ app.post("/rollDice", async (req, res) => {
       message: "Player does not have internet connection ☹️",
     });
   }
-  // const dice1 = Math.ceil(Math.random() * 6);
-  // const dice2 = Math.ceil(Math.random() * 6);
-  const dice1 = 2;
-  const dice2 = 3;
-  const pos = parseInt(player.position) + parseInt(dice1) + parseInt(dice2);
+  const dice1 = Math.ceil(Math.random() * 6);
+  const dice2 = Math.ceil(Math.random() * 6);
+  // const dice1 = 2;
+  // const dice2 = 3;
+  // const pos = parseInt(player.position) + parseInt(dice1) + parseInt(dice2);
+  const pos = 13;
   if (pos >= 32) {
     player.rounds = parseInt(player.rounds) + 1;
     player.position = pos % 32;
@@ -161,9 +162,16 @@ app.post("/buy", async (req, res) => {
     }
   );
   req.session.properties = [
-    ...req.session.properties.filter((baka) => parseInt(baka.position) !== 5),
-    { ...propertyInfo, owner: currentParticipant.teamName },
+    ...req.session.properties.filter(
+      (baka) => parseInt(baka.position) !== parseInt(propertyInfo.position)
+    ),
+    {
+      ...propertyInfo,
+      owner: currentParticipant.teamName,
+      position: parseInt(propertyInfo.position),
+    },
   ];
+  console.log(req.session.properties);
   await setDoc(doc(db, "gameProperties", "propertyDocument"), {
     propertyArray: req.session.properties,
   });
@@ -245,13 +253,14 @@ app.post("/updatePoints", async (req, res) => {
 });
 
 app.get("/hello", async (req, res) => {
-  fs.readFile("./windows.json", "utf8", async (err, jsonString) => {
+  var fname = "techanagrams";
+  fs.readFile(`./jsonData/${fname}.json`, "utf8", async (err, jsonString) => {
     if (err) {
       return res.status(500).send("Hello mf");
     }
     const qns = JSON.parse(jsonString);
     await setDoc(doc(db, "quiz", qns[0].quizTitle), { qns });
-    return res.status(200).send("Document is set");
+    return res.status(200).send(`${fname} Document is set`);
   });
 });
 
@@ -274,8 +283,8 @@ app.post("/rent", async (req, res) => {
 });
 
 app.post("/quiz", async (req, res) => {
-  const { propertyName } = req.body;
-  const docRef = await getDoc(doc(db, "quiz", "Windows"));
+  const { property } = req.body;
+  const docRef = await getDoc(doc(db, "quiz", property.quizName));
   if (docRef.exists()) {
     const qns = docRef.data().qns;
     const idx = Math.floor(Math.random()*qns.length)
