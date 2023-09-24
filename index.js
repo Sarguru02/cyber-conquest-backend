@@ -155,6 +155,7 @@ app.post("/buy", async (req, res) => {
     doc(db, currentParticipant.batchNo.toString(), currentParticipant.teamName),
     {
       ...currentParticipant,
+      position: parseInt(currentParticipant.position),
       balance: parseInt(currentParticipant.balance) - parseInt(price),
       propertiesOwned: currentParticipant.propertiesOwned,
     }
@@ -237,7 +238,8 @@ app.post("/updatePoints", async (req, res) => {
   const { currentParticipant, points } = req.body;
   await setDoc(
     doc(db, currentParticipant.batchNo.toString(), currentParticipant.teamName),
-    { ...currentParticipant, points: parseInt(points) }
+    { ...currentParticipant,position: parseInt(currentParticipant.position),
+     points: parseInt(points) }
   );
   res.json("Points updated");
 });
@@ -255,22 +257,19 @@ app.get("/hello", async (req, res) => {
 
 app.post("/rent", async (req, res) => {
   const { property, player } = req.body;
-  const ownerRef = await getDoc(
-    doc(db, player.batchNo.toString(), property.owner)
+  const owner = getDoc(doc(db, player.batchNo.toString(), property.owner)).then(
+    (d) => (d.exists() ? d.data() : "")
   );
-  if (ownerRef.exists()) {
-    const owner = ownerRef.data();
-    await setDoc(doc(db, owner.batchNo.toString(), owner.teamName), {
-      ...owner,
-      balance: parseInt(owner.balance) + parseInt(property.price) * 0.5,
-    });
-    await setDoc(doc(db, player.batchNo.toString(), player.teamName), {
-      ...player,
-      balance: parseInt(player.balance) - parseInt(property.price) * 0.5,
-    });
-    // console.log(owner);
-  }
-
+  await setDoc(doc(db, owner.batchNo.toString(), owner.teamName), {
+    ...owner,
+    position: owner.position,
+    balance: parseInt(owner.balance) + parseInt(property.price) * 0.5,
+  });
+  await setDoc(doc(db, player.batchNo.toString(), player.teamName), {
+    ...player,
+    position: parseInt(player.position),
+    balance: parseInt(player.balance) - parseInt(property.price) * 0.5,
+  });
   return res.send("Rent paid successfully");
 });
 
@@ -279,12 +278,12 @@ app.post("/quiz", async (req, res) => {
   const docRef = await getDoc(doc(db, "quiz", "Windows"));
   if (docRef.exists()) {
     const qns = docRef.data().qns;
-    const idx = Math.floor(Math.random() * qns.length);
-    return res.json({ qzObj: qns[idx] });
+    const idx = Math.floor(Math.random()*qns.length)
+    return res.json({qzObj: qns[idx]})
   } else {
-    console.log("Hello");
+    console.log("Hello")  
   }
-  return res.send("OK");
+  return res.send("OK")
 });
 
 app.listen(3000, () => {
