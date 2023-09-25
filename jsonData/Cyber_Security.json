@@ -1,0 +1,515 @@
+[
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What does the \"S\" stand for in the abbreviation \"HTTPS\"?",
+    "quizOptions": [
+      "Security",
+      "Super",
+      "System",
+      "Secure"
+    ],
+    "correctOption": "Secure",
+    "explanation": "The \"S\" in HTTPS stands for \"Secure.\" HTTPS is a protocol used for secure communication over the internet, ensuring that data transmitted between a user's browser and a website is encrypted and protected from eavesdropping."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which of the following is an example of a strong password?",
+    "quizOptions": [
+      "Password123",
+      "123456",
+      "Tr0ub4dor&3",
+      "Admin"
+    ],
+    "correctOption": "Tr0ub4dor&3",
+    "explanation": "\u2018Tr0ub4dor&3\u2019 is an example of a strong password because it includes a mix of uppercase letters, lowercase letters, numbers, and special characters, making it difficult for attackers to guess."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the primary purpose of a firewall in network security?",
+    "quizOptions": [
+      "To prevent physical attacks",
+      "To filter incoming and outgoing network traffic",
+      "To encrypt data",
+      "To block spam emails"
+    ],
+    "correctOption": "To filter incoming and outgoing network traffic",
+    "explanation": "A firewall's primary purpose is to filter and control the flow of network traffic, allowing or blocking specific data packets based on predefined security rules. It helps protect a network by preventing unauthorized access and threats from reaching internal systems."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What type of cyberattack involves flooding a network with traffic to make it unavailable?",
+    "quizOptions": [
+      "Phishing",
+      "Malware",
+      "DDoS",
+      "Ransomware"
+    ],
+    "correctOption": "DDoS",
+    "explanation": "A Distributed Denial of Service (DDoS) attack involves overwhelming a network, service, or website with a massive volume of traffic from multiple sources, rendering it unavailable to legitimate users."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the main goal of social engineering attacks?",
+    "quizOptions": [
+      "To physically breach a facility",
+      "To manipulate people into revealing sensitive information",
+      "To exploit software vulnerabilities",
+      "To steal physical assets"
+    ],
+    "correctOption": "To manipulate people into revealing sensitive information",
+    "explanation": "Social engineering attacks aim to exploit human psychology and manipulate individuals into divulging confidential information, such as passwords or personal data, by using deception, persuasion, or impersonation."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which of the following is NOT a common encryption algorithm?",
+    "quizOptions": [
+      "AES",
+      "RSA",
+      "HTTP",
+      "DES"
+    ],
+    "correctOption": "HTTP",
+    "explanation": "HTTP (Hypertext Transfer Protocol) is not an encryption algorithm; it is a protocol used for transferring data over the internet. Common encryption algorithms include AES (Advanced Encryption Standard), RSA, and DES."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What does \"IoT\" stand for in the context of cybersecurity?",
+    "quizOptions": [
+      "Internet of Things",
+      "Internet of Threats",
+      "Information of Technology",
+      "International Online Tracking"
+    ],
+    "correctOption": "Internet of Things",
+    "explanation": "IoT stands for the \"Internet of Things,\" referring to the network of interconnected devices, appliances, and objects that communicate and exchange data with each other over the internet."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which security concept involves limiting access rights for users to the minimum levels necessary to perform their job functions?",
+    "quizOptions": [
+      "Firewall",
+      "Least Privilege",
+      "Encryption",
+      "Antivirus"
+    ],
+    "correctOption": "Least Privilege",
+    "explanation": "The principle of \"Least Privilege\" restricts users and processes to the minimum level of access required to perform their tasks, reducing the potential for unauthorized access and limiting the impact of security breaches."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What does \"Phishing\" primarily target?",
+    "quizOptions": [
+      "Software vulnerabilities",
+      "Physical assets",
+      "User credentials and personal information",
+      "Network infrastructure"
+    ],
+    "correctOption": "User credentials and personal information",
+    "explanation": "Phishing attacks primarily target user credentials and personal information by tricking individuals into revealing sensitive data through deceptive emails, websites, or messages."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is a common method of two-factor authentication (2FA)?",
+    "quizOptions": [
+      "Username and password",
+      "Fingerprint and retina scan",
+      "Email confirmation",
+      "Password and PIN"
+    ],
+    "correctOption": "Password and PIN",
+    "explanation": "Two-factor authentication (2FA) typically involves using two different methods to verify a user's identity. This can include something the user knows (e.g., a password) and something the user has (e.g., a PIN sent to their mobile device)."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which encryption protocol secures data transmitted over wireless networks, such as Wi-Fi?",
+    "quizOptions": [
+      "SSL",
+      "HTTPS",
+      "WEP",
+      "WPA2"
+    ],
+    "correctOption": "WPA2",
+    "explanation": "WPA2 (Wi-Fi Protected Access 2) is a common encryption protocol used to secure data transmitted over wireless networks, ensuring the confidentiality and integrity of the data."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the main purpose of a Virtual Private Network (VPN) in cybersecurity?",
+    "quizOptions": [
+      "To block malware",
+      "To protect sensitive data during transmission",
+      "To detect intrusions",
+      "To create strong passwords"
+    ],
+    "correctOption": "To protect sensitive data during transmission",
+    "explanation": "A VPN is used to create a secure and encrypted connection over a public network, such as the internet, to protect sensitive data while it is transmitted between the user's device and a remote server or network."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which type of malware disguises itself as legitimate software and spreads through infected files?",
+    "quizOptions": [
+      "Worm",
+      "Trojan",
+      "Spyware",
+      "Ransomware"
+    ],
+    "correctOption": "Trojan",
+    "explanation": "A Trojan is a type of malware that appears to be legitimate software but, once executed, carries out malicious activities. It often spreads through infected files or deceptive downloads."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the term for a security vulnerability that is known and exploited by attackers before a patch is available?",
+    "quizOptions": [
+      "Zero-day vulnerability",
+      "Day-zero exploit",
+      "First-day vulnerability",
+      "Day-one vulnerability"
+    ],
+    "correctOption": "Zero-day vulnerability",
+    "explanation": "A zero-day vulnerability is a security flaw in software or hardware that is exploited by attackers before the vendor has had a chance to release a patch or fix for it."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is a \"honeypot\" in cybersecurity?",
+    "quizOptions": [
+      "A type of phishing attack",
+      "A deceptive network or system designed to attract attackers",
+      "A strong password",
+      "A type of firewall"
+    ],
+    "correctOption": "A deceptive network or system designed to attract attackers",
+    "explanation": "A honeypot is a security mechanism that involves setting up a fake network or system to attract and monitor cyber attackers, allowing organizations to study their tactics and gather information on threats."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which of the following is an example of a physical security control?",
+    "quizOptions": [
+      "Firewall",
+      "Antivirus software",
+      "Biometric access control",
+      ""
+    ],
+    "correctOption": "Biometric access control",
+    "explanation": "Biometric access control, such as fingerprint or retina scans, is a physical security control used to restrict physical access to buildings or systems based on individual biometric characteristics."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the main purpose of an Intrusion Detection System (IDS)?",
+    "quizOptions": [
+      "To encrypt data",
+      "To block spam emails",
+      "To detect and respond to suspicious network activity",
+      "To filter web content"
+    ],
+    "correctOption": "To detect and respond to suspicious network activity",
+    "explanation": "An Intrusion Detection System (IDS) is designed to monitor network traffic and system activity to detect any suspicious or unauthorized behavior and trigger alerts or responses to potential threats."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which cybersecurity framework is commonly used to assess and manage cybersecurity risk in organizations?",
+    "quizOptions": [
+      "NIST Cybersecurity Framework",
+      "ISO 9001",
+      "HIPAA",
+      "GDPR"
+    ],
+    "correctOption": "NIST Cybersecurity Framework",
+    "explanation": "The NIST Cybersecurity Framework is a widely adopted framework that provides guidelines and best practices for managing and reducing cybersecurity risk in organizations."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What does \"BYOD\" stand for in the context of cybersecurity?",
+    "quizOptions": [
+      "Bring Your Own Device",
+      "Back Your Own Data",
+      "Build Your Own Defense",
+      "Block Your Own Downloads"
+    ],
+    "correctOption": "Bring Your Own Device",
+    "explanation": "BYOD stands for \"Bring Your Own Device,\" referring to the practice of employees using their personal devices (such as smartphones or laptops) for work purposes, which presents security challenges for organizations."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the term for a malicious program that is capable of spreading itself to other computers without user intervention?",
+    "quizOptions": [
+      "Virus",
+      "Adware",
+      "Botnet",
+      "Worm"
+    ],
+    "correctOption": "Worm",
+    "explanation": "A worm is a type of malware that can self-replicate and spread to other computers or devices over a network without any user action required."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which of the following is a common example of a cybersecurity threat?",
+    "quizOptions": [
+      "Cloud storage",
+      "Social media profiles",
+      "Cyber insurance",
+      "Computer viruses"
+    ],
+    "correctOption": "Computer viruses",
+    "explanation": "Computer viruses are a common type of cybersecurity threat that can infect and harm computer systems by attaching themselves to legitimate programs or files"
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What does \"URL\" stand for in the context of web addresses?",
+    "quizOptions": [
+      "Universal Resource Locator",
+      "Uniform Reference Locator",
+      "Unique Resource Locator",
+      "Unified Resource Locator"
+    ],
+    "correctOption": "Universal Resource Locator",
+    "explanation": "URL stands for \"Universal Resource Locator,\" which is a web address used to identify and locate resources on the internet."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which of the following is NOT a recommended practice for securing your email account?",
+    "quizOptions": [
+      "Using a strong, unique password",
+      "",
+      "Sharing your password with a trusted friend",
+      "Being cautious of phishing emails"
+    ],
+    "correctOption": "Sharing your password with a trusted friend",
+    "explanation": "Sharing your email account password with anyone, even a trusted friend, is not a recommended practice for email security. It can lead to unauthorized access and compromises the security of your account."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the term for a program that appears legitimate but performs malicious activities when executed?",
+    "quizOptions": [
+      "Firewall",
+      "Antivirus",
+      "Spyware",
+      "Trojan"
+    ],
+    "correctOption": "Trojan",
+    "explanation": "A Trojan is a type of malware that disguises itself as legitimate software but carries out malicious activities when executed"
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What type of cybersecurity attack involves tricking a victim into clicking on a malicious link in an email or website?",
+    "quizOptions": [
+      "Phishing",
+      "DDoS",
+      "Ransomware",
+      "Worm"
+    ],
+    "correctOption": "Phishing",
+    "explanation": "Phishing attacks involve tricking victims into clicking on malicious links or downloading malicious attachments from deceptive emails or websites."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the purpose of encryption in cybersecurity?",
+    "quizOptions": [
+      "To hide the location of the user",
+      "To protect data from unauthorized access",
+      "To filter web content",
+      "To prevent malware infections"
+    ],
+    "correctOption": "To protect data from unauthorized access",
+    "explanation": "Encryption is used to protect data from unauthorized access by converting it into a scrambled or unreadable format that can only be deciphered with the appropriate decryption key."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which of the following is NOT a recommended password security practice?",
+    "quizOptions": [
+      "Using common dictionary words",
+      "Using a mix of upper and lower case letters",
+      "Changing passwords regularly",
+      "Avoiding easily guessable information like birthdays"
+    ],
+    "correctOption": "Using common dictionary words",
+    "explanation": "Using common dictionary words as passwords is not a recommended practice because they are easy to guess through dictionary attacks. Strong passwords should be complex and unique."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What does \"IoC\" stand for in the context of cybersecurity?",
+    "quizOptions": [
+      "Internet of Computers",
+      "Indicator of Compromise",
+      "Internet of Connections",
+      "Internet of Cookies"
+    ],
+    "correctOption": "Indicator of Compromise",
+    "explanation": "IoC stands for \"Indicator of Compromise,\" which is a piece of information or evidence that suggests a security breach or malicious activity within a network or system."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which cybersecurity concept involves creating a duplicate of data or a system to protect against data loss or system failures?",
+    "quizOptions": [
+      "Firewall",
+      "Encryption",
+      "Backup",
+      "Authentication"
+    ],
+    "correctOption": "Backup",
+    "explanation": "Creating backups involves duplicating data or system configurations to protect against data loss, system failures, or disasters. It ensures that data can be restored in case of a problem."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What does a VPN (Virtual Private Network) provide?",
+    "quizOptions": [
+      "Faster internet speed",
+      "Anonymity on the internet",
+      "Protection against all types of malware",
+      "Secure and private communication over public networks"
+    ],
+    "correctOption": "Secure and private communication over public networks",
+    "explanation": "A VPN provides secure and private communication by encrypting data transmitted over public networks, such as the internet, and masking the user's IP address."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the purpose of a \"CAPTCHA\" in online security?",
+    "quizOptions": [
+      "To encrypt data transmissions",
+      "To verify the identity of a user",
+      "To distinguish between humans and automated bots",
+      "To block spam emails"
+    ],
+    "correctOption": "To distinguish between humans and automated bots",
+    "explanation": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is used to distinguish between humans and automated bots by requiring users to complete a challenge that is easy for humans but difficult for bots."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which type of attack involves an attacker intercepting and altering communication between two parties?",
+    "quizOptions": [
+      "DDoS attack",
+      "attack",
+      "Ransomware attack",
+      "Brute force attack"
+    ],
+    "correctOption": "attack",
+    "explanation": "A Man-in-the-Middle (MITM) attack occurs when an attacker intercepts and potentially modifies communication between two parties without their knowledge, often to eavesdrop or manipulate the data."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the primary purpose of a security policy in an organization?",
+    "quizOptions": [
+      "To block external threats",
+      "To manage employee salaries",
+      "To define rules and guidelines for protecting information assets",
+      "To maintain physical security"
+    ],
+    "correctOption": "To define rules and guidelines for protecting information assets",
+    "explanation": "A security policy in an organization defines the rules, guidelines, and procedures for protecting information assets and ensuring that employees adhere to security best practices."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which of the following is a common authentication factor?",
+    "quizOptions": [
+      "Something you know",
+      "Something you eat",
+      "Something you breathe",
+      "Something you see"
+    ],
+    "correctOption": "Something you know",
+    "explanation": "Authentication factors can be something you know (e.g., a password), something you have (e.g., a physical token), or something you are (e.g., a fingerprint). \"Something you know\" is a common authentication factor."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the term for the practice of ensuring that software and hardware are kept up to date with the latest security patches and updates?",
+    "quizOptions": [
+      "Vulnerability management",
+      "Network segmentation",
+      "Social engineering",
+      "Malware analysis"
+    ],
+    "correctOption": "Vulnerability management",
+    "explanation": "Vulnerability management involves the practice of identifying, prioritizing, and applying security patches and updates to software and hardware to mitigate known vulnerabilities."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which of the following is an example of a physical security measure?",
+    "quizOptions": [
+      "Firewall",
+      "Antivirus software",
+      "Biometric access control",
+      "Encryption"
+    ],
+    "correctOption": "Biometric access control",
+    "explanation": "Biometric access control, such as fingerprint or retina scans, is a physical security measure used to control access to physical locations or systems based on biometric characteristics."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What does \"DDoS\" stand for in the context of cyberattacks?",
+    "quizOptions": [
+      "Distributed Denial of Service",
+      "Data Disclosure over Secure Socket Layer",
+      "Digital Document on Secure Server",
+      "Darknet Data of Sensitive Systems"
+    ],
+    "correctOption": "Distributed Denial of Service",
+    "explanation": "DDoS stands for \"Distributed Denial of Service,\" which is a cyberattack that aims to overwhelm a target system or network with a flood of traffic from multiple sources, causing it to become unavailable."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the primary goal of a \"honeynet\" in cybersecurity?",
+    "quizOptions": [
+      "To serve as a decoy to divert cyberattacks away from critical systems",
+      "To block malicious websites",
+      "To encrypt sensitive data",
+      "To perform penetration testing on a network"
+    ],
+    "correctOption": "To serve as a decoy to divert cyberattacks away from critical systems",
+    "explanation": "Honeynets are designed to divert and trap cyberattacks, serving as a decoy to protect critical systems and gather information about attackers' tactics and techniques."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "What is the term for the practice of tricking individuals into revealing sensitive information, such as passwords or credit card numbers, through deceptive emails or websites?",
+    "quizOptions": [
+      "Phishing",
+      "Encryption",
+      "Intrusion Detection",
+      "Spoofing"
+    ],
+    "correctOption": "Phishing",
+    "explanation": "Phishing is the practice of tricking individuals into revealing sensitive information through deceptive emails, websites, or messages, often impersonating trusted entities."
+  },
+  {
+    "quizTitle": "Cyber_Security",
+    "quizQuestion": "Which of the following is a commonly used protocol for securing email communication?",
+    "quizOptions": [
+      "HTTP",
+      "FTP",
+      "SMTP",
+      "S/MIME"
+    ],
+    "correctOption": "S/MIME",
+    "explanation": "S/MIME (Secure/Multipurpose Internet Mail Extensions) is a commonly used protocol for securing email communication by providing encryption and digital signatures for email messages"
+  },
+  {
+    "quizTitle": "Cyber_Security"
+  },
+  {
+    "quizTitle": "Cyber_Security"
+  },
+  {
+    "quizTitle": "Cyber_Security"
+  },
+  {
+    "quizTitle": "Cyber_Security"
+  },
+  {
+    "quizTitle": "Cyber_Security"
+  },
+  {
+    "quizTitle": "Cyber_Security"
+  },
+  {
+    "quizTitle": "Cyber_Security"
+  },
+  {
+    "quizTitle": "Cyber_Security"
+  },
+  {
+    "quizTitle": "Cyber_Security"
+  },
+  {
+    "quizTitle": "Cyber_Security"
+  },
+  {
+    "quizTitle": "Cyber_Security"
+  }
+]

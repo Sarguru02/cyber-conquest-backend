@@ -1,0 +1,483 @@
+[
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What does the acronym 'GNU' stand for in GNU/Linux?",
+      "quizOptions": [
+        "Global Network Utilities",
+        "General Network Utility",
+        "GNU's Not Unix",
+        "Graphical Network Utilities"
+      ],
+      "correctOption": "GNU's Not Unix",
+      "explanation": "GNU stands for 'GNU's Not Unix,' indicating that Linux is inspired by Unix but not a direct derivative."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which command is used to display the current directory in the terminal?",
+      "quizOptions": [
+        "pwd",
+        "ls",
+        "cd",
+        "dir"
+      ],
+      "correctOption": "pwd",
+      "explanation": "The pwd command stands for 'print working directory' and displays the current directory."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which shell is the default command-line interface in most Linux distributions?",
+      "quizOptions": [
+        "Bash",
+        "Csh",
+        "Zsh",
+        "Ksh"
+      ],
+      "correctOption": "Bash",
+      "explanation": "Bash (Bourne Again SHell) is the default shell in many Linux distributions."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the purpose of the ls command in Linux?",
+      "quizOptions": [
+        "List installed applications",
+        "List files and directories",
+        "List system processes",
+        "List network connections"
+      ],
+      "correctOption": "List files and directories",
+      "explanation": "The ls command is used to list files and directories in a directory."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which directory is the home directory for the root user in Linux?",
+      "quizOptions": [
+        "/home/root",
+        "/root",
+        "/home",
+        "/user/root"
+      ],
+      "correctOption": "/root",
+      "explanation": "The home directory for the root user is /root."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the command to create a new directory in Linux?",
+      "quizOptions": [
+        "newdir",
+        "create dir",
+        "mkdir",
+        "mkd"
+      ],
+      "correctOption": "mkdir",
+      "explanation": "The mkdir command is used to create a new directory in Linux."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which file is used to store user-specific environment variables in Linux?",
+      "quizOptions": [
+        ".bashrc",
+        ".profile",
+        ".env",
+        ".config"
+      ],
+      "correctOption": ".bashrc",
+      "explanation": "User-specific environment variables are typically stored in the .bashrc file."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What does the command chmod +x script.sh do in Linux?",
+      "quizOptions": [
+        "Renames the script",
+        "Deletes the script",
+        "Makes the script executable",
+        "Changes the script's permissions to read-only"
+      ],
+      "correctOption": "Makes the script executable",
+      "explanation": "chmod +x script.sh makes the script executable by adding the execute permission."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which Linux command is used to find files and directories based on their names?",
+      "quizOptions": [
+        "find",
+        "locate",
+        "search",
+        "grep"
+      ],
+      "correctOption": "find",
+      "explanation": "The find command is used to search for files and directories based on their names."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the default package manager for Debian-based Linux distributions like Ubuntu?",
+      "quizOptions": [
+        "yum",
+        "apt",
+        "pacman",
+        "dnf"
+      ],
+      "correctOption": "apt",
+      "explanation": "The default package manager for Debian-based distributions is apt (Advanced Package Tool)."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which Linux distribution is known for its use in servers and supercomputers due to its stability and long-term support (LTS) releases?",
+      "quizOptions": [
+        "Ubuntu",
+        "Fedora",
+        "CentOS",
+        "Arch Linux"
+      ],
+      "correctOption": "CentOS",
+      "explanation": "CentOS is known for its stability and is commonly used in server environments."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the purpose of the grep command in Linux?",
+      "quizOptions": [
+        "It displays the calendar",
+        "It searches for text patterns in files",
+        "It creates new files",
+        "It compresses files"
+      ],
+      "correctOption": "It searches for text patterns in files",
+      "explanation": "The grep command is used to search for text patterns in files."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "In Linux, what is the purpose of the /etc/passwd file?",
+      "quizOptions": [
+        "It stores user passwords",
+        "It contains system logs",
+        "It lists user accounts and their information",
+        "It stores system configuration settings"
+      ],
+      "correctOption": "It lists user accounts and their information",
+      "explanation": "The /etc/passwd file lists user accounts and their information."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which command is used to display the manual pages (documentation) for Linux commands?",
+      "quizOptions": [
+        "help",
+        "man",
+        "info",
+        "docs"
+      ],
+      "correctOption": "man",
+      "explanation": "The man command is used to display the manual pages for Linux commands."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What does the acronym 'CLI' stand for in Linux?",
+      "quizOptions": [
+        "Command Line Interface",
+        "Common Language Interface",
+        "Command Line Instruction",
+        "Command Line Input"
+      ],
+      "correctOption": "Command Line Interface",
+      "explanation": "CLI stands for 'Command Line Interface.'"
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which Linux command is used to compress files and directories into a single archive file?",
+      "quizOptions": [
+        "zip",
+        "tar",
+        "gzip",
+        "compress"
+      ],
+      "correctOption": "tar",
+      "explanation": "The tar command is used to create archives, and you can use additional commands like gzip for compression."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the purpose of the cron service in Linux?",
+      "quizOptions": [
+        "To manage user accounts",
+        "To schedule and automate tasks",
+        "To monitor system resources",
+        "To control network services"
+      ],
+      "correctOption": "To schedule and automate tasks",
+      "explanation": "The cron service is used to schedule and automate tasks in Linux."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which Linux file system is known for its use in flash drives and SSDs due to its wear-leveling capabilities?",
+      "quizOptions": [
+        "NTFS",
+        "ext4",
+        "FAT32",
+        "btrfs"
+      ],
+      "correctOption": "btrfs",
+      "explanation": "btrfs is a Linux file system known for its use in flash drives and SSDs."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What does the command ps aux display in Linux?",
+      "quizOptions": [
+        "A list of installed packages",
+        "A list of running processes for all users",
+        "A list of available network interfaces",
+        "A list of user accounts"
+      ],
+      "correctOption": "A list of running processes for all users",
+      "explanation": "ps aux displays a list of running processes for all users."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which Linux command is used to change the ownership of files and directories?",
+      "quizOptions": [
+        "own",
+        "chown",
+        "chmod",
+        "usermod"
+      ],
+      "correctOption": "chown",
+      "explanation": "The chown command is used to change the ownership of files and directories."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the purpose of the sudo command in Linux?",
+      "quizOptions": [
+        "To create a new user",
+        "To switch to the root user",
+        "To run commands with superuser privileges",
+        "To list installed software"
+      ],
+      "correctOption": "To run commands with superuser privileges",
+      "explanation": "The sudo command is used to run commands with superuser privileges."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "In Linux, what is the purpose of the /etc/fstab file?",
+      "quizOptions": [
+        "It stores user passwords",
+        "It lists user accounts",
+        "It contains information about disk partitions and mount points",
+        "It stores system logs"
+      ],
+      "correctOption": "It contains information about disk partitions and mount points",
+      "explanation": "The /etc/fstab file contains information about disk partitions and their mount points."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which Linux distribution is community-driven and follows the rolling release model, where updates are continuously released rather than having version numbers?",
+      "quizOptions": [
+        "Fedora",
+        "Debian",
+        "Arch Linux",
+        "openSUSE"
+      ],
+      "correctOption": "Arch Linux",
+      "explanation": "Arch Linux follows the rolling release model."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What does the command df -h display in Linux?",
+      "quizOptions": [
+        "A list of available software repositories",
+        "Disk usage statistics for mounted file systems in a human-readable format",
+        "A list of currently logged-in users",
+        "Directory permissions"
+      ],
+      "correctOption": "Disk usage statistics for mounted file systems in a human-readable format",
+      "explanation": "df -h displays disk usage statistics for mounted file systems in a human-readable format."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "In Linux, what is the purpose of the /etc/apt/sources.list file?",
+      "quizOptions": [
+        "To store user passwords",
+        "To list available hardware devices",
+        "To configure software repositories for package management",
+        "To define environment variables"
+      ],
+      "correctOption": "To configure software repositories for package management",
+      "explanation": "The /etc/apt/sources.list file is used to configure software repositories for package management."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the purpose of the iptables command in Linux?",
+      "quizOptions": [
+        "To display system information",
+        "To configure network firewall rules",
+        "To create user accounts",
+        "To manage software packages"
+      ],
+      "correctOption": "To configure network firewall rules",
+      "explanation": "The iptables command is used to configure network firewall rules in Linux."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which Linux directory contains system startup scripts that are executed during boot?",
+      "quizOptions": [
+        "/etc/startup",
+        "/init.d",
+        "/startup",
+        "/etc/init.d"
+      ],
+      "correctOption": "/etc/init.d",
+      "explanation": "The /etc/init.d directory contains system startup scripts."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the purpose of the dd command in Linux?",
+      "quizOptions": [
+        "To delete files and directories",
+        "To display disk space usage",
+        "To create disk images and copy data block by block",
+        "To compress files"
+      ],
+      "correctOption": "To create disk images and copy data block by block",
+      "explanation": "The dd command is used to create disk images and copy data block by block."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which Linux file contains information about the system's network configuration and hostname?",
+      "quizOptions": [
+        "/etc/network.conf",
+        "/etc/hostname",
+        "/etc/resolv.conf",
+        "/etc/network/interfaces"
+      ],
+      "correctOption": "/etc/hostname",
+      "explanation": "The /etc/hostname file contains the system's hostname."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the purpose of the rsync command in Linux?",
+      "quizOptions": [
+        "To rename files",
+        "To synchronize files and directories between different locations",
+        "To compress files",
+        "To synchronize files in installed packages"
+      ],
+      "correctOption": "To synchronize files and directories between different locations",
+      "explanation": "The rsync command is used to synchronize files and directories between different locations."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which Linux command is used to view the contents of a compressed file without extracting it?",
+      "quizOptions": [
+        "cat",
+        "unzip",
+        "tar",
+        "zcat"
+      ],
+      "correctOption": "zcat",
+      "explanation": "The zcat command is used to view the contents of a compressed file."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the primary purpose of the chroot command in Linux?",
+      "quizOptions": [
+        "To change the root directory for a process",
+        "To switch to a different shell",
+        "To create a new user account",
+        "To display system logs"
+      ],
+      "correctOption": "To change the root directory for a process",
+      "explanation": "The chroot command is used to change the root directory for a process."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "In Linux, what does the command whoami display?",
+      "quizOptions": [
+        "The current date and time",
+        "The list of currently logged-in users",
+        "The username of the current user",
+        "The system's hostname"
+      ],
+      "correctOption": "The username of the current user",
+      "explanation": "The whoami command displays the username of the current user."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which Linux utility is used to monitor and manage system performance in real-time?",
+      "quizOptions": [
+        "top",
+        "free",
+        "uptime",
+        "ps"
+      ],
+      "correctOption": "top",
+      "explanation": "The top command is used to monitor and manage system performance in real-time."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the purpose of the mmap system call in Linux?",
+      "quizOptions": [
+        "To create memory-mapped files",
+        "To change file permissions",
+        "To mount external storage devices",
+        "To display file metadata"
+      ],
+      "correctOption": "To create memory-mapped files",
+      "explanation": "The mmap system call is used to create memory-mapped files in Linux."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the primary role of the Linux kernel in the operating system?",
+      "quizOptions": [
+        "To provide a graphical user interface (GUI)",
+        "To manage hardware resources and provide core functionality",
+        "To run user applications",
+        "To provide a web browser"
+      ],
+      "correctOption": "To manage hardware resources and provide core functionality",
+      "explanation": "The primary role of the Linux kernel is to manage hardware resources and provide core functionality."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What does the acronym 'LVM' stand for in Linux?",
+      "quizOptions": [
+        "Linux Virtual Machine",
+        "Logical Volume Manager",
+        "Large Virtual Memory",
+        "Linux Volume Mapping"
+      ],
+      "correctOption": "Logical Volume Manager",
+      "explanation": "LVM stands for 'Logical Volume Manager,' which allows for flexible disk storage management."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "What is the purpose of the kill command in Linux?",
+      "quizOptions": [
+        "To create new processes",
+        "To terminate running processes",
+        "To display process information",
+        "To schedule tasks"
+      ],
+      "correctOption": "To terminate running processes",
+      "explanation": "The kill command is used to terminate running processes in Linux."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "Which Linux utility is used to analyze and troubleshoot network-related issues, including packet capture?",
+      "quizOptions": [
+        "ifconfig",
+        "netstat",
+        "tcpdump",
+        "traceroute"
+      ],
+      "correctOption": "tcpdump",
+      "explanation": "tcpdump is used to capture and analyze network packets."
+    },
+    {
+      "quizTitle":"Linux",
+      "quizQuestion": "In Linux, what is the purpose of the /var/log directory?",
+      "quizOptions": [
+        "To store user home directories",
+        "To store temporary files",
+        "To store system log files",
+        "To store configuration files"
+      ],
+      "correctOption": "To store system log files",
+      "explanation": "The /var/log directory is used to store system log files."
+    }
+  ]
+  

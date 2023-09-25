@@ -1,0 +1,422 @@
+[
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is Git primarily used for?",
+    "quizOptions": [
+      "Social Networking",
+      "Version Control",
+      "Online Shopping",
+      "Video Streaming"
+    ],
+    "correctOption": "Version Control",
+    "explanation": "Git is a version control system used for tracking changes in source code."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is the purpose of 'git add'?",
+    "quizOptions": [
+      "To create a new branch",
+      "To commit changes",
+      "To stage changes for commit",
+      "To push changes to remote"
+    ],
+    "correctOption": " To stage changes for commit",
+    "explanation": "git add is used to stage changes for the next commit."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "Which command initializes a new Git repository?",
+    "quizOptions": [
+      "git create",
+      "git init",
+      "git start",
+      "git new"
+    ],
+    "correctOption": "git init",
+    "explanation": "The git init command initializes a new Git repository."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "How do you commit changes in Git?",
+    "quizOptions": [
+      "git upload",
+      "git save",
+      "git commit",
+      "git push"
+    ],
+    "correctOption": "git commit",
+    "explanation": "The git commit command is used to commit staged changes."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What does a Git branch represent?",
+    "quizOptions": [
+      "A specific commit",
+      "A separate line of development",
+      " A remote repository",
+      "A Git user's identity"
+    ],
+    "correctOption": "A separate line of development",
+    "explanation": "A Git branch represents a separate line of development."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "Which Git command is used to switch between branches?",
+    "quizOptions": [
+      "git switch",
+      "git move",
+      "git checkout",
+      "git branch"
+    ],
+    "correctOption": "git checkout",
+    "explanation": "The git checkout command is used to switch branches."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is a Git remote?",
+    "quizOptions": [
+      "A distant location",
+      "A local directory",
+      "A Git server",
+      "A repository hosted on another server"
+    ],
+    "correctOption": "A repository hosted on another server",
+    "explanation": "A Git remote is a repository hosted on another server."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is a Git pull request typically used for?",
+    "quizOptions": [
+      "Creating new branches",
+      "Merging branches",
+      "Proposing changes and code review",
+      "Pushing changes to remote"
+    ],
+    "correctOption": "Proposing changes and code review",
+    "explanation": "A pull request is used for proposing changes and code review on GitHub."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "How do you clone a remote Git repository to your local machine?",
+    "quizOptions": [
+      "git push",
+      "git fetch",
+      "git clone",
+      "git pull"
+    ],
+    "correctOption": "git clone",
+    "explanation": "The git clone command is used to clone a remote repository."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is Git 'stashing' used for?",
+    "quizOptions": [
+      "Deleting a branch",
+      "Saving changes for later without committing them",
+      "Creating new repositories",
+      "Merging branches"
+    ],
+    "correctOption": "Saving changes for later without committing them",
+    "explanation": "Stashing is used to save changes without committing them."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "Which Git command is used to view the commit history?",
+    "quizOptions": [
+      "git log",
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "correctOption": "git log",
+    "explanation": "git log displays the commit history."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What does a Git tag represent?",
+    "quizOptions": [
+      "A specific commit",
+      "A remote repository",
+      "A branch",
+      "A significant point in history, like a release"
+    ],
+    "correctOption": "A significant point in history, like a release",
+    "explanation": "A Git tag represents a significant point in history, often used for releases."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "How do you discard uncommitted changes in a Git file?",
+    "quizOptions": [
+      "git abandon",
+      "git delete",
+      "git discard",
+      "git checkout -- <file>"
+    ],
+    "correctOption": "git checkout -- <file>",
+    "explanation": "Use git checkout -- <file> to discard uncommitted changes in a file."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is the purpose of the .gitignore file in Git?",
+    "quizOptions": [
+      "To list contributors",
+      "To specify ignored files and directories",
+      "To track binary files",
+      "To define remote repositories"
+    ],
+    "correctOption": "To specify ignored files and directories",
+    "explanation": " The .gitignore file specifies files and directories to be ignored by Git."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What does 'HEAD' represent in Git?",
+    "quizOptions": [
+      "The latest commit in a branch",
+      "The name of a branch",
+      "The remote repository",
+      "The Git server"
+    ],
+    "correctOption": "The latest commit in a branch",
+    "explanation": "HEAD points to the latest commit in the current branch."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is the purpose of 'git remote -v'?",
+    "quizOptions": [
+      "To view remote branches",
+      "To view the Git version",
+      "To view the remote repository URLs",
+      "To view local branches"
+    ],
+    "correctOption": "To view the remote repository URLs",
+    "explanation": "git remote -v displays the remote repository URLs."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "How do you rename a Git branch?",
+    "quizOptions": [
+      "git mv",
+      "git rename",
+      "git branch -m",
+      "git branch -M"
+    ],
+    "correctOption": "git branch -M",
+    "explanation": "Use git branch -M to rename a Git branch."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is a Git conflict?",
+    "quizOptions": [
+      "A disagreement between Git users",
+      "An unresolved issue in a repository",
+      "A situation where Git cannot automatically merge changes from different branches",
+      "A bug in Git software"
+    ],
+    "correctOption": "A situation where Git cannot automatically merge changes from different branches",
+    "explanation": "A Git conflict occurs when Git cannot automatically merge changes. "
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "How do you resolve a Git conflict?",
+    "quizOptions": [
+      "By deleting the conflicting file",
+      "By choosing one branch's changes over the other",
+      "By canceling the merge",
+      "By creating a new branch"
+    ],
+    "correctOption": "By choosing one branch's changes over the other",
+    "explanation": "You resolve a Git conflict by choosing one branch's changes over the other."
+  },
+  {
+    "quizTitle": "git",
+    "quizQuestion": "What is the purpose of 'git push'?",
+    "quizOptions": [
+      " To create a new branch",
+      " To merge branches",
+      " To send local commits to a remote repository",
+      " To switch branches"
+    ],
+    "correctOption": " To send local commits to a remote repository",
+    "explanation": "git push sends local commits to a remote repository."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What does 'git rebase' do?",
+    "quizOptions": [
+      "Combines changes from one branch into another",
+      "Moves commits to a new base commit",
+      "Creates a new branch",
+      "Deletes branches"
+    ],
+    "correctOption": "Moves commits to a new base commit",
+    "explanation": "git rebase moves commits to a new base commit, often used for cleaning up commit history."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is the purpose of 'git reflog'?",
+    "quizOptions": [
+      "To log remote commits",
+      "To log reference changes in the repository",
+      "To log commit messages",
+      "To log merge conflicts"
+    ],
+    "correctOption": "To log reference changes in the repository",
+    "explanation": "git reflog logs reference changes, including commit changes in the repository."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "How do you update a Git submodule to the latest commit?",
+    "quizOptions": [
+      "git submodule pull",
+      "git submodule sync",
+      "git submodule update --recursive --remote",
+      "git submodule fetch"
+    ],
+    "correctOption": "git submodule update --recursive --remote",
+    "explanation": "Use git submodule update --recursive --remote to update submodules to the latest commit."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is a Git branch that serves as a base for merging called?",
+    "quizOptions": [
+      "Feature branch",
+      "Master branch",
+      "Integration branch",
+      "Mainline branch"
+    ],
+    "correctOption": "Mainline branch",
+    "explanation": "A mainline branch serves as a base for merging feature branches."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What does 'git bisect' help with?",
+    "quizOptions": [
+      "Finding the oldest commit in a repository",
+      "Identifying when a bug was introduced by performing a binary search on commits",
+      "Listing all contributors to a repository",
+      "Automating code reviews"
+    ],
+    "correctOption": "Identifying when a bug was introduced by performing a binary search on commits",
+    "explanation": "git bisect is used to identify when a bug was introduced by performing a binary search on commits."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is the purpose of Git hooks?",
+    "quizOptions": [
+      "To create visual hooks in Git",
+      "To prevent access to Git repositories",
+      "To customize and automate tasks during Git events",
+      "To manage Git remotes"
+    ],
+    "correctOption": "To customize and automate tasks during Git events",
+    "explanation": "Git hooks are used to customize and automate tasks during Git events."
+  },
+  {
+    "quizTitle": "GIT",
+    "quizQuestion": "What is Git LFS (Large File Storage) used for?",
+    "quizOptions": [
+      "To list large files in a repository",
+      "To limit the number of large files in a repository",
+      "To manage and store large binary files in Git repositories",
+      "To create large text files in Git"
+    ],
+    "correctOption": "To manage and store large binary files in Git repositories",
+    "explanation": "Git LFS is used to manage and store large binary files in Git repositories."
+  },
+  {
+    "quizTitle": "git",
+    "quizQuestion": "What does \"squashing commits\" mean in Git?",
+    "quizOptions": [
+      " Combining multiple commits into a single commit with a consolidated message",
+      " Creating a new branch",
+      " Deleting all commits in a branch",
+      " Creating a conflict in Git"
+    ],
+    "correctOption": " Combining multiple commits into a single commit with a consolidated message",
+    "explanation": "Squashing commits combines multiple commits into a single commit with a consolidated message."
+  },
+  {
+    "quizTitle": "git",
+    "quizQuestion": "What is a Git submodule?",
+    "quizOptions": [
+      " A directory with no files",
+      " A repository embedded within another repository, preserving its own history",
+      " A standalone Git repository",
+      " A branch with a single commit"
+    ],
+    "correctOption": " A repository embedded within another repository, preserving its own history",
+    "explanation": " A Git submodule is a repository embedded within another repository, preserving its own history."
+  },
+  {
+    "quizTitle": "git",
+    "quizQuestion": "How do you set up global Git user credentials?",
+    "quizOptions": [
+      " git set user",
+      "name \"Your Name\"",
+      " git set credentials",
+      " git user --global \"Your Name\""
+    ],
+    "correctOption": " git user --global \"Your Name\"",
+    "explanation": "You set up global Git user credentials using git config --global user.name \"Your Name\"."
+  },
+  {
+    "quizTitle": "git",
+    "quizQuestion": "What is the difference between 'git fetch' and 'git pull'?",
+    "quizOptions": [
+      "'git fetch' downloads changes and updates the working directory, while 'git pull' combines 'git fetch' and 'git merge' to update the working directory and the current branch",
+      "'git fetch' updates the working directory, while 'git pull' updates the local repository.",
+      "'git fetch' and 'git pull' are equivalent commands.",
+      "'git fetch' and 'git pull' are unrelated Git commands."
+    ],
+    "correctOption": "'git fetch' downloads changes and updates the working directory, while 'git pull' combines 'git fetch' and 'git merge' to update the working directory and the current branch",
+    "explanation": "\"git fetch\" downloads changes but does not update the working directory, while \"git pull\" combines \"git fetch\" and \"git merge\" to update both the working directory and the current branch."
+  },
+  {
+    "quizTitle": "git",
+    "quizQuestion": "What is Git Cherry-Pick used for?",
+    "quizOptions": [
+      " To pick cherries from a tree",
+      " To apply specific commits from one branch to another",
+      " To merge all commits in a branch",
+      " To create new branches"
+    ],
+    "correctOption": " To apply specific commits from one branch to another",
+    "explanation": "Git Cherry-Pick is used to apply specific commits from one branch to another."
+  },
+  {
+    "quizTitle": "git",
+    "quizQuestion": "What is a Git 'subtree' merge?",
+    "quizOptions": [
+      " Merging branches with similar content",
+      " Merging subdirectories within a repository",
+      " Merging two unrelated Git repositories",
+      " Merging the history of a subtree of a repository into another repository"
+    ],
+    "correctOption": " Merging the history of a subtree of a repository into another repository",
+    "explanation": "A Git \"subtree\" merge is used to merge the history of a subtree of a repository into another repository."
+  },
+  {
+    "quizTitle": "git",
+    "quizQuestion": "What is the primary purpose of 'git submodules' over 'git subtree'?",
+    "quizOptions": [
+      " To simplify merging code from one repository into another",
+      " To maintain a separate repository within the main repository while preserving its history",
+      " To create a new Git branch",
+      " To combine multiple repositories into a single repository"
+    ],
+    "correctOption": " To maintain a separate repository within the main repository while preserving its history",
+    "explanation": "Git submodules are used to maintain a separate repository within the main repository while preserving its history."
+  },
+  {
+    "quizTitle": "git",
+    "quizQuestion": "What does 'git filter-branch' allow you to do?",
+    "quizOptions": [
+      " Filter commits to remove specific files or directories from the repository",
+      " Filter out branches from a repository",
+      " Filter commits based on author names",
+      " Filter out merge commits from the commit history"
+    ],
+    "correctOption": " Filter commits to remove specific files or directories from the repository",
+    "explanation": "'git filter-branch' allows you to filter commits to remove specific files or directories from the repository."
+  }
+]

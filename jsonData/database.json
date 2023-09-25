@@ -1,0 +1,435 @@
+[
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": " What is the purpose of regression testing?",
+    "quizOptions": [
+      " To find new defects",
+      " To verify new features",
+      " To confirm existing functionality",
+      " To test the entire system"
+    ],
+    "correctOption": "To confirm existing functionality",
+    "Explanation": "Regression testing ensures that existing functionality remains intact after code changes."
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "What type of testing focuses on finding defects early in the development cycle?",
+    "quizOptions": [
+      " System testing",
+      " Integration testing",
+      " User acceptance testing",
+      "Unit testing"
+    ],
+    "correctOption": "Unit testing",
+    "Explanation": "Unit testing detects defects at the smallest code unit level, often during development."
+  },
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "Which testing type assesses how a system behaves under heavy load?",
+    "quizOptions": [
+      "Performance testing",
+      " Performance testing",
+      " Functional testing",
+      " Usability testing"
+    ],
+    "correctOption": "Performance testing",
+    "Explanation": "Performance testing evaluates system responsiveness and scalability under various loads."
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "What is the primary goal of usability testing?",
+    "quizOptions": [
+      "Identify security vulnerabilities",
+      "Evaluate user interface design",
+      "Test system functionality",
+      "Verify data accuracy"
+    ],
+    "correctOption": "Evaluate user interface design",
+    "Explanation": "Usability testing assesses the user-friendliness and design of the software interface"
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "Which testing method is used to determine if software meets specified requirements?",
+    "quizOptions": [
+      " Exploratory testing",
+      " Black-box testing",
+      " White-box testing",
+      " Ad-hoc testing"
+    ],
+    "correctOption": " Black-box testing",
+    "Explanation": "Black-box testing focuses on the software's external behavior and requirements compliance."
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "In which testing phase are defects typically least expensive to fix?",
+    "quizOptions": [
+      "System testing",
+      " Acceptance testing",
+      " Unit testing",
+      "Maintenance testing "
+    ],
+    "correctOption": "Unit testing",
+    "Explanation": " Unit testing catches defects early in the development cycle when they are less costly to fix."
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "Which test design technique involves using historical data to select test cases?",
+    "quizOptions": [
+      "Boundary value analysis",
+      " Equivalence partitioning",
+      "  Use case testing",
+      "Experience-based testing"
+    ],
+    "correctOption": " Experience-based testing",
+    "Explanation": " Experience-based testing relies on past knowledge and intuition to design test cases."
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "What does a test plan outline?",
+    "quizOptions": [
+      "Detailed test case steps",
+      " Test environment setup",
+      "Bug tracking procedures",
+      "Test execution schedule"
+    ],
+    "correctOption": "Test environment setup",
+    "Explanation": "A test plan specifies the test environment, including hardware, software, and configurations."
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "Which metric measures the percentage of code covered by tests?",
+    "quizOptions": [
+      "Code complexity",
+      " Test execution duration",
+      " Code coverage",
+      " Defect density"
+    ],
+    "correctOption": " Code coverage",
+    "Explanation": "Code coverage measures the extent to which tests exercise the code."
+  }
+
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "Which testing level involves testing the entire integrated system?",
+    "quizOptions": [
+      "Unit testing",
+      " System testing",
+      " Component testing",
+      " Acceptance testing"
+    ],
+    "correctOption": "System testing",
+    "Explanation": "System testing checks the complete integrated system for proper functioning."
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "What is the primary focus of smoke testing?",
+    "quizOptions": [
+      "In-depth functionality testing",
+      " Comprehensive test case coverage",
+      " Verifying critical system functionalities",
+      "Performance testing "
+    ],
+    "correctOption": "Verifying critical system functionalities",
+    "Explanation": "Smoke testing ensures that the essential functions of the system work initially."
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "Which testing phase involves end-users verifying software for acceptance?",
+    "quizOptions": [
+      "Alpha testing",
+      " Beta testing",
+      " Beta testing",
+      " Integration testing"
+    ],
+    "correctOption": "Beta testing",
+    "Explanation": "Beta testing involves real users testing the software before its release."
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "What type of testing checks if the software can recover from a crash or failure?",
+    "quizOptions": [
+      " Recovery testing",
+      " Load testing",
+      "Stress testing",
+      "Performance testing"
+    ],
+    "correctOption": "Recovery testing",
+    "Explanation": " Recovery testing assesses the software's ability to recover gracefully from failures"
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": " Recovery testing assesses the software's ability to recover gracefully from failures",
+    "quizOptions": [
+      "Load testing",
+      " Usability testing",
+      " Compatibility testing",
+      " Regression testing"
+    ],
+    "correctOption": "Compatibility testing",
+    "Explanation": "Compatibility testing verifies the software's compatibility with various browsers, devices, and platforms"
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "What is the main purpose of exploratory testing?",
+    "quizOptions": [
+      "Executing predefined test cases",
+      " Identifying defects through spontaneous testing",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+  {
+    "quizTitle": "Software_test",
+    "quizQuestion": "",
+    "quizOptions": [
+      "",
+      " ",
+      " ",
+      " "
+    ],
+    "correctOption": "",
+    "Explanation": ""
+  }
+]

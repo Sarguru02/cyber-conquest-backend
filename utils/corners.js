@@ -1,4 +1,4 @@
-const { setDoc, doc } = require("firebase/firestore");
+const { setDoc, doc, getDoc } = require("firebase/firestore");
 const { db } = require("../firebase");
 
 const jail = async (currentParticipant) => {
@@ -6,25 +6,58 @@ const jail = async (currentParticipant) => {
     doc(db, currentParticipant.batchNo.toString(), currentParticipant.teamName),
     { ...currentParticipant, inJail: true, position: 16 }
   );
+  return {
+    message: "You don't have network connection! Your next turn is loading!",
+  };
 };
 
 const cryptoLocker = async (currentParticipant, pos) => {
   if (currentParticipant.propertiesOwned) {
-    const props = currentParticipant.propertiesOwned.slice(
-      0,
-      Math.floor(currentParticipant.propertiesOwned.length / 2)
-    );
-    await setDoc(
+    const idx = Math.floor(currentParticipant.propertiesOwned.length / 2);
+    const props = currentParticipant.propertiesOwned.slice(0, idx);
+    const others = currentParticipant.propertiesOwned.slice(idx);
+    const a = await getDoc(
       doc(
         db,
-        currentParticipant.batchNo.toString(),
-        currentParticipant.teamName
-      ),
-      { ...currentParticipant, propertiesOwned: props, position: pos }
+        "gameProperties",
+        `propertyDocument_${currentParticipant.batchNo}`
+      )
     );
+    let b;
+    if (a.exists()) {
+      b = a.data().propertyArray;
+      for (let i = 0; i < b.length; i++) {
+        for (let j = 0; j < others.length; j++) {
+          if (b[i].propertyName === others[j].propertyName) {
+            b[i].owner = "";
+          }
+        }
+      }
+      await setDoc(
+        doc(
+          db,
+          currentParticipant.batchNo.toString(),
+          currentParticipant.teamName
+        ),
+        { ...currentParticipant, propertiesOwned: props, position: pos }
+      );
+      await setDoc(
+        doc(
+          db,
+          "gameProperties",
+          `propertyDocument_${currentParticipant.batchNo}`
+        ),
+        {
+          propertyArray: b,
+        }
+      );
+    } else {
+      console.log("Property array is not found in firebase");
+    }
+
     return {
       message:
-        "You are under cyber attack. Half of your properties are removed!",
+        "You are under cyber attack. Half of your properties are taken away!",
     };
   } else {
     await setDoc(
@@ -35,10 +68,11 @@ const cryptoLocker = async (currentParticipant, pos) => {
       ),
       { ...currentParticipant, position: pos }
     );
+    return { message: "Escaped! You don't have any Properties left! " };
   }
 };
 
-const cornerOfConfusion = async (currentParticipant, pos) => {
+const kronos = async (currentParticipant, pos) => {
   await setDoc(
     doc(db, currentParticipant.batchNo.toString(), currentParticipant.teamName),
     {
@@ -62,4 +96,4 @@ const incomeTax = async (currentParticipant, pos) => {
   return { message: "Pay 35% as an Income Tax " };
 };
 
-module.exports = { jail, cryptoLocker, cornerOfConfusion, incomeTax };
+module.exports = { jail, cryptoLocker, kronos, incomeTax };

@@ -1,0 +1,402 @@
+[
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the primary fun\"ction of an operating system (OS)?",
+    "quizOptions": [
+      "Run applications",
+      "Manage hardware resources",
+      "Send emails",
+      "Browse the internet"
+    ],
+    "correctOption": "Manage hardware resources",
+    "explanation": "The primary function of an OS is to manage hardware resources, allowing applications to run on a computer."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which Windows OS introduced the Start menu?",
+    "quizOptions": ["Windows 95", "Windows XP", "Windows 7", "Windows 10"],
+    "correctOption": "Windows 95",
+    "explanation": "The Start menu was introduced in Windows 95."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which keyboard shortcut opens the Task Manager in Windows?",
+    "quizOptions": [
+      "Ctrl + Shift + Esc",
+      "Alt + Del",
+      "Ctrl + Alt + Delete",
+      "Ctrl + Alt + Esc"
+    ],
+    "correctOption": "Ctrl + Shift + Esc",
+    "explanation": "The keyboard shortcut Ctrl + Shift + Esc opens the Task Manager in Windows."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the file extension for Windows batch script files?",
+    "quizOptions": [".bat", ".exe", ".cd", ".ps1"],
+    "correctOption": ".bat",
+    "explanation": "Windows batch script files have the .bat file extension."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which Windows feature allows you to run a virtualized copy of another operating system within Windows?",
+    "quizOptions": [
+      "Hyper-V",
+      "Windows Defender",
+      "Windows Firewall",
+      "Windows Update"
+    ],
+    "correctOption": "Hyper-V",
+    "explanation": "Hyper-V is a Windows feature for running virtualized operating systems."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "In Windows, what is the purpose of the Recycle Bin?",
+    "quizOptions": [
+      "It stores backup copies of system files.",
+      "It permanently deletes files.",
+      "It temporarily holds deleted files.",
+      "It compresses files to save disk space."
+    ],
+    "correctOption": "It temporarily holds deleted files.",
+    "explanation": "The Recycle Bin temporarily holds deleted files, allowing you to restore them if needed."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which version of Windows introduced the Aero user interface with transparent windows and visual effects?",
+    "quizOptions": ["Windows XP", "Windows Vista", "Windows 7", "Windows 8"],
+    "correctOption": "Windows Vista",
+    "explanation": "Windows Vista introduced the Aero user interface."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the purpose of the Windows Registry?",
+    "quizOptions": [
+      "To store user files and documents.",
+      "To manage hardware devices.",
+      "To store configuration settings and options.",
+      "To run applications."
+    ],
+    "correctOption": "To store configuration settings and options.",
+    "explanation": "The Windows Registry stores configuration settings and options for the operating system and installed applications."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which command is used to shut down or restart a Windows computer from the Command Prompt?",
+    "quizOptions": ["shutdown /s", "restart /r", "shutdown /r", "reboot"],
+    "correctOption": "shutdown /s",
+    "explanation": "The command shutdown /s is used to shut down the computer, and shutdown /r is used to restart it."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which Windows utility is used to partition and format hard drives?",
+    "quizOptions": [
+      "Disk Cleanup",
+      "Disk Management",
+      "Device Manager",
+      "System Restore"
+    ],
+    "correctOption": "Disk Management",
+    "explanation": "Disk Management is the Windows utility used to partition and format hard drives."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the purpose of the Windows Taskbar?",
+    "quizOptions": [
+      "To launch applications",
+      "To display notifications",
+      "To manage files",
+      "To play music"
+    ],
+    "correctOption": "To launch applications",
+    "explanation": "The Windows Taskbar is primarily used to launch applications and manage open windows."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which Windows OS is known for its 'Metro' or 'Modern' user interface with live tiles?",
+    "quizOptions": ["Windows XP", "Windows 7", "Windows 8", "Windows 10"],
+    "correctOption": "Windows 8",
+    "explanation": "Windows 8 introduced the 'Metro' or 'Modern' user interface with live tiles."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which feature in Windows allows you to organize files and folders using tags and categories?",
+    "quizOptions": [
+      "File Explorer",
+      "Windows Search",
+      "Libraries",
+      "One Drive"
+    ],
+    "correctOption": "Libraries",
+    "explanation": "Libraries in Windows allow you to organize files and folders using tags and categories."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the purpose of the Windows System Restore feature?",
+    "quizOptions": [
+      "To create system backups",
+      "To restore deleted files",
+      "To reinstall Windows",
+      "To revert the system to a previous state"
+    ],
+    "correctOption": "To revert the system to a previous state",
+    "explanation": "System Restore is used to revert the system to a previous state if there are issues or changes."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the keyboard shortcut to take a screenshot of the entire screen in Windows?",
+    "quizOptions": [
+      "Alt + PrtScn",
+      "Ctrl + S",
+      "Win + Shift + S",
+      "Win + PrtScn"
+    ],
+    "correctOption": "Win + PrtScn",
+    "explanation": "The keyboard shortcut Win + PrtScn captures a screenshot of the entire screen in Windows."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which version of Windows introduced the concept of user accounts and user profiles?",
+    "quizOptions": ["Windows 3.1", "Windows 95", "Windows XP", "Windows 10"],
+    "correctOption": "Windows XP",
+    "explanation": "User accounts and user profiles were introduced in Windows XP."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the purpose of Windows Update?",
+    "quizOptions": [
+      "To update Windows Store apps",
+      "To install new Windows features",
+      "To update the operating system and security patches",
+      "To clean up the hard drive"
+    ],
+    "correctOption": "To update the operating system and security patches",
+    "explanation": "Windows Update is used to update the operating system and install security patches."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which Windows utility can be used to recover lost or deleted files and folders?",
+    "quizOptions": [
+      "Disk Cleanup",
+      "System Restore",
+      "Recuva",
+      "Disk Defragmenter"
+    ],
+    "correctOption": "Recuva",
+    "explanation": "Recuva is a third-party utility that can be used to recover lost or deleted files and folders."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the purpose of the Windows Firewall?",
+    "quizOptions": [
+      "To block unwanted emails",
+      "To protect against malware",
+      "To manage printer settings",
+      "To control network traffic and security"
+    ],
+    "correctOption": "To control network traffic and security",
+    "explanation": "The Windows Firewall is used to control network traffic and security."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which version of Windows introduced the concept of User Account Control (UAC)?",
+    "quizOptions": ["Windows XP", "Windows Vista", "Windows 7", "Windows 10"],
+    "correctOption": "Windows Vista",
+    "explanation": "User Account Control (UAC) was introduced in Windows Vista."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which Windows OS is designed primarily for use on tablets and touch-screen devices?",
+    "quizOptions": ["Windows 7", "Windows 8", "Windows 10", "Windows RT"],
+    "correctOption": "Windows RT",
+    "explanation": "Windows RT was designed primarily for tablets and touch-screen devices."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the default web browser in Windows 10 and later versions?",
+    "quizOptions": ["Internet Explorer", "Edge", "Firefox", "Chrome"],
+    "correctOption": "Edge",
+    "explanation": "Microsoft Edge is the default web browser in Windows 10 and later versions."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which Windows feature allows you to organize and sync files and folders across multiple devices and the cloud?",
+    "quizOptions": [
+      "One Drive",
+      "Windows Media Player",
+      "Windows Defender",
+      "Windows Update"
+    ],
+    "correctOption": "One Drive",
+    "explanation": "One Drive allows you to organize and sync files and folders across devices and the cloud."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which command is used to create a new directory (folder) in the Command Prompt?",
+    "quizOptions": ["mkdir", "newdir", "createfolder", "dir /new"],
+    "correctOption": "mkdir",
+    "explanation": "The mkdir command is used to create a new directory (folder) in the Command Prompt."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which Windows feature allows you to view and manage installed hardware devices and their drivers?",
+    "quizOptions": [
+      "Control Panel",
+      "Device Manager",
+      "Task Manager",
+      "System Information"
+    ],
+    "correctOption": "Device Manager",
+    "explanation": "Device Manager allows you to view and manage installed hardware devices and drivers."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the purpose of the Windows Control Panel?",
+    "quizOptions": [
+      "To play games",
+      "To manage user accounts",
+      "To customize system settings",
+      "To browse the internet"
+    ],
+    "correctOption": "To customize system settings",
+    "explanation": "The Control Panel is used to customize system settings and manage various aspects of the OS."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which version of Windows introduced the concept of 'Snap' to easily arrange and resize windows side by side?",
+    "quizOptions": ["Windows XP", "Windows 7", "Windows 8", "Windows 10"],
+    "correctOption": "Windows 7",
+    "explanation": "The 'Snap' feature was introduced in Windows 7."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the purpose of the Windows Update Troubleshooter?",
+    "quizOptions": [
+      "To update Windows Store apps",
+      "To troubleshoot and fix Windows Update issues",
+      "To optimize system performance",
+      "To uninstall problematic updates"
+    ],
+    "correctOption": "To troubleshoot and fix Windows Update issues",
+    "explanation": "The Windows Update Troubleshooter is used to troubleshoot and fix Windows Update issues."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the purpose of the Windows Task Scheduler?",
+    "quizOptions": [
+      "To manage open applications",
+      "To automate tasks and run programs at specified times or events",
+      "To monitor system performance",
+      "To create virtual machines"
+    ],
+    "correctOption": "To automate tasks and run programs at specified times or events",
+    "explanation": "The Task Scheduler is used to automate tasks and run programs at specified times or events."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which file system is the default for Windows 10 and later versions for new installations?",
+    "quizOptions": ["FAT32", "NTFS", "exFAT", "ReFS"],
+    "correctOption": "NTFS",
+    "explanation": "NTFS is the default file system for Windows 10 and later versions for new installations."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "In Windows, what is the purpose of the Windows Management Instrumentation (WMI)?",
+    "quizOptions": [
+      "To manage printers",
+      "To monitor system performance",
+      "To create user accounts",
+      "To browse the internet"
+    ],
+    "correctOption": "To monitor system performance",
+    "explanation": "WMI is used to monitor system performance and manage system settings."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the maximum amount of RAM that a 32-bit version of Windows can address?",
+    "quizOptions": ["2 GB", "4 GB", "8 GB", "16 GB"],
+    "correctOption": "4 GB",
+    "explanation": "A 32-bit version of Windows can address up to 4 GB of RAM."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which Windows feature allows you to encrypt and protect sensitive files and folders on your computer?",
+    "quizOptions": [
+      "BitLocker",
+      "Windows Defender",
+      "System Restore",
+      "Windows Firewall"
+    ],
+    "correctOption": "BitLocker",
+    "explanation": "BitLocker allows you to encrypt and protect sensitive files and folders."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the purpose of the Windows Event Viewer?",
+    "quizOptions": [
+      "To view and manage installed hardware devices",
+      "To view and analyze system and application logs",
+      "To create system backups",
+      "To uninstall software"
+    ],
+    "correctOption": "To view and analyze system and application logs",
+    "explanation": "The Event Viewer is used to view and analyze system and application logs."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which version of Windows introduced the concept of the Windows Store for downloading and installing apps and games?",
+    "quizOptions": ["Windows 7", "Windows 8", "Windows 10", "Windows 11"],
+    "correctOption": "Windows 8",
+    "explanation": "The Windows Store was introduced in Windows 8 and expanded in Windows 10."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the purpose of the Windows Command Prompt utility 'sfc /scan now'?",
+    "quizOptions": [
+      "To defragment the hard drive",
+      "To scan and repair system files",
+      "To check for Windows updates",
+      "To create a system backup"
+    ],
+    "correctOption": "To scan and repair system files",
+    "explanation": "'sfc /scan now' is used to scan and repair corrupted or missing system files."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which Windows feature allows you to create a virtual desktop environment with separate sets of open applications and windows?",
+    "quizOptions": ["Taskbar", "Action Center", "Task View", "Control Panel"],
+    "correctOption": "Task View",
+    "explanation": "Task View allows you to create virtual desktops with separate sets of open applications."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "In Windows, what is the primary purpose of the Windows PowerShell utility?",
+    "quizOptions": [
+      "To browse the internet",
+      "To manage and automate administrative tasks using scripts",
+      "To play games",
+      "To update drivers"
+    ],
+    "correctOption": "To manage and automate administrative tasks using scripts",
+    "explanation": "Windows PowerShell is used to manage and automate administrative tasks using scripts."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "Which Windows feature allows you to quickly view and switch between open applications and windows?",
+    "quizOptions": ["Start menu", "Taskbar", "Quick Access", "Action Center"],
+    "correctOption": "Taskbar",
+    "explanation": "The Taskbar allows you to view and switch between open applications and windows."
+  },
+  {
+    "quizTitle": "Windows",
+    "quizQuestion": "What is the purpose of the Windows Action Center (or Security and Maintenance in older versions)?",
+    "quizOptions": [
+      "To play games",
+      "To manage printers",
+      "To monitor system health and security",
+      "To organize files and folders"
+    ],
+    "correctOption": "To monitor system health and security",
+    "explanation": "The Action Center (or Security and Maintenance) is used to monitor system health and security."
+  }
+]

@@ -1,0 +1,483 @@
+[
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "What does HTML stand for?",
+      "quizOptions": [
+        " Hyper Text Markup Language",
+        " High Technology Modern Language",
+        " Hyperlink and Text Markup Language",
+        " Hyper Transfer Markup Language"
+      ],
+      "correctOption": "Hyper Text Markup Language",
+      "explanation": "HTML stands for Hyper Text Markup Language, used for creating web pages."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "Which programming language is commonly used for client-side web development?",
+      "quizOptions": [
+        " Java",
+        " Python",
+        " JavaScript",
+        " C++"
+      ],
+      "correctOption": "JavaScript",
+      "explanation": "JavaScript is widely used for client-side web development."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "What does CSS stand for?",
+      "quizOptions": [
+        " Cascading Style Sheet",
+        " Creative Style System",
+        " Computer Style Sheet",
+        " Content Style Sheet"
+      ],
+      "correctOption": "Cascading Style Sheet",
+      "explanation": "CSS stands for Cascading Style Sheet, used for styling web content."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "Which protocol is used for secure data transmission over the web?",
+      "quizOptions": [
+        " HTTP",
+        " FTP",
+        " HTTPS",
+        " SMTP"
+      ],
+      "correctOption": "HTTPS",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is used for secure web communication."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "Which element is used for creating a clickable link in HTML?",
+      "quizOptions": [
+        " <button>",
+        " <a>",
+        " <link>",
+        " <clickable>"
+      ],
+      "correctOption": "<a>",
+      "explanation": "The <a> (anchor) element is used for creating clickable links in HTML."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "What does DNS stand for in networking?",
+      "quizOptions": [
+        " Domain Name System",
+        " Digital Network Service",
+        " Dynamic Network Security",
+        " Distributed Network Service"
+      ],
+      "correctOption": "Domain Name System",
+      "explanation": "DNS stands for Domain Name System, used to translate domain names to IP addresses."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "Which HTTP status code indicates a successful request in web development?",
+      "quizOptions": [
+        " 200 OK",
+        " 404 Not Found",
+        " 500 Internal Server Error",
+        " 302 Found"
+      ],
+      "correctOption": "200 OK",
+      "explanation": "HTTP status code 200 OK indicates a successful request."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "What is the purpose of the <meta> tag in HTML?",
+      "quizOptions": [
+        " To add images to a webpage",
+        " To define metadata about the document",
+        " To create lists",
+        " To embed videos"
+      ],
+      "correctOption": "To define metadata about the document",
+      "explanation": "The <meta> tag is used to define metadata about an HTML document."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "Which JavaScript function is used to print something in the browser?",
+      "quizOptions": [
+        " console.log()",
+        " alert()",
+        " print()",
+        " document.write()"
+      ],
+      "correctOption": "document.write()",
+      "explanation": "document.write() is used to print content in the browser."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "What is the default port number for HTTP?",
+      "quizOptions": [
+        " 80",
+        " 443",
+        " 8080",
+        " 21"
+      ],
+      "correctOption": "80",
+      "explanation": "The default port number for HTTP is 80."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "What is the primary purpose of the CSS 'float' property?",
+      "quizOptions": [
+        " Text alignment",
+        " Image rotation",
+        " Layout positioning",
+        " Font selection"
+      ],
+      "correctOption": "Layout positioning",
+      "explanation": "The 'float' property is used for layout positioning of elements."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "Which HTTP method should be used for requests that do not cause any side effects on the server?",
+      "quizOptions": [
+        " GET",
+        " POST",
+        " PUT",
+        " DELETE"
+      ],
+      "correctOption": "GET",
+      "explanation": "GET requests are typically used for non-modifying, read-only operations."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "In JavaScript, what is the purpose of the 'addEventListener' method?",
+      "quizOptions": [
+        " To perform mathematical calculations",
+        " To add event handlers to HTML elements",
+        " To create a new HTML element",
+        " To fetch data from a server"
+      ],
+      "correctOption": "To add event handlers to HTML elements",
+      "explanation": "'addEventListener' is used to add event handlers to HTML elements."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "Which CSS property is used to control the stacking order of elements on a webpage?",
+      "quizOptions": [
+        " z-index",
+        " position",
+        " display",
+        " margin"
+      ],
+      "correctOption": "z-index",
+      "explanation": "The 'z-index' property controls the stacking order of elements."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "What does AJAX stand for in web development?",
+      "quizOptions": [
+        " Asynchronous JavaScript and XML",
+        " Advanced JavaScript and XML",
+        " Asynchronous JSON and XML",
+        " Advanced JSON and XML"
+      ],
+      "correctOption": "Asynchronous JavaScript and XML",
+      "explanation": "AJAX stands for Asynchronous JavaScript and XML, used for asynchronous data retrieval."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "Which of the following is NOT a valid HTTP request header?",
+      "quizOptions": [
+        " User-Agent",
+        " Content-Type",
+        " Request-Type",
+        " Accept-Language"
+      ],
+      "correctOption": "Request-Type",
+      "explanation": "'Request-Type' is not a standard HTTP request header."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "What is the purpose of the 'border-box' value in CSS box-sizing?",
+      "quizOptions": [
+        " It adds a border to the box.",
+        " It includes padding and border in the box's total width and height.",
+        " It changes the box's background color.",
+        " It removes the box's border."
+      ],
+      "correctOption": "It includes padding and border in the box's total width and height",
+      "explanation": "'border-box' includes padding and border in the box's total dimensions."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "Which of the following is a valid JavaScript variable name?",
+      "quizOptions": [
+        " 123variable",
+        " _myVar",
+        " break",
+        " #varName"
+      ],
+      "correctOption": " _myVar",
+      "explanation": "Variable names cannot start with numbers or include special characters like #."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "What does SQL stand for in web development?",
+      "quizOptions": [
+        " Structured Query Language",
+        " Simple Query Language",
+        " Server Query Language",
+        " Sequential Query Language"
+      ],
+      "correctOption": "Structured Query Language",
+      "explanation": "SQL stands for Structured Query Language, used for managing databases."
+    },
+    {
+      "quizTitle": "Web Development",
+      "quizQuestion": "What does the term 'HTTP' refer to in the context of web development?",
+      "quizOptions": [
+        " Hyperlink Text Transfer Protocol",
+        " Hypertext Transfer Protocol",
+        " High-Tech Transport Protocol",
+        " Hypertext Technical Protocol"
+      ],
+      "correctOption": "Hypertext Transfer Protocol",
+      "explanation": "HTTP stands for Hypertext Transfer Protocol, the foundation of data communication on the web."
+    },
+    {
+        "quizTitle": "Web Development",
+        "quizQuestion": "Which HTML tag is used for creating an ordered list?",
+        "quizOptions": [
+          " <ul>",
+          " <li>",
+          " <ol>",
+          " <dl>"
+        ],
+        "correctOption": "<ol>",
+        "explanation": "The <ol> (ordered list) tag is used to create ordered lists in HTML."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "In JavaScript, what is the purpose of the 'typeof' operator?",
+        "quizOptions": [
+          " To check if a variable is defined",
+          " To determine the type of a variable or expression",
+          " To assign a value to a variable",
+          " To convert a string to a number"
+        ],
+        "correctOption": "To determine the type of a variable or expression",
+        "explanation": "The 'typeof' operator is used to determine the type of a variable or expression."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "Which HTTP status code indicates a resource that has been temporarily moved to a different URL?",
+        "quizOptions": [
+          " 301 Moved Permanently",
+          " 302 Found",
+          " 404 Not Found",
+          " 503 Service Unavailable"
+        ],
+        "correctOption": "302 Found",
+        "explanation": "HTTP status code 302 indicates a temporary redirection."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "What does the term 'AJAX' stand for in web development?",
+        "quizOptions": [
+          " Asynchronous JavaScript and XML",
+          " Advanced JavaScript and XML",
+          " Asynchronous JSON and XML",
+          " Advanced JSON and XML"
+        ],
+        "correctOption": "Asynchronous JavaScript and XML",
+        "explanation": "AJAX stands for Asynchronous JavaScript and XML, used for asynchronous data retrieval."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "Which of the following is NOT a valid CSS selector?",
+        "quizOptions": [
+          " .class-name",
+          " #id-name",
+          " &element-name",
+          " element[type=\"text\"]"
+        ],
+        "correctOption": "&element-name",
+        "explanation": "\"&element-name\" is not a valid CSS selector."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "What is a 'web framework' in the context of web development?",
+        "quizOptions": [
+          " A web browser's built-in development tools",
+          " A structured set of tools and libraries for web application development",
+          " A visual design tool for web pages",
+          " A type of web hosting service"
+        ],
+        "correctOption": "A structured set of tools and libraries for web application development",
+        "explanation": "A web framework provides tools and libraries for web application development."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "What is the primary purpose of the CSS 'box-sizing' property?",
+        "quizOptions": [
+          " To add shadows to elements",
+          " To specify the width and height of elements",
+          " To control the box model for sizing elements",
+          " To define the order of elements in a layout"
+        ],
+        "correctOption": "To control the box model for sizing elements",
+        "explanation": "The 'box-sizing' property controls how the sizing of elements is calculated within the box model."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "Which HTTP method is typically used for updating data on the server?",
+        "quizOptions": [
+          " GET",
+          " POST",
+          " PUT",
+          " DELETE"
+        ],
+        "correctOption": "PUT",
+        "explanation": "The PUT method is typically used for updating data on the server."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "What is the purpose of the 'localStorage' object in JavaScript?",
+        "quizOptions": [
+          " To store session data on the server",
+          " To store data in the browser's local storage",
+          " To send HTTP requests to a server",
+          " To create animations on a webpage"
+        ],
+        "correctOption": "To store data in the browser's local storage",
+        "explanation": "The 'localStorage' object is used to store data in the browser's local storage."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "Which of the following is NOT a valid data type in JavaScript?",
+        "quizOptions": [
+          " string",
+          " boolean",
+          " character",
+          " object"
+        ],
+        "correctOption": "character",
+        "explanation": "\"character\" is not a valid data type in JavaScript; you would use \"string\" for character data."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "Which encryption protocol is commonly used for securing email communication?",
+        "quizOptions": [
+          " SSL",
+          " TLS",
+          " SSH",
+          " HTTPS"
+        ],
+        "correctOption": "TLS",
+        "explanation": "TLS (Transport Layer Security) is commonly used to secure email communication."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "What is the purpose of a 'web server' in the context of networking?",
+        "quizOptions": [
+          " To design web pages",
+          " To route internet traffic",
+          " To host and serve web content",
+          " To establish secure connections"
+        ],
+        "correctOption": "To host and serve web content",
+        "explanation": "A web server hosts and serves web content to clients."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "What is a 'firewall' in network security?",
+        "quizOptions": [
+          " A device used for heating in data centers",
+          " A security system that controls incoming and outgoing network traffic",
+          " A type of malware",
+          " A virtual private network (VPN)"
+        ],
+        "correctOption": "A security system that controls incoming and outgoing network traffic",
+        "explanation": "A firewall is a security system that controls network traffic."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "Which HTTP status code indicates that a resource has been permanently moved to a different URL?",
+        "quizOptions": [
+          " 301 Moved Permanently",
+          " 302 Found",
+          " 404 Not Found",
+          " 500 Internal Server Error"
+        ],
+        "correctOption": "301 Moved Permanently",
+        "explanation": "HTTP status code 301 indicates a permanent redirection."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "What does the term 'responsive web design' refer to?",
+        "quizOptions": [
+          " Designing web applications with AI capabilities",
+          " Designing websites that adapt to different screen sizes and devices",
+          " Designing web pages with animated backgrounds",
+          " Designing websites for specific browsers"
+        ],
+        "correctOption": "Designing websites that adapt to different screen sizes and devices",
+        "explanation": "Responsive web design ensures websites work well on various screen sizes and devices."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "Which HTTP method is idempotent, meaning it can be safely repeated without causing a different outcome?",
+        "quizOptions": [
+          " GET",
+          " POST",
+          " PUT",
+          " DELETE"
+        ],
+        "correctOption": "GET",
+        "explanation": "The GET method is idempotent and can be safely repeated."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "What is the purpose of the 'SQL injection' attack?",
+        "quizOptions": [
+          " To steal user cookies",
+          " To gain unauthorized access to a database",
+          " To flood a website with fake traffic",
+          " To display pop-up ads"
+        ],
+        "correctOption": "To gain unauthorized access to a database",
+        "explanation": "SQL injection is an attack to gain unauthorized access to a database."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "Which HTML5 element is used to draw graphics on a web page?",
+        "quizOptions": [
+          " <paint>",
+          " <canvas>",
+          " <draw>",
+          " <graphic>"
+        ],
+        "correctOption": "<canvas>",
+        "explanation": "The <canvas> element is used for drawing graphics on a web page."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "What is a 'cookie' in the context of web development and networking?",
+        "quizOptions": [
+          " A piece of code that generates web content",
+          " A small piece of data stored on a user's device",
+          " A type of server hardware",
+          " A protocol for secure data transfer"
+        ],
+        "correctOption": "A small piece of data stored on a user's device",
+        "explanation": "A cookie is a small piece of data stored on a user's device."
+      },
+      {
+        "quizTitle": "Web Development",
+        "quizQuestion": "What is the purpose of the 'viewport' meta tag in mobile web development?",
+        "quizOptions": [
+          " To set the background color of the webpage",
+          " To specify the geographic location of the server",
+          " To control the initial zoom level and display of a web page on mobile devices",
+          " To encrypt data transmission"
+        ],
+        "correctOption": "To control the initial zoom level and display of a web page on mobile devices",
+        "explanation": "The 'viewport' meta tag controls how a web page is displayed on mobile devices by setting the initial zoom level and more."
+      }
+  ]
+  
