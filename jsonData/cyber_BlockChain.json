@@ -1,497 +1,429 @@
 [
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": ")Which cryptocurrency is often associated with the creation of block chain technology?",
-        "quizOptions":[
-            "Bitcoin",
-            "Ethereum",
-            " Ripple",
-            " Litecoin"
-        ],
-        "correctOption":"Bitcoin",
-        "explanation":" Bitcoin was the first cryptocurrency and the original use case for block chain technology."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is the primary purpose of block chain technology?        ",
-        "quizOptions":[
-            "Storing large files",
-            "Facilitating secure transactions",
-            " Running computer programs",
-            "Creating social media profiles"
-        ],
-        "correctOption":" Facilitating secure transactions",
-        "explanation":" Block chain technology is primarily used to create secure and transparent transaction records."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What does the term 'decentralized' mean in the context of block chain?",
-        "quizOptions":[
-            "Controlled by a single entity",
-            "Spread across multiple locations or participants",
-            "Lacking security measures",
-            "Slow and inefficient            "
-        ],
-        "correctOption":"Spread across multiple locations or participants        ",
-        "explanation":" A decentralized block chain is not controlled by a single entity and operates across multiple nodes.        "
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is a 'smart contract' on a block chain?",
-        "quizOptions":[
-            "A legal document",
-            "A self-executing program with predefined rules",
-            "A digital artwork",
-            "A cryptocurrency wallet"
-        ],
-        "correctOption":"A self-executing program with predefined rules",
-        "explanation":"Smart contracts are automated programs that execute predefined actions when certain conditions are met.        "
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which block chain platform allows developers to create decentralized applications (DApps)?        ",
-        "quizOptions":[
-            " Bitcoin",
-            "Ethereum",
-            "Hyper ledger",
-            "Ripple"
-        ],
-        "correctOption":"Ethereum",
-        "explanation":"Ethereum is known for its ability to support the development of decentralized applications.        "
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is a 'smart contract' in the context of block chain technology?",
-        "quizOptions":[
-            "A legally binding contract",
-            "A contract with complex terms",
-            " A self-executing program with predefined rules",
-            " A contract that requires human verification   "
-        ],
-        "correctOption":" A self-executing program with predefined rules",
-        "explanation":"A smart contract is a self-executing program that automatically enforces the terms and conditions of an agreement when predefined conditions are met.        "
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is the process of adding a new block to a block chain called?        ",
-        "quizOptions":[
-            "Mining",
-            "Staking",
-            "Forging            ",
-            "Trading"
-        ],
-        "correctOption":"Mining",
-        "explanation":" Mining involves solving complex mathematical puzzles to add new blocks to a block chain."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is the purpose of consensus algorithms in block chain networks?",
-        "quizOptions":[
-            "To create new cryptocurrencies",
-            "To achieve agreement among participants on the state of the block chain",
-            "To encrypt data on the block chain",
-            "To limit the number of transactions"
-        ],
-        "correctOption":" To achieve agreement among participants on the state of the block chain",
-        "explanation":"Consensus algorithms ensure that all participants agree on the state of the block chain."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "",
-        "quizOptions":[
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correctOption":"",
-        "explanation":""
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which of the following is a key feature of block chain technology  ",
-        "quizOptions":[
-            "Centralized control",
-            "Anonymity of transactions",
-            "High transaction fees",
-            "Transparency and immutability"
-        ],
-        "correctOption":"Transparency and immutability ",
-        "explanation":"Block chain technology provides transparency and immutability of transactions."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is a 'block' in a block chain?",
-        "quizOptions":[
-            "A single transaction",
-            "A group of transactions",
-            "A type of cryptocurrency",
-            "A smart contract"
-        ],
-        "correctOption":"A group of transactions",
-        "explanation":"A block contains a group of transactions that are added to the block chain."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": ")Which block chain consensus mechanism requires participants to show ownership of a certain amount of cryptocurrency?",
-        "quizOptions":[
-            "Proof of Work (PoW)",
-            "Proof of Stake (PoS)",
-            "Delegated Proof of Stake (DPoS)",
-            "Proof of Authority (PoA)"
-        ],
-        "correctOption":"Proof of Stake (PoS)",
-        "explanation":"In PoS, participants must show ownership of cryptocurrency tokens to participate in block validation."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is a 'private block chain'?",
-        "quizOptions":[
-            "A block chain with no security measures",
-            "A block chain accessible only to authorized participants",
-            "A block chain that anyone can join",
-            "A block chain with unlimited scalability"
-        ],
-        "correctOption":"A block chain accessible only to authorized participants",
-        "explanation":"Private block chains restrict access to authorized participants, unlike public block chains."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which block chain use case is NOT commonly associated with block chain technology?",
-        "quizOptions":[
-            "Supply chain management",
-            "Digital identity verification",
-            "Online gaming",
-            "Healthcare records management"
-        ],
-        "correctOption":"Online gaming",
-        "explanation":"While block chain can be applied to various industries, it is less commonly associated with online gaming."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is a 'fork' in the context of block chain technology?",
-        "quizOptions":[
-            "A new cryptocurrency",
-            "A software upgrade that is not backward compatible",
-            "A type of cyberattack",
-            "A block chain node"
-        ],
-        "correctOption":"A software upgrade that is not backward compatible",
-        "explanation":"A fork is a software upgrade that may result in two separate block chain versions."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is the primary advantage of using block chain in supply chain management?",
-        "quizOptions":[
-            "Reduced transparency",
-            "Increased trust and transparency",
-            "Slower and more inefficient processes",
-            "Limited scalability"
-        ],
-        "correctOption":"Increased trust and transparency",
-        "explanation":"Block chain enhances trust and transparency in supply chain management by providing a tamper-resistant ledger."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is the primary purpose of a 'private block chain'?",
-        "quizOptions":[
-            "Enabling public participation",
-            "Enabling public participation",
-            "Promoting complete transparency",
-            "Facilitating cross-border transactions"
-        ],
-        "correctOption":"Enhancing security and access control",
-        "explanation":" Private block chains restrict access to authorized participants, enhancing security and control."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which of the following is NOT a potential block chain security feature?",
-        "quizOptions":[
-            "Cryptographic hashing",
-            "Centralized control",
-            "Private key authentication",
-            "Decentralization"
-        ],
-        "correctOption":"Centralized control",
-        "explanation":" Centralized control is not a security feature; block chain promotes decentralization."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is a 'public key' in block chain cryptography?",
-        "quizOptions":[
-            "A password for accessing a block chain",
-            "A user's private identification",
-            "A user's public identification",
-            "A secret encryption key"
-        ],
-        "correctOption":"A user's public identification",
-        "explanation":" A public key is used to identify a user or wallet address on the block chain."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which block chain feature ensures that once data is added to the block chain, it cannot be altered or deleted?",
-        "quizOptions":[
-            "Scalability",
-            "Immutability",
-            "Privacy",
-            " Anonymity"
-        ],
-        "correctOption":"Immutability",
-        "explanation":"Immutability is a key feature of block chain that prevents data alteration."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is the term for the process of validating transactions and adding them to the block chain?",
-        "quizOptions":[
-            "Mining",
-            "Encryption",
-            "Storing",
-            "Editing"
-        ],
-        "correctOption":"Mining",
-        "explanation":"Mining is the process of validating transactions and adding them to the block chain."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which of the following is NOT a common cryptocurrency?",
-        "quizOptions":[
-            "Bitcoin",
-            "Ether",
-            "Dollar Coin",
-            "Litecoin"
-        ],
-        "correctOption":" Dollar Coin",
-        "explanation":" Dollar Coin is not a common cryptocurrency; the others listed are."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What type of ledger does a block chain use?",
-        "quizOptions":[
-            "Centralized ledger",
-            "Private ledger",
-            "Encrypted ledger",
-            "Distributed ledger"
-        ],
-        "correctOption":"Distributed ledger",
-        "explanation":": A block chain uses a distributed ledger that is maintained across multiple nodes."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is the role of a miner' in a proof-of-work block chain network?",
-        "quizOptions":[
-            "Authorizing transactions",
-            "Generating new cryptocurrency",
-            "Validating transactions and adding them to the block chain",
-            "Developing block chain applications"
-        ],
-        "correctOption":"Validating transactions and adding them to the block chain",
-        "explanation":" Miners validate transactions and add them to the block chain in a proof-of-work network."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "How does block chain technology enhance security?",
-        "quizOptions":[
-            "By relying on a single central authority",
-            "By making data easily editable",
-            "By using cryptographic techniques and decentralization",
-            "By increasing transaction costs"
-        ],
-        "correctOption":"By using cryptographic techniques and decentralization",
-        "explanation":" Block chain enhances security through cryptography and decentralization"
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which of the following is a disadvantage of block chain technology?",
-        "quizOptions":[
-            "Increased transparency",
-            "Limited scalability",
-            "Centralized control",
-            "Rapid data alteration"
-        ],
-        "correctOption":"Limited scalability",
-        "explanation":"Block chain may face scalability challenges due to the consensus mechanisms used."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is a 'block reward' in cryptocurrency mining?",
-        "quizOptions":[
-            " A tax on cryptocurrency transactions",
-            " A penalty for fraudulent transactions",
-            " A reward for solving complex mathematical puzzles and adding a new block to the block chain",
-            "A fee paid to miners for validating transactions"
-        ],
-        "correctOption":"A reward for solving complex mathematical puzzles and adding a new block to the block chain",
-        "explanation":"Miners receive a block reward for their work in maintaining the block chain."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What does the term '51% attack' refer to in the context of block chain security?",
-        "quizOptions":[
-            " A majority of network participants supporting a software upgrade",
-            " A situation where a single entity controls over 51% of the network's mining power",
-            " A successful attempt to increase transaction speed",
-            " A consensus mechanism used in private block chains"
-        ],
-        "correctOption":" A situation where a single entity controls over 51% of the network's mining power",
-        "explanation":"A 51% attack occurs when a single entity gains control of over 51% of the network's mining power, potentially compromising security."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which block chain platform is known for its focus on privacy and anonymity?",
-        "quizOptions":[
-            "Bitcoin",
-            "Ethereum",
-            "Monero",
-            "Ripple"
-        ],
-        "correctOption":"Monero",
-        "explanation":"Monero is known for its privacy-focused features, which make transactions more anonymous."
-    },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": ")Which cryptocurrency is often associated with the creation of block chain technology?",
+    "quizOptions": ["Bitcoin", "Ethereum", "Ripple", "Litecoin"],
+    "correctOption": "Bitcoin",
+    "explanation": "Bitcoin was the first cryptocurrency and the original use case for block chain technology."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is the primary purpose of block chain technology?        ",
+    "quizOptions": [
+      "Storing large files",
+      "Facilitating secure transactions",
+      "Running computer programs",
+      "Creating social media profiles"
+    ],
+    "correctOption": "Facilitating secure transactions",
+    "explanation": "Block chain technology is primarily used to create secure and transparent transaction records."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What does the term 'decentralized' mean in the context of block chain?",
+    "quizOptions": [
+      "Controlled by a single entity",
+      "Spread across multiple locations or participants",
+      "Lacking security measures",
+      "Slow and inefficient            "
+    ],
+    "correctOption": "Spread across multiple locations or participants        ",
+    "explanation": "A decentralized block chain is not controlled by a single entity and operates across multiple nodes.        "
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is a 'smart contract' on a block chain?",
+    "quizOptions": [
+      "A legal document",
+      "A self-executing program with predefined rules",
+      "A digital artwork",
+      "A cryptocurrency wallet"
+    ],
+    "correctOption": "A self-executing program with predefined rules",
+    "explanation": "Smart contracts are automated programs that execute predefined actions when certain conditions are met.        "
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which block chain platform allows developers to create decentralized applications (DApps)?        ",
+    "quizOptions": ["Bitcoin", "Ethereum", "Hyper ledger", "Ripple"],
+    "correctOption": "Ethereum",
+    "explanation": "Ethereum is known for its ability to support the development of decentralized applications.        "
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is a 'smart contract' in the context of block chain technology?",
+    "quizOptions": [
+      "A legally binding contract",
+      "A contract with complex terms",
+      "A self-executing program with predefined rules",
+      "A contract that requires human verification   "
+    ],
+    "correctOption": "A self-executing program with predefined rules",
+    "explanation": "A smart contract is a self-executing program that automatically enforces the terms and conditions of an agreement when predefined conditions are met.        "
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is the process of adding a new block to a block chain called?        ",
+    "quizOptions": ["Mining", "Staking", "Forging            ", "Trading"],
+    "correctOption": "Mining",
+    "explanation": "Mining involves solving complex mathematical puzzles to add new blocks to a block chain."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is the purpose of consensus algorithms in block chain networks?",
+    "quizOptions": [
+      "To create new cryptocurrencies",
+      "To achieve agreement among participants on the state of the block chain",
+      "To encrypt data on the block chain",
+      "To limit the number of transactions"
+    ],
+    "correctOption": "To achieve agreement among participants on the state of the block chain",
+    "explanation": "Consensus algorithms ensure that all participants agree on the state of the block chain."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which of the following is a key feature of block chain technology  ",
+    "quizOptions": [
+      "Centralized control",
+      "Anonymity of transactions",
+      "High transaction fees",
+      "Transparency and immutability"
+    ],
+    "correctOption": "Transparency and immutability ",
+    "explanation": "Block chain technology provides transparency and immutability of transactions."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is a 'block' in a block chain?",
+    "quizOptions": [
+      "A single transaction",
+      "A group of transactions",
+      "A type of cryptocurrency",
+      "A smart contract"
+    ],
+    "correctOption": "A group of transactions",
+    "explanation": "A block contains a group of transactions that are added to the block chain."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": ")Which block chain consensus mechanism requires participants to show ownership of a certain amount of cryptocurrency?",
+    "quizOptions": [
+      "Proof of Work (PoW)",
+      "Proof of Stake (PoS)",
+      "Delegated Proof of Stake (DPoS)",
+      "Proof of Authority (PoA)"
+    ],
+    "correctOption": "Proof of Stake (PoS)",
+    "explanation": "In PoS, participants must show ownership of cryptocurrency tokens to participate in block validation."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is a 'private block chain'?",
+    "quizOptions": [
+      "A block chain with no security measures",
+      "A block chain accessible only to authorized participants",
+      "A block chain that anyone can join",
+      "A block chain with unlimited scalability"
+    ],
+    "correctOption": "A block chain accessible only to authorized participants",
+    "explanation": "Private block chains restrict access to authorized participants, unlike public block chains."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which block chain use case is NOT commonly associated with block chain technology?",
+    "quizOptions": [
+      "Supply chain management",
+      "Digital identity verification",
+      "Online gaming",
+      "Healthcare records management"
+    ],
+    "correctOption": "Online gaming",
+    "explanation": "While block chain can be applied to various industries, it is less commonly associated with online gaming."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is a 'fork' in the context of block chain technology?",
+    "quizOptions": [
+      "A new cryptocurrency",
+      "A software upgrade that is not backward compatible",
+      "A type of cyberattack",
+      "A block chain node"
+    ],
+    "correctOption": "A software upgrade that is not backward compatible",
+    "explanation": "A fork is a software upgrade that may result in two separate block chain versions."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is the primary advantage of using block chain in supply chain management?",
+    "quizOptions": [
+      "Reduced transparency",
+      "Increased trust and transparency",
+      "Slower and more inefficient processes",
+      "Limited scalability"
+    ],
+    "correctOption": "Increased trust and transparency",
+    "explanation": "Block chain enhances trust and transparency in supply chain management by providing a tamper-resistant ledger."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is the primary purpose of a 'private block chain'?",
+    "quizOptions": [
+      "Enabling public participation",
+      "Enabling public participation",
+      "Promoting complete transparency",
+      "Facilitating cross-border transactions"
+    ],
+    "correctOption": "Enhancing security and access control",
+    "explanation": "Private block chains restrict access to authorized participants, enhancing security and control."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which of the following is NOT a potential block chain security feature?",
+    "quizOptions": [
+      "Cryptographic hashing",
+      "Centralized control",
+      "Private key authentication",
+      "Decentralization"
+    ],
+    "correctOption": "Centralized control",
+    "explanation": "Centralized control is not a security feature; block chain promotes decentralization."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is a 'public key' in block chain cryptography?",
+    "quizOptions": [
+      "A password for accessing a block chain",
+      "A user's private identification",
+      "A user's public identification",
+      "A secret encryption key"
+    ],
+    "correctOption": "A user's public identification",
+    "explanation": "A public key is used to identify a user or wallet address on the block chain."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which block chain feature ensures that once data is added to the block chain, it cannot be altered or deleted?",
+    "quizOptions": ["Scalability", "Immutability", "Privacy", "Anonymity"],
+    "correctOption": "Immutability",
+    "explanation": "Immutability is a key feature of block chain that prevents data alteration."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is the term for the process of validating transactions and adding them to the block chain?",
+    "quizOptions": ["Mining", "Encryption", "Storing", "Editing"],
+    "correctOption": "Mining",
+    "explanation": "Mining is the process of validating transactions and adding them to the block chain."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which of the following is NOT a common cryptocurrency?",
+    "quizOptions": ["Bitcoin", "Ether", "Dollar Coin", "Litecoin"],
+    "correctOption": "Dollar Coin",
+    "explanation": "Dollar Coin is not a common cryptocurrency; the others listed are."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What type of ledger does a block chain use?",
+    "quizOptions": [
+      "Centralized ledger",
+      "Private ledger",
+      "Encrypted ledger",
+      "Distributed ledger"
+    ],
+    "correctOption": "Distributed ledger",
+    "explanation": ": A block chain uses a distributed ledger that is maintained across multiple nodes."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is the role of a miner' in a proof-of-work block chain network?",
+    "quizOptions": [
+      "Authorizing transactions",
+      "Generating new cryptocurrency",
+      "Validating transactions and adding them to the block chain",
+      "Developing block chain applications"
+    ],
+    "correctOption": "Validating transactions and adding them to the block chain",
+    "explanation": "Miners validate transactions and add them to the block chain in a proof-of-work network."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "How does block chain technology enhance security?",
+    "quizOptions": [
+      "By relying on a single central authority",
+      "By making data easily editable",
+      "By using cryptographic techniques and decentralization",
+      "By increasing transaction costs"
+    ],
+    "correctOption": "By using cryptographic techniques and decentralization",
+    "explanation": "Block chain enhances security through cryptography and decentralization"
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which of the following is a disadvantage of block chain technology?",
+    "quizOptions": [
+      "Increased transparency",
+      "Limited scalability",
+      "Centralized control",
+      "Rapid data alteration"
+    ],
+    "correctOption": "Limited scalability",
+    "explanation": "Block chain may face scalability challenges due to the consensus mechanisms used."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is a 'block reward' in cryptocurrency mining?",
+    "quizOptions": [
+      "A tax on cryptocurrency transactions",
+      "A penalty for fraudulent transactions",
+      "A reward for solving complex mathematical puzzles and adding a new block to the block chain",
+      "A fee paid to miners for validating transactions"
+    ],
+    "correctOption": "A reward for solving complex mathematical puzzles and adding a new block to the block chain",
+    "explanation": "Miners receive a block reward for their work in maintaining the block chain."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What does the term '51% attack' refer to in the context of block chain security?",
+    "quizOptions": [
+      "A majority of network participants supporting a software upgrade",
+      "A situation where a single entity controls over 51% of the network's mining power",
+      "A successful attempt to increase transaction speed",
+      "A consensus mechanism used in private block chains"
+    ],
+    "correctOption": "A situation where a single entity controls over 51% of the network's mining power",
+    "explanation": "A 51% attack occurs when a single entity gains control of over 51% of the network's mining power, potentially compromising security."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which block chain platform is known for its focus on privacy and anonymity?",
+    "quizOptions": ["Bitcoin", "Ethereum", "Monero", "Ripple"],
+    "correctOption": "Monero",
+    "explanation": "Monero is known for its privacy-focused features, which make transactions more anonymous."
+  },
 
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is the primary goal of a '51% attack' on a block chain network?",
-        "quizOptions":[
-            "To increase network security",
-            "To increase transaction speed",
-            " To gain control of the network by controlling over 50% of the mining power",
-            "To promote decentralization"
-        ],
-        "correctOption":"To gain control of the network by controlling over 50% of the mining power",
-        "explanation":"A 51% attack involves taking control of a majority of the mining power on a block chain network."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which consensus algorithm is energy-efficient and aims to replace Proof of Work (PoW)? ",
-        "quizOptions":[
-            "Proof of Stake (PoS) ",
-            "Delegated Proof of Stake (DPoS)",
-            "Proof of Authority (PoA)",
-            "Proof of Burn (PoB)"
-        ],
-        "correctOption":"Proof of Stake (PoS)",
-        "explanation":"PoS is considered more energy-efficient than PoW and is being explored as an alternative."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is the role of a 'node'in a block chain network?",
-        "quizOptions":[
-            " Mining new blocks",
-            "Storing transaction data",
-            "Validating transactions and maintaining the network",
-            "Encrypting data"
-        ],
-        "correctOption":" Validating transactions and maintaining the network",
-        "explanation":"Nodes validate transactions and help maintain the block chain network. "
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which block chain attribute ensures that transactions are linked in chronological order?",
-        "quizOptions":[
-            "Encryption",
-            "Time stamping",
-            "Private keys",
-            "Consensus"
-        ],
-        "correctOption":"Time stamping",
-        "explanation":"Time stamping is used to establish the chronological order of transactions"
-    },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is the primary goal of a '51% attack' on a block chain network?",
+    "quizOptions": [
+      "To increase network security",
+      "To increase transaction speed",
+      "To gain control of the network by controlling over 50% of the mining power",
+      "To promote decentralization"
+    ],
+    "correctOption": "To gain control of the network by controlling over 50% of the mining power",
+    "explanation": "A 51% attack involves taking control of a majority of the mining power on a block chain network."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which consensus algorithm is energy-efficient and aims to replace Proof of Work (PoW)? ",
+    "quizOptions": [
+      "Proof of Stake (PoS) ",
+      "Delegated Proof of Stake (DPoS)",
+      "Proof of Authority (PoA)",
+      "Proof of Burn (PoB)"
+    ],
+    "correctOption": "Proof of Stake (PoS)",
+    "explanation": "PoS is considered more energy-efficient than PoW and is being explored as an alternative."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is the role of a 'node'in a block chain network?",
+    "quizOptions": [
+      "Mining new blocks",
+      "Storing transaction data",
+      "Validating transactions and maintaining the network",
+      "Encrypting data"
+    ],
+    "correctOption": "Validating transactions and maintaining the network",
+    "explanation": "Nodes validate transactions and help maintain the block chain network. "
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which block chain attribute ensures that transactions are linked in chronological order?",
+    "quizOptions": ["Encryption", "Time stamping", "Private keys", "Consensus"],
+    "correctOption": "Time stamping",
+    "explanation": "Time stamping is used to establish the chronological order of transactions"
+  },
 
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which block chain platform is known for its focus on enabling privacy and anonymity for users?",
-        "quizOptions":[
-            " Bitcoin",
-            "Ethereum",
-            "Monero",
-            "Ripple"
-        ],
-        "correctOption":" Monero",
-        "explanation":"Monero is known for its privacy-focused features, making transactions more"
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is a 'token' in the context of block chain technology?",
-        "quizOptions":[
-            "A hardware wallet",
-            "A digital representation of an asset or utility",
-            "A digital representation of an asset or utility",
-            "A block chain node"
-        ],
-        "correctOption":"A digital representation of an asset or utility",
-        "explanation":"Tokens represent assets or utilities on a block chain."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which block chain platform is often used for enterprise applications and consortiums?",
-        "quizOptions":[
-            "Bitcoin",
-            "Ethereum",
-            "Hyper ledger Fabric",
-            "Cardano"
-        ],
-        "correctOption":" Hyper ledger Fabric",
-        "explanation":"Hyper ledger Fabric is designed for enterprise and consortium use cases."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is the role of a 'node' in a block chain network?",
-        "quizOptions":[
-            "Authorizing transactions",
-            "Generating new cryptocurrency",
-            "Validating transactions and maintaining the network",
-            "Developing block chain applications"
-        ],
-        "correctOption":"Validating transactions and maintaining the network",
-        "explanation":"Nodes validate transactions and help maintain the integrity of the block chain network."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is the term for the process of making a copy of a block chain to create a separate network?",
-        "quizOptions":[
-            "Replication",
-            "Forking",
-            "Sharding",
-            "Mining"
-        ],
-        "correctOption":"Forking",
-        "explanation":"Forking involves creating a copy of a block chain to form a separate network."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "What is a 'block chain wallet' used for?",
-        "quizOptions":[
-            "Storing physical currency",
-            "Sending emails",
-            "Storing and managing cryptocurrency assets",
-            "Managing social media profiles"
-        ],
-        "correctOption":"Storing and managing cryptocurrency assets",
-        "explanation":"A block chain wallet is used to store and manage cryptocurrency assets."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which cryptographic concept is essential for securing transactions on a block chain?",
-        "quizOptions":[
-            "Digital signatures",
-            "Symmetric encryption",
-            "Public keys",
-            "Hash functions"
-        ],
-        "correctOption":"Digital signatures",
-        "explanation":"Digital signatures are used to verify the authenticity of transactions and ensure data integrity on the block chain."
-    },
-    {
-        "quizTitle":"BLOCK CHAIN:",
-        "quizQuestion": "Which of the following is NOT a benefit of block chain technology?",
-        "quizOptions":[
-            "Increased security",
-            "Enhanced transparency",
-            "Reduced complexity",
-            "Improved traceability"
-        ],
-        "correctOption":"Improved traceability",
-        "explanation":"Block chain technology can be complex to implement and manage, so it doesn't necessarily reduce complexity."
-    }
-    
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which block chain platform is known for its focus on enabling privacy and anonymity for users?",
+    "quizOptions": ["Bitcoin", "Ethereum", "Monero", "Ripple"],
+    "correctOption": "Monero",
+    "explanation": "Monero is known for its privacy-focused features, making transactions more"
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is a 'token' in the context of block chain technology?",
+    "quizOptions": [
+      "A hardware wallet",
+      "A digital representation of an asset or utility",
+      "A digital representation of an asset or utility",
+      "A block chain node"
+    ],
+    "correctOption": "A digital representation of an asset or utility",
+    "explanation": "Tokens represent assets or utilities on a block chain."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which block chain platform is often used for enterprise applications and consortiums?",
+    "quizOptions": ["Bitcoin", "Ethereum", "Hyper ledger Fabric", "Cardano"],
+    "correctOption": "Hyper ledger Fabric",
+    "explanation": "Hyper ledger Fabric is designed for enterprise and consortium use cases."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is the role of a 'node' in a block chain network?",
+    "quizOptions": [
+      "Authorizing transactions",
+      "Generating new cryptocurrency",
+      "Validating transactions and maintaining the network",
+      "Developing block chain applications"
+    ],
+    "correctOption": "Validating transactions and maintaining the network",
+    "explanation": "Nodes validate transactions and help maintain the integrity of the block chain network."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is the term for the process of making a copy of a block chain to create a separate network?",
+    "quizOptions": ["Replication", "Forking", "Sharding", "Mining"],
+    "correctOption": "Forking",
+    "explanation": "Forking involves creating a copy of a block chain to form a separate network."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "What is a 'block chain wallet' used for?",
+    "quizOptions": [
+      "Storing physical currency",
+      "Sending emails",
+      "Storing and managing cryptocurrency assets",
+      "Managing social media profiles"
+    ],
+    "correctOption": "Storing and managing cryptocurrency assets",
+    "explanation": "A block chain wallet is used to store and manage cryptocurrency assets."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which cryptographic concept is essential for securing transactions on a block chain?",
+    "quizOptions": [
+      "Digital signatures",
+      "Symmetric encryption",
+      "Public keys",
+      "Hash functions"
+    ],
+    "correctOption": "Digital signatures",
+    "explanation": "Digital signatures are used to verify the authenticity of transactions and ensure data integrity on the block chain."
+  },
+  {
+    "quizTitle": "BLOCK CHAIN:",
+    "quizQuestion": "Which of the following is NOT a benefit of block chain technology?",
+    "quizOptions": [
+      "Increased security",
+      "Enhanced transparency",
+      "Reduced complexity",
+      "Improved traceability"
+    ],
+    "correctOption": "Improved traceability",
+    "explanation": "Block chain technology can be complex to implement and manage, so it doesn't necessarily reduce complexity."
+  }
 ]

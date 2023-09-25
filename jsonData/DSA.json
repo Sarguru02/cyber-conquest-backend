@@ -1,483 +1,362 @@
 [
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "What is the time complexity of searching for an element in a sorted array using binary search?",
-      "quizOptions": [
-        " O(1)",
-        " O(n)",
-        " O(log n)",
-        " O(n^2)"
-      ],
-      "correctOption": " O(log n)",
-      "explanation": "Binary search has a time complexity of O(log n) in a sorted array."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "Which data structure follows the Last In, First Out (LIFO) principle?",
-      "quizOptions": [
-        " Queue",
-        " Stack",
-        " Linked List",
-        " Tree"
-      ],
-      "correctOption": " Stack",
-      "explanation": "A stack follows the LIFO principle, where the last element added is the first one to be removed."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "Which sorting algorithm has a worst-case time complexity of O(n^2)?",
-      "quizOptions": [
-        " Merge Sort",
-        " Quick Sort",
-        " Bubble Sort",
-        " Insertion Sort"
-      ],
-      "correctOption": " Bubble Sort",
-      "explanation": "Bubble Sort has a worst-case time complexity of O(n^2)."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "What is the primary advantage of using a hash table for data storage and retrieval?",
-      "quizOptions": [
-        " Constant time complexity for all operations",
-        " Efficient sorting capabilities",
-        " Low memory usage",
-        " Predictable search times"
-      ],
-      "correctOption": " Constant time complexity for all operations",
-      "explanation": "Hash tables offer constant time complexity for insert, delete, and search operations in the average case."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "In a singly linked list, what is the purpose of the \"head\" pointer?",
-      "quizOptions": [
-        " To store the data values",
-        " To maintain the order of elements",
-        " To point to the last node",
-        " To point to the first node"
-      ],
-      "correctOption": " To point to the first node",
-      "explanation": "The \"head\" pointer in a singly linked list points to the first node."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "In a binary search tree (BST), which traversal method outputs elements in ascending order?",
-      "quizOptions": [
-        " In-order",
-        " Pre-order",
-        " Post-order",
-        " Level-order"
-      ],
-      "correctOption": " In-order",
-      "explanation": "In-order traversal of a BST outputs elements in ascending order."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "What is the primary advantage of using a linked list over an array for data storage?",
-      "quizOptions": [
-        " Constant-time access to elements",
-        " Better memory efficiency",
-        " Faster search operations",
-        " Dynamic size and memory allocation"
-      ],
-      "correctOption": " Dynamic size and memory allocation",
-      "explanation": "Linked lists offer dynamic size and memory allocation, which arrays do not."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "What data structure is suitable for implementing a LRU (Least Recently Use cache?",
-      "quizOptions": [
-        " Hash table",
-        " Stack",
-        " Queue",
-        " Binary tree"
-      ],
-      "correctOption": " Queue",
-      "explanation": "A queue is often used to implement an LRU cache."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "What is the value of the post-fix expression 6 3 2 4 + – *?",
-      "quizOptions": [
-        " 74",
-        " -18",
-        " 22",
-        " 40"
-      ],
-      "correctOption": " -18",
-      "explanation": "Post-fix Expression is (6*(3-(2+4))) which results -18 as output."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "Which sorting algorithm works by repeatedly dividing the unsorted list into smaller sub lists and conquering them separately?",
-      "quizOptions": [
-        " Merge Sort",
-        " Quick Sort",
-        " Bubble Sort",
-        " Insertion Sort"
-      ],
-      "correctOption": " Merge Sort",
-      "explanation": "Merge Sort divides and merges subarrays to sort elements."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "In an AVL tree, what is the maximum height difference (balance factor) allowed between the left and right subtrees of a node?",
-      "quizOptions": [
-        " 0",
-        " 1",
-        " 2",
-        " 3"
-      ],
-      "correctOption": " 1",
-      "explanation": "In an AVL tree, the maximum allowed balance factor is 1, ensuring balance."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "Which algorithm is used to find the minimum spanning tree in a connected, undirected graph?",
-      "quizOptions": [
-        " Depth-First Search (DFS)",
-        " Breadth-First Search (BFS)",
-        " Dijkstra's Algorithm",
-        " Kruskal's Algorithm"
-      ],
-      "correctOption": " Kruskal's Algorithm",
-      "explanation": "Kruskal's Algorithm is used to find the minimum spanning tree in a graph."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "What is the time complexity of the average-case for searching an element in a binary search tree (BST)?",
-      "quizOptions": [
-        " O(1)",
-        " O(log n)",
-        " O(n)",
-        " O(n^2)"
-      ],
-      "correctOption": " O(log n)",
-      "explanation": "In a balanced BST, the average-case search time complexity is O(log n)."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "Which data structure is used to implement a stack in most programming languages?",
-      "quizOptions": [
-        " Array",
-        " Linked List",
-        " Queue",
-        " Heap"
-      ],
-      "correctOption": " Array",
-      "explanation": "An array is commonly used to implement a stack."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "What is the process of finding all possible solutions to a problem called?",
-      "quizOptions": [
-        " Searching",
-        " Sorting",
-        " Traversal",
-        " Enumeration"
-      ],
-      "correctOption": " Enumeration",
-      "explanation": "Enumeration is the process of finding all possible solutions to a problem."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "In which data structure are elements stored in a sorted order with no duplicates?",
-      "quizOptions": [
-        " Stack",
-        " Queue",
-        " Set",
-        " Hash Table"
-      ],
-      "correctOption": " Set",
-      "explanation": "A set stores elements in a sorted order with no duplicates."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "What is the time complexity of a binary search in a sorted array with n elements in the worst-case scenario?",
-      "quizOptions": [
-        " O(1)",
-        " O(log n)",
-        " O(n)",
-        " O(n^2)"
-      ],
-      "correctOption": " O(log n)",
-      "explanation": "Binary search has a time complexity of O(log n) in the worst-case scenario."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "Which algorithm is used to sort elements by dividing the array into subarrays and merging them back in sorted order?",
-      "quizOptions": [
-        " Merge Sort",
-        " Quick Sort",
-        " Bubble Sort",
-        " Insertion Sort"
-      ],
-      "correctOption": " Merge Sort",
-      "explanation": "Merge Sort divides and merges subarrays to sort elements."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "What is the primary advantage of using a hash table for data storage and retrieval?",
-      "quizOptions": [
-        " Constant-time access to elements",
-        " Efficient sorting of elements",
-        " Low memory usage",
-        " Easy implementation"
-      ],
-      "correctOption": " Constant-time access to elements",
-      "explanation": "Hash tables provide constant-time access to elements on average."
-    },
-    {
-      "quizTitle": "DSA",
-      "quizQuestion": "Which data structure is used to maintain a collection of elements in a sorted order with efficient insertions and deletions?",
-      "quizOptions": [
-        " Stack",
-        " Queue",
-        " Linked List",
-        " Heap"
-      ],
-      "correctOption": " Heap",
-      "explanation": "A heap is used for maintaining elements in a sorted order with efficient insertions and deletions."
-    },
-    {
-        "quizTitle": "DSA",
-        "quizQuestion": "In which data structure is the order of elements based on their priority levels?",
-        "quizOptions": [
-          " Queue",
-          " Stack",
-          " Priority Queue",
-          " Linked List"
-        ],
-        "correctOption": " Priority Queue",
-        "explanation": "A priority queue orders elements based on their priority levels."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "In a priority queue, which element is removed first?",
-        "quizOptions": [
-          " The element with the highest priority",
-          " The element with the lowest priority",
-          " The element with the largest value",
-          " The element with the smallest value"
-        ],
-        "correctOption": " The element with the highest priority",
-        "explanation": "In a priority queue, the element with the highest priority is removed first."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "What is the primary advantage of using a linked list over an array?",
-        "quizOptions": [
-          " Constant-time access to elements",
-          " Efficient sorting of elements",
-          " Dynamic size and easy insertions",
-          " Low memory usage"
-        ],
-        "correctOption": " Dynamic size and easy insertions",
-        "explanation": "Linked lists allow dynamic size and easy insertions, unlike arrays."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "What data structure is suitable for implementing FIFO behavior in a program?",
-        "quizOptions": [
-          " Stack",
-          " Queue",
-          " Linked List",
-          " Tree"
-        ],
-        "correctOption": " Queue",
-        "explanation": "A queue is suitable for implementing First In, First Out (FIFO) behavior."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "What is the term for the process of visiting all nodes in a tree in a specific order?",
-        "quizOptions": [
-          " Searching",
-          " Sorting",
-          " Traversal",
-          " Indexing"
-        ],
-        "correctOption": " Traversal",
-        "explanation": "Traversal is the process of visiting all nodes in a tree in a specific order."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "In a binary search tree (BST), where are smaller elements typically located with respect to a node?",
-        "quizOptions": [
-          " To the left",
-          " To the right",
-          " At the root",
-          " At random positions"
-        ],
-        "correctOption": " To the left",
-        "explanation": "In a BST, smaller elements are typically located to the left of a node."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "In a binary tree, what is the term for a node with no children?",
-        "quizOptions": [
-          " Parent node",
-          " Leaf node",
-          " Root node",
-          " Sibling node"
-        ],
-        "correctOption": " Leaf node",
-        "explanation": "A leaf node is a node with no children in a binary tree."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "In a circular linked list, where does the last node point to?",
-        "quizOptions": [
-          " The first node",
-          " The last node",
-          " Null",
-          " Random node"
-        ],
-        "correctOption": " The first node",
-        "explanation": "In a circular linked list, the last node points to the first node, forming a loop."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "In a queue, which operation retrieves the front element without removing it?",
-        "quizOptions": [
-          " Enqueue",
-          " Dequeue",
-          " Peek",
-          " Remove"
-        ],
-        "correctOption": " Peek",
-        "explanation": "The peek operation retrieves the front element without removing it."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "What is the term for the element that is removed from the queue during the Dequeue operation?",
-        "quizOptions": [
-          " Front element",
-          " Rear element",
-          " Middle element",
-          " Random element"
-        ],
-        "correctOption": " Front element",
-        "explanation": "The element removed during the Dequeue operation is the front element."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "In a queue, which operation adds an element to the rear (en of the queue?",
-        "quizOptions": [
-          " Enqueue",
-          " Dequeue",
-          " Peek",
-          " Remove"
-        ],
-        "correctOption": " Enqueue",
-        "explanation": "The enqueue operation adds an element to the rear of the queue."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "What is the term for the maximum number of elements that an array can hold?",
-        "quizOptions": [
-          " Array Size",
-          " Array Limit",
-          " Array Capacity",
-          " Array Length"
-        ],
-        "correctOption": " Array Length",
-        "explanation": "The array length refers to the maximum number of elements it can hold."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "What happens when you try to pop an element from an empty stack?",
-        "quizOptions": [
-          " The program crashes",
-          " The element is set to null",
-          " An error or exception is raised",
-          " Nothing happens"
-        ],
-        "correctOption": " An error or exception is raised",
-        "explanation": "Popping from an empty stack typically results in an error or exception."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "What is the order of elements in a stack based on the Last In, First Out (LIFO) principle?",
-        "quizOptions": [
-          " Random order",
-          " Ascending order",
-          " Descending order",
-          " Reverse order"
-        ],
-        "correctOption": " Reverse order",
-        "explanation": "Elements in a stack follow the Last In, First Out (LIFO) order."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "What is the term for the element that is removed from the stack during the pop operation?",
-        "quizOptions": [
-          " Top element",
-          " Bottom element",
-          " Middle element",
-          " Random element"
-        ],
-        "correctOption": " Top element",
-        "explanation": "The element removed during the pop operation is the top element."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "What is the time complexity of accessing an element in an array by its index?",
-        "quizOptions": [
-          " O(1)",
-          " O(log n)",
-          " O(n)",
-          " O(n^2)"
-        ],
-        "correctOption": " O(1)",
-        "explanation": "Accessing an element in an array by its index is a constant-time operation."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "What is the term for the process of inserting an element at the end of a singly linked list?",
-        "quizOptions": [
-          " Appending",
-          " Prepending",
-          " Insertion",
-          " Traversal"
-        ],
-        "correctOption": " Appending",
-        "explanation": "Appending involves inserting an element at the end of a linked list."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "In a singly linked list, what is the term for the node that has no reference to the next node?",
-        "quizOptions": [
-          " Head node",
-          " Tail node",
-          " Middle node",
-          " Sentinel node"
-        ],
-        "correctOption": " Tail node",
-        "explanation": "The tail node is the last node in a singly linked list with no reference to the next node."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "What is the term for the process of removing all elements from a queue until it is empty?",
-        "quizOptions": [
-          " Clearing",
-          " En-queuing",
-          " Flushing",
-          " Queuing"
-        ],
-        "correctOption": " Flushing",
-        "explanation": "Flushing a queue means removing all elements until it's empty."
-      },
-      {
-        "quizTitle": "DSA",
-        "quizQuestion": "Which data structure can be used to implement a stack with dynamic size, allowing it to grow as needed?",
-        "quizOptions": [
-          " Array",
-          " Linked List",
-          " Queue",
-          " Tree"
-        ],
-        "correctOption": " Linked List",
-        "explanation": "A linked list can be used to implement a stack with dynamic size."
-      }
-  ]
-  
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the time complexity of searching for an element in a sorted array using binary search?",
+    "quizOptions": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctOption": "O(log n)",
+    "explanation": "Binary search has a time complexity of O(log n) in a sorted array."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "Which data structure follows the Last In, First Out (LIFO) principle?",
+    "quizOptions": ["Queue", "Stack", "Linked List", "Tree"],
+    "correctOption": "Stack",
+    "explanation": "A stack follows the LIFO principle, where the last element added is the first one to be removed."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "Which sorting algorithm has a worst-case time complexity of O(n^2)?",
+    "quizOptions": [
+      "Merge Sort",
+      "Quick Sort",
+      "Bubble Sort",
+      "Insertion Sort"
+    ],
+    "correctOption": "Bubble Sort",
+    "explanation": "Bubble Sort has a worst-case time complexity of O(n^2)."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the primary advantage of using a hash table for data storage and retrieval?",
+    "quizOptions": [
+      "Constant time complexity for all operations",
+      "Efficient sorting capabilities",
+      "Low memory usage",
+      "Predictable search times"
+    ],
+    "correctOption": "Constant time complexity for all operations",
+    "explanation": "Hash tables offer constant time complexity for insert, delete, and search operations in the average case."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In a singly linked list, what is the purpose of the \"head\"pointer?",
+    "quizOptions": [
+      "To store the data values",
+      "To maintain the order of elements",
+      "To point to the last node",
+      "To point to the first node"
+    ],
+    "correctOption": "To point to the first node",
+    "explanation": "The \"head\"pointer in a singly linked list points to the first node."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In a binary search tree (BST), which traversal method outputs elements in ascending order?",
+    "quizOptions": ["In-order", "Pre-order", "Post-order", "Level-order"],
+    "correctOption": "In-order",
+    "explanation": "In-order traversal of a BST outputs elements in ascending order."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the primary advantage of using a linked list over an array for data storage?",
+    "quizOptions": [
+      "Constant-time access to elements",
+      "Better memory efficiency",
+      "Faster search operations",
+      "Dynamic size and memory allocation"
+    ],
+    "correctOption": "Dynamic size and memory allocation",
+    "explanation": "Linked lists offer dynamic size and memory allocation, which arrays do not."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What data structure is suitable for implementing a LRU (Least Recently Use cache?",
+    "quizOptions": ["Hash table", "Stack", "Queue", "Binary tree"],
+    "correctOption": "Queue",
+    "explanation": "A queue is often used to implement an LRU cache."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the value of the post-fix expression 6 3 2 4 + – *?",
+    "quizOptions": ["74", "-18", "22", "40"],
+    "correctOption": "-18",
+    "explanation": "Post-fix Expression is (6*(3-(2+4))) which results -18 as output."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "Which sorting algorithm works by repeatedly dividing the unsorted list into smaller sub lists and conquering them separately?",
+    "quizOptions": [
+      "Merge Sort",
+      "Quick Sort",
+      "Bubble Sort",
+      "Insertion Sort"
+    ],
+    "correctOption": "Merge Sort",
+    "explanation": "Merge Sort divides and merges subarrays to sort elements."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In an AVL tree, what is the maximum height difference (balance factor) allowed between the left and right subtrees of a node?",
+    "quizOptions": ["0", "1", "2", "3"],
+    "correctOption": "1",
+    "explanation": "In an AVL tree, the maximum allowed balance factor is 1, ensuring balance."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "Which algorithm is used to find the minimum spanning tree in a connected, undirected graph?",
+    "quizOptions": [
+      "Depth-First Search (DFS)",
+      "Breadth-First Search (BFS)",
+      "Dijkstra's Algorithm",
+      "Kruskal's Algorithm"
+    ],
+    "correctOption": "Kruskal's Algorithm",
+    "explanation": "Kruskal's Algorithm is used to find the minimum spanning tree in a graph."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the time complexity of the average-case for searching an element in a binary search tree (BST)?",
+    "quizOptions": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "correctOption": "O(log n)",
+    "explanation": "In a balanced BST, the average-case search time complexity is O(log n)."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "Which data structure is used to implement a stack in most programming languages?",
+    "quizOptions": ["Array", "Linked List", "Queue", "Heap"],
+    "correctOption": "Array",
+    "explanation": "An array is commonly used to implement a stack."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the process of finding all possible solutions to a problem called?",
+    "quizOptions": ["Searching", "Sorting", "Traversal", "Enumeration"],
+    "correctOption": "Enumeration",
+    "explanation": "Enumeration is the process of finding all possible solutions to a problem."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In which data structure are elements stored in a sorted order with no duplicates?",
+    "quizOptions": ["Stack", "Queue", "Set", "Hash Table"],
+    "correctOption": "Set",
+    "explanation": "A set stores elements in a sorted order with no duplicates."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the time complexity of a binary search in a sorted array with n elements in the worst-case scenario?",
+    "quizOptions": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "correctOption": "O(log n)",
+    "explanation": "Binary search has a time complexity of O(log n) in the worst-case scenario."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "Which algorithm is used to sort elements by dividing the array into subarrays and merging them back in sorted order?",
+    "quizOptions": [
+      "Merge Sort",
+      "Quick Sort",
+      "Bubble Sort",
+      "Insertion Sort"
+    ],
+    "correctOption": "Merge Sort",
+    "explanation": "Merge Sort divides and merges subarrays to sort elements."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the primary advantage of using a hash table for data storage and retrieval?",
+    "quizOptions": [
+      "Constant-time access to elements",
+      "Efficient sorting of elements",
+      "Low memory usage",
+      "Easy implementation"
+    ],
+    "correctOption": "Constant-time access to elements",
+    "explanation": "Hash tables provide constant-time access to elements on average."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "Which data structure is used to maintain a collection of elements in a sorted order with efficient insertions and deletions?",
+    "quizOptions": ["Stack", "Queue", "Linked List", "Heap"],
+    "correctOption": "Heap",
+    "explanation": "A heap is used for maintaining elements in a sorted order with efficient insertions and deletions."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In which data structure is the order of elements based on their priority levels?",
+    "quizOptions": ["Queue", "Stack", "Priority Queue", "Linked List"],
+    "correctOption": "Priority Queue",
+    "explanation": "A priority queue orders elements based on their priority levels."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In a priority queue, which element is removed first?",
+    "quizOptions": [
+      "The element with the highest priority",
+      "The element with the lowest priority",
+      "The element with the largest value",
+      "The element with the smallest value"
+    ],
+    "correctOption": "The element with the highest priority",
+    "explanation": "In a priority queue, the element with the highest priority is removed first."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the primary advantage of using a linked list over an array?",
+    "quizOptions": [
+      "Constant-time access to elements",
+      "Efficient sorting of elements",
+      "Dynamic size and easy insertions",
+      "Low memory usage"
+    ],
+    "correctOption": "Dynamic size and easy insertions",
+    "explanation": "Linked lists allow dynamic size and easy insertions, unlike arrays."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What data structure is suitable for implementing FIFO behavior in a program?",
+    "quizOptions": ["Stack", "Queue", "Linked List", "Tree"],
+    "correctOption": "Queue",
+    "explanation": "A queue is suitable for implementing First In, First Out (FIFO) behavior."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the term for the process of visiting all nodes in a tree in a specific order?",
+    "quizOptions": ["Searching", "Sorting", "Traversal", "Indexing"],
+    "correctOption": "Traversal",
+    "explanation": "Traversal is the process of visiting all nodes in a tree in a specific order."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In a binary search tree (BST), where are smaller elements typically located with respect to a node?",
+    "quizOptions": [
+      "To the left",
+      "To the right",
+      "At the root",
+      "At random positions"
+    ],
+    "correctOption": "To the left",
+    "explanation": "In a BST, smaller elements are typically located to the left of a node."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In a binary tree, what is the term for a node with no children?",
+    "quizOptions": ["Parent node", "Leaf node", "Root node", "Sibling node"],
+    "correctOption": "Leaf node",
+    "explanation": "A leaf node is a node with no children in a binary tree."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In a circular linked list, where does the last node point to?",
+    "quizOptions": ["The first node", "The last node", "Null", "Random node"],
+    "correctOption": "The first node",
+    "explanation": "In a circular linked list, the last node points to the first node, forming a loop."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In a queue, which operation retrieves the front element without removing it?",
+    "quizOptions": ["Enqueue", "Dequeue", "Peek", "Remove"],
+    "correctOption": "Peek",
+    "explanation": "The peek operation retrieves the front element without removing it."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the term for the element that is removed from the queue during the Dequeue operation?",
+    "quizOptions": [
+      "Front element",
+      "Rear element",
+      "Middle element",
+      "Random element"
+    ],
+    "correctOption": "Front element",
+    "explanation": "The element removed during the Dequeue operation is the front element."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In a queue, which operation adds an element to the rear (en of the queue?",
+    "quizOptions": ["Enqueue", "Dequeue", "Peek", "Remove"],
+    "correctOption": "Enqueue",
+    "explanation": "The enqueue operation adds an element to the rear of the queue."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the term for the maximum number of elements that an array can hold?",
+    "quizOptions": [
+      "Array Size",
+      "Array Limit",
+      "Array Capacity",
+      "Array Length"
+    ],
+    "correctOption": "Array Length",
+    "explanation": "The array length refers to the maximum number of elements it can hold."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What happens when you try to pop an element from an empty stack?",
+    "quizOptions": [
+      "The program crashes",
+      "The element is set to null",
+      "An error or exception is raised",
+      "Nothing happens"
+    ],
+    "correctOption": "An error or exception is raised",
+    "explanation": "Popping from an empty stack typically results in an error or exception."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the order of elements in a stack based on the Last In, First Out (LIFO) principle?",
+    "quizOptions": [
+      "Random order",
+      "Ascending order",
+      "Descending order",
+      "Reverse order"
+    ],
+    "correctOption": "Reverse order",
+    "explanation": "Elements in a stack follow the Last In, First Out (LIFO) order."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the term for the element that is removed from the stack during the pop operation?",
+    "quizOptions": [
+      "Top element",
+      "Bottom element",
+      "Middle element",
+      "Random element"
+    ],
+    "correctOption": "Top element",
+    "explanation": "The element removed during the pop operation is the top element."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the time complexity of accessing an element in an array by its index?",
+    "quizOptions": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "correctOption": "O(1)",
+    "explanation": "Accessing an element in an array by its index is a constant-time operation."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the term for the process of inserting an element at the end of a singly linked list?",
+    "quizOptions": ["Appending", "Prepending", "Insertion", "Traversal"],
+    "correctOption": "Appending",
+    "explanation": "Appending involves inserting an element at the end of a linked list."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "In a singly linked list, what is the term for the node that has no reference to the next node?",
+    "quizOptions": ["Head node", "Tail node", "Middle node", "Sentinel node"],
+    "correctOption": "Tail node",
+    "explanation": "The tail node is the last node in a singly linked list with no reference to the next node."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "What is the term for the process of removing all elements from a queue until it is empty?",
+    "quizOptions": ["Clearing", "En-queuing", "Flushing", "Queuing"],
+    "correctOption": "Flushing",
+    "explanation": "Flushing a queue means removing all elements until it's empty."
+  },
+  {
+    "quizTitle": "DSA",
+    "quizQuestion": "Which data structure can be used to implement a stack with dynamic size, allowing it to grow as needed?",
+    "quizOptions": ["Array", "Linked List", "Queue", "Tree"],
+    "correctOption": "Linked List",
+    "explanation": "A linked list can be used to implement a stack with dynamic size."
+  }
+]

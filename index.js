@@ -19,6 +19,8 @@ const { jail, cryptoLocker, incomeTax, kronos } = require("./utils/corners");
 const fs = require("fs");
 const rollDice = require("./utils/rollDice");
 const updatePoints = require("./utils/updatePoints");
+const upload = require("./upload");
+const setDocument = require("./utils/setDocument");
 
 const app = express();
 
@@ -160,7 +162,7 @@ app.post("/reset", async (req, res) => {
   res.status(200).send("Everything Reset properly");
 });
 
-app.post("/properties", async (req, res) => {
+app.post("/properties", setDocument, async (req, res) => {
   const { batchNo } = req.body;
   getDoc(doc(db, "gameProperties", `propertyDocument_${batchNo}`)).then((d) => {
     if (d.exists()) {
@@ -183,17 +185,7 @@ app.post("/getProp", async (req, res) => {
 
 app.post("/updatePoints", updatePoints);
 
-app.get("/hello", async (req, res) => {
-  var fname = "techanagrams";
-  fs.readFile(`./jsonData/${fname}.json`, "utf8", async (err, jsonString) => {
-    if (err) {
-      return res.status(500).send("Hello mf");
-    }
-    const qns = JSON.parse(jsonString);
-    await setDoc(doc(db, "quiz", qns[0].quizTitle), { qns });
-    return res.status(200).send(`${fname} Document is set`);
-  });
-});
+app.get("/hello", upload);
 
 app.post("/rent", async (req, res) => {
   const { property, player } = req.body;

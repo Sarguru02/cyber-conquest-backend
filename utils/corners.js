@@ -93,7 +93,7 @@ const incomeTax = async (currentParticipant, pos) => {
       balance: parseInt(currentParticipant.balance) * 0.8,
     }
   );
-  return { message: "Pay 35% as an Income Tax " };
+  return { message: "Pay 20% as an Income Tax " };
 };
 
 module.exports = { jail, cryptoLocker, kronos, incomeTax };

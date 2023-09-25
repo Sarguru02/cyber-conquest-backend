@@ -1,484 +1,293 @@
 [
-   {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language is known for its simplicity and readability, often used for web development?",
-      "quizOptions": [
-        " Python",
-        " Java",
-        " C++",
-        " Ruby"
-      ],
-      "correctOption": "Python",
-      "explanation": "Python is known for its simplicity and readability, making it a popular choice for web development."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "In Java, what keyword is used to define a subclass that inherits from another class?",
-      "quizOptions": [
-        " extends",
-        " subclass",
-        " inherits",
-        " parent"
-      ],
-      "correctOption": "extends",
-      "explanation": "In Java, the extends keyword is used to define a subclass that inherits from another class."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language introduced the concept of 'smart pointers' to manage memory automatically?",
-      "quizOptions": [
-        " C",
-        " C++",
-        " Rust",
-        " Java"
-      ],
-      "correctOption": "C++",
-      "explanation": "C++ introduced the concept of 'smart pointers' to manage memory automatically and avoid memory leaks."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "What is the primary use of the 'const' keyword in C++?",
-      "quizOptions": [
-        " To declare a constant variable",
-        " To create an immutable object",
-        " To define a function that cannot be overridden",
-        " To allocate memory on the heap"
-      ],
-      "correctOption": "To declare a constant variable",
-      "explanation": "In C++, the 'const' keyword is used to declare a constant variable whose value cannot be changed."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language is often used for front-end web development and is known for its HTML/CSS manipulation capabilities?",
-      "quizOptions": [
-        " JavaScript",
-        " PHP",
-        " Ruby",
-        " Swift"
-      ],
-      "correctOption": "JavaScript",
-      "explanation": "JavaScript is commonly used for front-end web development and can manipulate HTML/CSS on web pages."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which of the following languages is not statically typed?",
-      "quizOptions": [
-        " Java",
-        " Python",
-        " C++",
-        " C#"
-      ],
-      "correctOption": "Python",
-      "explanation": "Python is dynamically typed, meaning you don't need to declare variable types explicitly."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "In which language is 'printf' commonly used for formatted output?",
-      "quizOptions": [
-        " C",
-        " Java",
-        " Python",
-        " Ruby"
-      ],
-      "correctOption": "C",
-      "explanation": "'printf' is commonly used in the C programming language for formatted output."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language is often associated with artificial intelligence and machine learning?",
-      "quizOptions": [
-        " Ruby",
-        " Java",
-        " Python",
-        " C++"
-      ],
-      "correctOption": "Python",
-      "explanation": "Python is widely used in AI and machine learning due to its libraries like TensorFlow and PyTorch."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which language introduced the concept of 'generics' to allow type-safe data structures?",
-      "quizOptions": [
-        " C++",
-        " Java",
-        " Python",
-        " Ruby"
-      ],
-      "correctOption": "Java",
-      "explanation": "Java introduced generics to allow type-safe data structures."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "What does the acronym 'SQL' stand for in the context of databases?",
-      "quizOptions": [
-        " Structured Query Language",
-        " Simple Query Language",
-        " Standard Query Language",
-        " System Query Language"
-      ],
-      "correctOption": "Structured Query Language",
-      "explanation": "SQL stands for 'Structured Query Language' and is used for managing and querying relational databases."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language uses indentation for code block structure?",
-      "quizOptions": [
-        " C",
-        " JavaScript",
-        " Python",
-        " Ruby"
-      ],
-      "correctOption": "Python",
-      "explanation": "Python uses indentation to define code block structure instead of braces or keywords."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which of the following languages is a functional programming language that encourages immutability and pure functions?",
-      "quizOptions": [
-        " Haskell",
-        " C++",
-        " Ruby",
-        " PHP"
-      ],
-      "correctOption": "Haskell",
-      "explanation": "Haskell is a functional programming language that encourages immutability and pure functions."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language is primarily used for developing Android applications?",
-      "quizOptions": [
-        " Swift",
-        " Java",
-        " Kotlin",
-        " Objective-C"
-      ],
-      "correctOption": "Kotlin",
-      "explanation": "Kotlin is commonly used for Android app development alongside Java."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which language is often used for server-side scripting and is embedded in HTML documents?",
-      "quizOptions": [
-        " JavaScript",
-        " Python",
-        " PHP",
-        " Ruby"
-      ],
-      "correctOption": "PHP",
-      "explanation": "PHP is commonly used for server-side scripting and can be embedded in HTML documents."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "In C#, which keyword is used to explicitly free unmanaged resources?",
-      "quizOptions": [
-        " delete",
-        " finalize",
-        " destroy",
-        " dispose"
-      ],
-      "correctOption": "dispose",
-      "explanation": "In C#, the 'dispose' method is used to explicitly free unmanaged resources."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language is known for its use in systems programming and has a minimal runtime?",
-      "quizOptions": [
-        " Rust",
-        " Ruby",
-        " Java",
-        " PHP"
-      ],
-      "correctOption": "Rust",
-      "explanation": "Rust is known for its use in systems programming with minimal runtime."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which language is commonly used for game development and is known for its Unity game engine integration?",
-      "quizOptions": [
-        " Python",
-        " C#",
-        " Java",
-        " Ruby"
-      ],
-      "correctOption": "C#",
-      "explanation": "C# is commonly used for game development, especially with the Unity game engine."
-    },
-    {
-      "quizTitle":"Programming Language",
-      
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language is known for its simplicity and readability, often used for web development?",
+    "quizOptions": ["Python", "Java", "C++", "Ruby"],
+    "correctOption": "Python",
+    "explanation": "Python is known for its simplicity and readability, making it a popular choice for web development."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "In Java, what keyword is used to define a subclass that inherits from another class?",
+    "quizOptions": ["extends", "subclass", "inherits", "parent"],
+    "correctOption": "extends",
+    "explanation": "In Java, the extends keyword is used to define a subclass that inherits from another class."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language introduced the concept of 'smart pointers' to manage memory automatically?",
+    "quizOptions": ["C", "C++", "Rust", "Java"],
+    "correctOption": "C++",
+    "explanation": "C++ introduced the concept of 'smart pointers' to manage memory automatically and avoid memory leaks."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "What is the primary use of the 'const' keyword in C++?",
+    "quizOptions": [
+      "To declare a constant variable",
+      "To create an immutable object",
+      "To define a function that cannot be overridden",
+      "To allocate memory on the heap"
+    ],
+    "correctOption": "To declare a constant variable",
+    "explanation": "In C++, the 'const' keyword is used to declare a constant variable whose value cannot be changed."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language is often used for front-end web development and is known for its HTML/CSS manipulation capabilities?",
+    "quizOptions": ["JavaScript", "PHP", "Ruby", "Swift"],
+    "correctOption": "JavaScript",
+    "explanation": "JavaScript is commonly used for front-end web development and can manipulate HTML/CSS on web pages."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which of the following languages is not statically typed?",
+    "quizOptions": ["Java", "Python", "C++", "C#"],
+    "correctOption": "Python",
+    "explanation": "Python is dynamically typed, meaning you don't need to declare variable types explicitly."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "In which language is 'printf' commonly used for formatted output?",
+    "quizOptions": ["C", "Java", "Python", "Ruby"],
+    "correctOption": "C",
+    "explanation": "'printf' is commonly used in the C programming language for formatted output."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language is often associated with artificial intelligence and machine learning?",
+    "quizOptions": ["Ruby", "Java", "Python", "C++"],
+    "correctOption": "Python",
+    "explanation": "Python is widely used in AI and machine learning due to its libraries like TensorFlow and PyTorch."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which language introduced the concept of 'generics' to allow type-safe data structures?",
+    "quizOptions": ["C++", "Java", "Python", "Ruby"],
+    "correctOption": "Java",
+    "explanation": "Java introduced generics to allow type-safe data structures."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "What does the acronym 'SQL' stand for in the context of databases?",
+    "quizOptions": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Standard Query Language",
+      "System Query Language"
+    ],
+    "correctOption": "Structured Query Language",
+    "explanation": "SQL stands for 'Structured Query Language' and is used for managing and querying relational databases."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language uses indentation for code block structure?",
+    "quizOptions": ["C", "JavaScript", "Python", "Ruby"],
+    "correctOption": "Python",
+    "explanation": "Python uses indentation to define code block structure instead of braces or keywords."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which of the following languages is a functional programming language that encourages immutability and pure functions?",
+    "quizOptions": ["Haskell", "C++", "Ruby", "PHP"],
+    "correctOption": "Haskell",
+    "explanation": "Haskell is a functional programming language that encourages immutability and pure functions."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language is primarily used for developing Android applications?",
+    "quizOptions": ["Swift", "Java", "Kotlin", "Objective-C"],
+    "correctOption": "Kotlin",
+    "explanation": "Kotlin is commonly used for Android app development alongside Java."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which language is often used for server-side scripting and is embedded in HTML documents?",
+    "quizOptions": ["JavaScript", "Python", "PHP", "Ruby"],
+    "correctOption": "PHP",
+    "explanation": "PHP is commonly used for server-side scripting and can be embedded in HTML documents."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "In C#, which keyword is used to explicitly free unmanaged resources?",
+    "quizOptions": ["delete", "finalize", "destroy", "dispose"],
+    "correctOption": "dispose",
+    "explanation": "In C#, the 'dispose' method is used to explicitly free unmanaged resources."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language is known for its use in systems programming and has a minimal runtime?",
+    "quizOptions": ["Rust", "Ruby", "Java", "PHP"],
+    "correctOption": "Rust",
+    "explanation": "Rust is known for its use in systems programming with minimal runtime."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which language is commonly used for game development and is known for its Unity game engine integration?",
+    "quizOptions": ["Python", "C#", "Java", "Ruby"],
+    "correctOption": "C#",
+    "explanation": "C# is commonly used for game development, especially with the Unity game engine."
+  },
+  {
+    "quizTitle": "Programming Language",
+
     "quizQuestion": "In which language is 'try-catch' commonly used for exception handling?",
-      "quizOptions": [
-        " Python",
-        " C",
-        " JavaScript",
-        " Java"
-      ],
-      "correctOption": "Java",
-      "explanation": "'try-catch' blocks are commonly used in Java for exception handling."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language is often used for data analysis and manipulation?",
-      "quizOptions": [
-        " Ruby",
-        " C++",
-        " R",
-        " Swift"
-      ],
-      "correctOption": "R",
-      "explanation": "R is often used for data analysis and manipulation, especially in statistics and data science."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which language is known for its use in web development for creating interactive and dynamic web pages?",
-      "quizOptions": [
-        " COBOL",
-        " JavaScript",
-        " Fortran",
-        " Pascal"
-      ],
-      "correctOption": "JavaScript",
-      "explanation": "JavaScript is used in web development to create interactive and dynamic web pages."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "In which language is 'multiple inheritance' achieved using interfaces?",
-      "quizOptions": [
-        " Python",
-        " Java",
-        " C++",
-        " Ruby"
-      ],
-      "correctOption": "Java",
-      "explanation": "In Java, multiple inheritance is achieved using interfaces."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language uses the 'await' symbol to denote decorators for functions and classes?",
-      "quizOptions": [
-        " C#",
-        " Ruby",
-        " Python",
-        " PHP"
-      ],
-      "correctOption": "C#",
-      "explanation": "C# uses the 'await' keyword for handling asynchronous operations with the Task-based asynchronous pattern."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which language is known for its use in scientific computing and numerical analysis?",
-      "quizOptions": [
-        " JavaScript",
-        " Ruby",
-        " Python",
-        " Java"
-      ],
-      "correctOption": "Python",
-      "explanation": "Python is commonly used in scientific computing and numerical analysis."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "In which language can you define operator overloading for custom types?",
-      "quizOptions": [
-        " Java",
-        " C",
-        " C#",
-        " Python"
-      ],
-      "correctOption": "Python",
-      "explanation": "In Python, you can define operator overloading methods for custom types."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language is used for developing iOS applications?",
-      "quizOptions": [
-        " Swift",
-        " Kotlin",
-        " Objective-C",
-        " Java"
-      ],
-      "correctOption": "Swift",
-      "explanation": "Swift is commonly used for iOS app development."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which language is known for its use in web scraping and automation tasks?",
-      "quizOptions": [
-        " C++",
-        " Java",
-        " Python",
-        " Ruby"
-      ],
-      "correctOption": "Python",
-      "explanation": "Python is commonly used for web scraping and automation tasks."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "In which language is memory management handled by the programmer, allowing for fine-grained control?",
-      "quizOptions": [
-        " Go",
-        " Ruby",
-        " JavaScript",
-        " C"
-      ],
-      "correctOption": "C",
-      "explanation": "In C, memory management is handled by the programmer, allowing for fine-grained control."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language is known for its use in game scripting and automation?",
-      "quizOptions": [
-        " Lua",
-        " Python",
-        " C++",
-        " Ruby"
-      ],
-      "correctOption": "Lua",
-      "explanation": "Lua is commonly used for game scripting and automation."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which language is commonly used for data serialization and communication between systems?",
-      "quizOptions": [
-        " JSON",
-        " JavaScript",
-        " Java",
-        " Ruby"
-      ],
-      "correctOption": "JSON",
-      "explanation": "JSON (JavaScript Object Notation) is commonly used for data serialization and communication between systems."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language uses the '@' symbol to denote decorators for functions and classes?",
-      "quizOptions": [
-        " Python",
-        " C#",
-        " Ruby",
-        " JavaScript"
-      ],
-      "correctOption": "Python",
-      "explanation": "Python uses the '@' symbol to denote decorators for functions and classes."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "In which language is 'Garbage Collection' used to automatically reclaim memory?",
-      "quizOptions": [
-        " C",
-        " C++",
-        " Java",
-        " Ruby"
-      ],
-      "correctOption": "Java",
-      "explanation": "Java uses Garbage Collection to automatically reclaim memory."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which language is commonly used for scripting and automation on Linux systems?",
-      "quizOptions": [
-        " PowerShell",
-        " Ruby",
-        " Python",
-        " C++"
-      ],
-      "correctOption": "Python",
-      "explanation": "Python is commonly used for scripting and automation on Linux systems."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language is often used for real-time systems and embedded programming?",
-      "quizOptions": [
-        " JavaScript",
-        " C",
-        " Python",
-        " Ruby"
-      ],
-      "correctOption": "C",
-      "explanation": "C is often used for real-time systems and embedded programming."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "In which language is the 'if-else' statement used to control program flow?",
-      "quizOptions": [
-        " HTML",
-        " CSS",
-        " Python",
-        " SQL"
-      ],
-      "correctOption": "Python",
-      "explanation": "The 'if-else' statement is used in Python to control program flow."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which language is known for its use in web development on the server-side and is often associated with the Express.js framework?",
-      "quizOptions": [
-        " Python",
-        " PHP",
-        " Ruby",
-        " JavaScript"
-      ],
-      "correctOption": "JavaScript",
-      "explanation": "JavaScript is used for server-side web development with frameworks like Express.js."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "In which language can you create 'lambda expressions' or anonymous functions?",
-      "quizOptions": [
-        " Java",
-        " C",
-        " Python",
-        " Ruby"
-      ],
-      "correctOption": "Python",
-      "explanation": "Python allows you to create lambda expressions or anonymous functions."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language uses 'import' statements to include external modules?",
-      "quizOptions": [
-        " C++",
-        " Java",
-        " Python",
-        " Ruby"
-      ],
-      "correctOption": "Python",
-      "explanation": "Python uses 'import' statements to include external modules."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which language is known for its use in developing desktop applications and is often associated with the Qt framework?",
-      "quizOptions": [
-        " Java",
-        " C#",
-        " Python",
-        " C++"
-      ],
-      "correctOption": "C++",
-      "explanation": "C++ is commonly used for developing desktop applications with the Qt framework."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "In which language can you define custom operator overloads for user-defined types?",
-      "quizOptions": [
-        " C#",
-        " Python",
-        " Ruby",
-        " C++"
-      ],
-      "correctOption": "C++",
-      "explanation": "C++ allows you to define custom operator overloads for user-defined types."
-    },
-    {
-      "quizTitle":"Programming Language",
-      "quizQuestion": "Which programming language uses the 'import' statement for including external libraries and modules?",
-      "quizOptions": [
-        " PHP",
-        " JavaScript",
-        " Python",
-        " Ruby"
-      ],
-      "correctOption": "Python",
-      "explanation": "Python uses the 'import' statement to include external libraries and modules."
-    }
-  ]
-  
+    "quizOptions": ["Python", "C", "JavaScript", "Java"],
+    "correctOption": "Java",
+    "explanation": "'try-catch' blocks are commonly used in Java for exception handling."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language is often used for data analysis and manipulation?",
+    "quizOptions": ["Ruby", "C++", "R", "Swift"],
+    "correctOption": "R",
+    "explanation": "R is often used for data analysis and manipulation, especially in statistics and data science."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which language is known for its use in web development for creating interactive and dynamic web pages?",
+    "quizOptions": ["COBOL", "JavaScript", "Fortran", "Pascal"],
+    "correctOption": "JavaScript",
+    "explanation": "JavaScript is used in web development to create interactive and dynamic web pages."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "In which language is 'multiple inheritance' achieved using interfaces?",
+    "quizOptions": ["Python", "Java", "C++", "Ruby"],
+    "correctOption": "Java",
+    "explanation": "In Java, multiple inheritance is achieved using interfaces."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language uses the 'await' symbol to denote decorators for functions and classes?",
+    "quizOptions": ["C#", "Ruby", "Python", "PHP"],
+    "correctOption": "C#",
+    "explanation": "C# uses the 'await' keyword for handling asynchronous operations with the Task-based asynchronous pattern."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which language is known for its use in scientific computing and numerical analysis?",
+    "quizOptions": ["JavaScript", "Ruby", "Python", "Java"],
+    "correctOption": "Python",
+    "explanation": "Python is commonly used in scientific computing and numerical analysis."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "In which language can you define operator overloading for custom types?",
+    "quizOptions": ["Java", "C", "C#", "Python"],
+    "correctOption": "Python",
+    "explanation": "In Python, you can define operator overloading methods for custom types."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language is used for developing iOS applications?",
+    "quizOptions": ["Swift", "Kotlin", "Objective-C", "Java"],
+    "correctOption": "Swift",
+    "explanation": "Swift is commonly used for iOS app development."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which language is known for its use in web scraping and automation tasks?",
+    "quizOptions": ["C++", "Java", "Python", "Ruby"],
+    "correctOption": "Python",
+    "explanation": "Python is commonly used for web scraping and automation tasks."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "In which language is memory management handled by the programmer, allowing for fine-grained control?",
+    "quizOptions": ["Go", "Ruby", "JavaScript", "C"],
+    "correctOption": "C",
+    "explanation": "In C, memory management is handled by the programmer, allowing for fine-grained control."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language is known for its use in game scripting and automation?",
+    "quizOptions": ["Lua", "Python", "C++", "Ruby"],
+    "correctOption": "Lua",
+    "explanation": "Lua is commonly used for game scripting and automation."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which language is commonly used for data serialization and communication between systems?",
+    "quizOptions": ["JSON", "JavaScript", "Java", "Ruby"],
+    "correctOption": "JSON",
+    "explanation": "JSON (JavaScript Object Notation) is commonly used for data serialization and communication between systems."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language uses the '@' symbol to denote decorators for functions and classes?",
+    "quizOptions": ["Python", "C#", "Ruby", "JavaScript"],
+    "correctOption": "Python",
+    "explanation": "Python uses the '@' symbol to denote decorators for functions and classes."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "In which language is 'Garbage Collection' used to automatically reclaim memory?",
+    "quizOptions": ["C", "C++", "Java", "Ruby"],
+    "correctOption": "Java",
+    "explanation": "Java uses Garbage Collection to automatically reclaim memory."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which language is commonly used for scripting and automation on Linux systems?",
+    "quizOptions": ["PowerShell", "Ruby", "Python", "C++"],
+    "correctOption": "Python",
+    "explanation": "Python is commonly used for scripting and automation on Linux systems."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language is often used for real-time systems and embedded programming?",
+    "quizOptions": ["JavaScript", "C", "Python", "Ruby"],
+    "correctOption": "C",
+    "explanation": "C is often used for real-time systems and embedded programming."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "In which language is the 'if-else' statement used to control program flow?",
+    "quizOptions": ["HTML", "CSS", "Python", "SQL"],
+    "correctOption": "Python",
+    "explanation": "The 'if-else' statement is used in Python to control program flow."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which language is known for its use in web development on the server-side and is often associated with the Express.js framework?",
+    "quizOptions": ["Python", "PHP", "Ruby", "JavaScript"],
+    "correctOption": "JavaScript",
+    "explanation": "JavaScript is used for server-side web development with frameworks like Express.js."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "In which language can you create 'lambda expressions' or anonymous functions?",
+    "quizOptions": ["Java", "C", "Python", "Ruby"],
+    "correctOption": "Python",
+    "explanation": "Python allows you to create lambda expressions or anonymous functions."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language uses 'import' statements to include external modules?",
+    "quizOptions": ["C++", "Java", "Python", "Ruby"],
+    "correctOption": "Python",
+    "explanation": "Python uses 'import' statements to include external modules."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which language is known for its use in developing desktop applications and is often associated with the Qt framework?",
+    "quizOptions": ["Java", "C#", "Python", "C++"],
+    "correctOption": "C++",
+    "explanation": "C++ is commonly used for developing desktop applications with the Qt framework."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "In which language can you define custom operator overloads for user-defined types?",
+    "quizOptions": ["C#", "Python", "Ruby", "C++"],
+    "correctOption": "C++",
+    "explanation": "C++ allows you to define custom operator overloads for user-defined types."
+  },
+  {
+    "quizTitle": "Programming Language",
+    "quizQuestion": "Which programming language uses the 'import' statement for including external libraries and modules?",
+    "quizOptions": ["PHP", "JavaScript", "Python", "Ruby"],
+    "correctOption": "Python",
+    "explanation": "Python uses the 'import' statement to include external libraries and modules."
+  }
+]

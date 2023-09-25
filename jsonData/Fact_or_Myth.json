@@ -1,412 +1,288 @@
 [
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Did Vikings really wear horned helmets?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "it's nonsense. The horned theme is from the Bronze Age and is traceable back to the ancient Near East."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Can a penny dropped from a skyscraper kill someone below?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "At a weight of 7.12g, a 2p coin would in theory reach terminal velocity at just over 19km an hour, hardly fast enough to kill you."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "There are infinite universes in the multiverse?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "It is not a certainity"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "We can fold a piece of paper by half more than seven times?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": ":A piece of paper can, in fact, be folded more than 7 times.  It has been done many times in many places all around the world. It’s just that the people who accomplished the feat used a lot of paper!"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Can you really get stuck to a flagpole in freezing temperatures?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It's a Fact."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Can you really die from holding in a sneeze?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It's a Fact."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": " Is Wolverine's skeleton really made of adamantium in Marvel Comics?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It's a Fact."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Is yawning contagious among humans?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It's a Fact."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "you should not swim after eating?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "According to the American Red Cross, going for a swim after eating a meal isn't dangerous."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "You can't get a sunburn on a cloudy day?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "Yes, you can! Clouds don’t completely block off the sun’s UV rays."
-
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Is the world's largest living structure the Great Barrier Reef?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It's a Fact."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Do chameleons change color to blend in with their surroundings?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "a chameleon can only change depending on mood or temperature."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Can a computer virus damage hardware components?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "A virus damaging hardware is one of the most widely believed myths in the infosec domain"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "We Can sneeze with your eyes open?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "No, the Mythbusters put that to the test, but that’s not to say it hasn’t happened before."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Is the five-second rule for dropped food scientifically accurate?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "Unfortunately, researchers have now proven that the ‘five second rule’ for eating food off the floor is, in fact, not scientifically accurate."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "The events in Infinity war take place over just two days.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It is a Fact"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": " Is automated testing faster and more efficient than manual testing in all cases?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "Manual testing, on the other hand, allows for more flexibility and creativity in the testing process, and it is better suited for testing non-functional requirements such as usability and compatibility"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Is it necessary to have extensive coding skills to be a good software tester?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "While performing Black box testing, the tester does not require the knowledge of coding."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Is it realistic to expect that exhaustive testing can uncover every possible bug in a software application, or are there inherent limitations to testing?",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "Exhaustive testing might not cover all possible scenarios and input combinations because of the vast number of potential input values."
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Good developers don't need documentation.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "Documenting your process and  coding is a  part of work for developers "
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Open source software is inherently less secure.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "It's based on the community"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Automated testing eliminates the need for manual testing.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "Automated testing can only for Repetitive testing"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "The latest technology is always the best choice.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "It is not true until it was adopted by public and becomes stable"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "All software should be \"user-friendly.\"",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "It is not always true.Some are developed focussing on various factors"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "The term \"bug\" for a computer glitch originated in 1947 when a moth was found inside a computer relay. They literally removed a \"bug\" from the system.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It is a Fact"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Some developers use a rubber duck to debug code. They explain their code to the duck, and in the process of explaining it, they often find the problem themselves.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It is a Fact"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "The longest line of code ever written is believed to be over 2.4 million characters long! That's longer than some entire novels.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It is a Fact"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Some developers claim that listening to music, especially genres like electronic, helps them focus and be more productive while coding.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It is a Fact"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "In some tech offices, Nerf gun wars are a common form of stress relief. Teams battle each other with foam darts when they need a break from coding.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It is a Fact"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Hackathons are events where developers come together for an intense, often competitive, coding session. They can last for hours or even days and result in innovative projects.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It is a Fact"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Many developers, even experienced ones, experience impostor syndrome\u2014the feeling that they don't really know what they're doing. It's more common than you might think!",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It is a fact"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "While space exposure is extremely dangerous and potentially lethal, you wouldn't explode. The skin provides some protection, and the body can survive for a short time in vacuum.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It is a Fact"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Google Gives You the Best Results First",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "It is not always true because it uses ratings and view count and some other to optimise the content"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Google Manipulates Search Results for Political Gain",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "It is not like that it gives the most viewed result"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Generative AI Is Infallible and Unbiased",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "Generative AI content maybe sometimes Wrong"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Generative AI Can Write Full Novels or Research Papers with Minimal Human Input",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "Yeah it can but still there are some limitaitons are there"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "The Moon Has a Dark Side That Never Sees Sunlight",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "Moon has gravity.According to physics rotating objects has gravity"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "The Great Wall of China Is Visible from Space",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "It's not that Big"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Comets Are Like Shooting Stars",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "Both are Different Elements according to today's science"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Black Holes \"Suck\" Everything In",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Myth",
     "explanation": "It is not a vacuum Cleaner.It has an enormous amout of gravity"
   },
   {
-    "quizTitle": "Fact or Myth",
+    "quizTitle": "Fact_or_Myth",
     "quizQuestion": "Birds are indeed considered a type of dinosaur. They belong to the clade Dinosauria and are the only surviving lineage of dinosaurs.",
-    "quizOptions": [
-      "Fact",
-      "Myth"
-    ],
+    "quizOptions": ["Fact", "Myth"],
     "correctOption": "Fact",
     "explanation": "It's a Fact."
   }

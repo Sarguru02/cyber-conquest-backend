@@ -2,26 +2,16 @@
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "What does the \"S\" stand for in the abbreviation \"HTTPS\"?",
-    "quizOptions": [
-      "Security",
-      "Super",
-      "System",
-      "Secure"
-    ],
+    "quizOptions": ["Security", "Super", "System", "Secure"],
     "correctOption": "Secure",
     "explanation": "The \"S\" in HTTPS stands for \"Secure.\" HTTPS is a protocol used for secure communication over the internet, ensuring that data transmitted between a user's browser and a website is encrypted and protected from eavesdropping."
   },
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "Which of the following is an example of a strong password?",
-    "quizOptions": [
-      "Password123",
-      "123456",
-      "Tr0ub4dor&3",
-      "Admin"
-    ],
-    "correctOption": "Tr0ub4dor&3",
-    "explanation": "\u2018Tr0ub4dor&3\u2019 is an example of a strong password because it includes a mix of uppercase letters, lowercase letters, numbers, and special characters, making it difficult for attackers to guess."
+    "quizOptions": ["Password123", "123456", "Tr0ub4dor*3", "Admin"],
+    "correctOption": "Tr0ub4dor*3",
+    "explanation": "\u2018Tr0ub4dor*3\u2019 is an example of a strong password because it includes a mix of uppercase letters, lowercase letters, numbers, and special characters, making it difficult for attackers to guess."
   },
   {
     "quizTitle": "Cyber_Security",
@@ -38,12 +28,7 @@
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "What type of cyberattack involves flooding a network with traffic to make it unavailable?",
-    "quizOptions": [
-      "Phishing",
-      "Malware",
-      "DDoS",
-      "Ransomware"
-    ],
+    "quizOptions": ["Phishing", "Malware", "DDoS", "Ransomware"],
     "correctOption": "DDoS",
     "explanation": "A Distributed Denial of Service (DDoS) attack involves overwhelming a network, service, or website with a massive volume of traffic from multiple sources, rendering it unavailable to legitimate users."
   },
@@ -62,12 +47,7 @@
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "Which of the following is NOT a common encryption algorithm?",
-    "quizOptions": [
-      "AES",
-      "RSA",
-      "HTTP",
-      "DES"
-    ],
+    "quizOptions": ["AES", "RSA", "HTTP", "DES"],
     "correctOption": "HTTP",
     "explanation": "HTTP (Hypertext Transfer Protocol) is not an encryption algorithm; it is a protocol used for transferring data over the internet. Common encryption algorithms include AES (Advanced Encryption Standard), RSA, and DES."
   },
@@ -86,12 +66,7 @@
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "Which security concept involves limiting access rights for users to the minimum levels necessary to perform their job functions?",
-    "quizOptions": [
-      "Firewall",
-      "Least Privilege",
-      "Encryption",
-      "Antivirus"
-    ],
+    "quizOptions": ["Firewall", "Least Privilege", "Encryption", "Antivirus"],
     "correctOption": "Least Privilege",
     "explanation": "The principle of \"Least Privilege\" restricts users and processes to the minimum level of access required to perform their tasks, reducing the potential for unauthorized access and limiting the impact of security breaches."
   },
@@ -122,12 +97,7 @@
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "Which encryption protocol secures data transmitted over wireless networks, such as Wi-Fi?",
-    "quizOptions": [
-      "SSL",
-      "HTTPS",
-      "WEP",
-      "WPA2"
-    ],
+    "quizOptions": ["SSL", "HTTPS", "WEP", "WPA2"],
     "correctOption": "WPA2",
     "explanation": "WPA2 (Wi-Fi Protected Access 2) is a common encryption protocol used to secure data transmitted over wireless networks, ensuring the confidentiality and integrity of the data."
   },
@@ -146,12 +116,7 @@
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "Which type of malware disguises itself as legitimate software and spreads through infected files?",
-    "quizOptions": [
-      "Worm",
-      "Trojan",
-      "Spyware",
-      "Ransomware"
-    ],
+    "quizOptions": ["Worm", "Trojan", "Spyware", "Ransomware"],
     "correctOption": "Trojan",
     "explanation": "A Trojan is a type of malware that appears to be legitimate software but, once executed, carries out malicious activities. It often spreads through infected files or deceptive downloads."
   },
@@ -230,12 +195,7 @@
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "What is the term for a malicious program that is capable of spreading itself to other computers without user intervention?",
-    "quizOptions": [
-      "Virus",
-      "Adware",
-      "Botnet",
-      "Worm"
-    ],
+    "quizOptions": ["Virus", "Adware", "Botnet", "Worm"],
     "correctOption": "Worm",
     "explanation": "A worm is a type of malware that can self-replicate and spread to other computers or devices over a network without any user action required."
   },
@@ -278,24 +238,14 @@
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "What is the term for a program that appears legitimate but performs malicious activities when executed?",
-    "quizOptions": [
-      "Firewall",
-      "Antivirus",
-      "Spyware",
-      "Trojan"
-    ],
+    "quizOptions": ["Firewall", "Antivirus", "Spyware", "Trojan"],
     "correctOption": "Trojan",
     "explanation": "A Trojan is a type of malware that disguises itself as legitimate software but carries out malicious activities when executed"
   },
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "What type of cybersecurity attack involves tricking a victim into clicking on a malicious link in an email or website?",
-    "quizOptions": [
-      "Phishing",
-      "DDoS",
-      "Ransomware",
-      "Worm"
-    ],
+    "quizOptions": ["Phishing", "DDoS", "Ransomware", "Worm"],
     "correctOption": "Phishing",
     "explanation": "Phishing attacks involve tricking victims into clicking on malicious links or downloading malicious attachments from deceptive emails or websites."
   },
@@ -338,12 +288,7 @@
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "Which cybersecurity concept involves creating a duplicate of data or a system to protect against data loss or system failures?",
-    "quizOptions": [
-      "Firewall",
-      "Encryption",
-      "Backup",
-      "Authentication"
-    ],
+    "quizOptions": ["Firewall", "Encryption", "Backup", "Authentication"],
     "correctOption": "Backup",
     "explanation": "Creating backups involves duplicating data or system configurations to protect against data loss, system failures, or disasters. It ensures that data can be restored in case of a problem."
   },
@@ -470,12 +415,7 @@
   {
     "quizTitle": "Cyber_Security",
     "quizQuestion": "Which of the following is a commonly used protocol for securing email communication?",
-    "quizOptions": [
-      "HTTP",
-      "FTP",
-      "SMTP",
-      "S/MIME"
-    ],
+    "quizOptions": ["HTTP", "FTP", "SMTP", "S/MIME"],
     "correctOption": "S/MIME",
     "explanation": "S/MIME (Secure/Multipurpose Internet Mail Extensions) is a commonly used protocol for securing email communication by providing encryption and digital signatures for email messages"
   },
