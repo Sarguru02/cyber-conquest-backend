@@ -18,6 +18,7 @@ const { chance, communityChest } = require("./utils/chance_community");
 const { jail, cryptoLocker, incomeTax, kronos } = require("./utils/corners");
 const fs = require("fs");
 const rollDice = require("./utils/rollDice");
+const updatePoints = require("./utils/updatePoints");
 
 const app = express();
 
@@ -79,6 +80,9 @@ app.post("/addTeam", async (req, res) => {
 
 app.post("/buy", async (req, res) => {
   const { currentParticipant, price, propertyInfo } = req.body;
+  if (parseInt(currentParticipant.balance < propertyInfo.price)) {
+    return res.json({ message: "Bro does not have enough money to buy it" });
+  }
   if (currentParticipant.propertiesOwned) {
     currentParticipant.propertiesOwned.push({
       propertyName: propertyInfo.propertyName,
@@ -177,18 +181,7 @@ app.post("/getProp", async (req, res) => {
   return res.status(200).json({ property: propertyAtPosition[0] });
 });
 
-app.post("/updatePoints", async (req, res) => {
-  const { currentParticipant, points } = req.body;
-  await setDoc(
-    doc(db, currentParticipant.batchNo.toString(), currentParticipant.teamName),
-    {
-      ...currentParticipant,
-      position: parseInt(currentParticipant.position),
-      points: parseInt(points),
-    }
-  );
-  res.json("Points updated");
-});
+app.post("/updatePoints", updatePoints);
 
 app.get("/hello", async (req, res) => {
   var fname = "techanagrams";

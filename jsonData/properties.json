@@ -41,7 +41,8 @@
     "owner": "",
     "price": 100,
     "position": 6,
-    "propertyName": "Pictography"
+    "propertyName": "Pictography",
+    "quizName": "pictography"
   },
   {
     "category": "Tech",
@@ -86,7 +87,7 @@
     "price": 100,
     "position": 13,
     "propertyName": "Memory Game",
-    "quizName": "Memory Quiz"
+    "quizName": "Memory_Quiz"
   },
   {
     "category": "Tech",

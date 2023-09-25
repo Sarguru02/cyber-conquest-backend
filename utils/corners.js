@@ -90,7 +90,7 @@ const incomeTax = async (currentParticipant, pos) => {
     {
       ...currentParticipant,
       position: pos,
-      balance: parseInt(currentParticipant.balance) * 0.65,
+      balance: parseInt(currentParticipant.balance) * 0.8,
     }
   );
   return { message: "Pay 35% as an Income Tax " };

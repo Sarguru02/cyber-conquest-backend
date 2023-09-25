@@ -23,7 +23,7 @@ module.exports = async (req, res) => {
   // const dice1 = 2;
   // const dice2 = 3;
   // const pos = parseInt(player.position) + parseInt(dice1) + parseInt(dice2);
-  const pos = 2;
+  const pos = 5;
   if (pos >= 32) {
     //----------------------------------------------------------
     //Edge case to increase amount after rounds
