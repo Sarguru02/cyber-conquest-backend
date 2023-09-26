@@ -2,12 +2,14 @@ const { setDoc, doc, getDoc } = require("firebase/firestore");
 const { db } = require("../firebase");
 
 const jail = async (currentParticipant) => {
+  currentParticipant = { ...currentParticipant, inJail: true, position: 16 };
   await setDoc(
     doc(db, currentParticipant.batchNo.toString(), currentParticipant.teamName),
-    { ...currentParticipant, inJail: true, position: 16 }
+    currentParticipant
   );
   return {
     message: "You don't have network connection! Your next turn is loading!",
+    balance: currentParticipant.balance,
   };
 };
 
@@ -33,13 +35,18 @@ const cryptoLocker = async (currentParticipant, pos) => {
           }
         }
       }
+      currentParticipant = {
+        ...currentParticipant,
+        propertiesOwned: props,
+        position: pos,
+      };
       await setDoc(
         doc(
           db,
           currentParticipant.batchNo.toString(),
           currentParticipant.teamName
         ),
-        { ...currentParticipant, propertiesOwned: props, position: pos }
+        currentParticipant
       );
       await setDoc(
         doc(
@@ -58,6 +65,7 @@ const cryptoLocker = async (currentParticipant, pos) => {
     return {
       message:
         "You are under cyber attack. Half of your properties are taken away!",
+      balance: currentParticipant.balance,
     };
   } else {
     await setDoc(
@@ -68,7 +76,10 @@ const cryptoLocker = async (currentParticipant, pos) => {
       ),
       { ...currentParticipant, position: pos }
     );
-    return { message: "Escaped! You don't have any Properties left! " };
+    return {
+      message: "Escaped! You don't have any Properties left! ",
+      balance: currentParticipant.balance,
+    };
   }
 };
 
@@ -81,7 +92,10 @@ const kronos = async (currentParticipant, pos) => {
       balance: parseInt(currentParticipant.balance) * 0.9,
     }
   );
-  return { message: "Hahaha! I may be old, but stole ur 10% gold 💀" };
+  return {
+    message: "Hahaha! I may be old, but stole ur 10% gold 💀",
+    balance: parseInt(currentParticipant.balance) * 0.9,
+  };
 };
 
 const incomeTax = async (currentParticipant, pos) => {
@@ -93,7 +107,10 @@ const incomeTax = async (currentParticipant, pos) => {
       balance: parseInt(currentParticipant.balance) * 0.8,
     }
   );
-  return { message: "Pay 20% as an Income Tax " };
+  return {
+    message: "Pay 20% as an Income Tax ",
+    balance: parseInt(currentParticipant.balance) * 0.8,
+  };
 };
 
 module.exports = { jail, cryptoLocker, kronos, incomeTax };

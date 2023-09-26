@@ -22,6 +22,7 @@ const chance = async (currentParticipant, pos) => {
         title: "Hackathon Victory",
         message:
           "Congratulations! You won a hackathon. Collect $100 as a reward for your coding skills",
+        balance: document.balance,
       };
       break;
     case 2:
@@ -42,6 +43,7 @@ const chance = async (currentParticipant, pos) => {
         title: "Bug Bounty Payout",
         message:
           "Report a Critical Bug and receive a reward of $50 from a tech giant. Collect $50",
+        balance: document2.balance,
       };
       break;
     case 3:
@@ -65,6 +67,7 @@ const chance = async (currentParticipant, pos) => {
         title: "Tech Conference",
         message:
           "Attend a tech conference. Pay $50 for the conference fee. Gain knowledge and advance 3 spaces.",
+        balance: document3.balance,
       };
       break;
     case 4:
@@ -88,6 +91,7 @@ const chance = async (currentParticipant, pos) => {
         title: "Cryptolocker Virus",
         message:
           "Your computer has been infected with Cryptolocker! Pay a $50 ransom to unlock your files.",
+        balance: document4.balance,
       };
       break;
     case 5:
@@ -107,6 +111,7 @@ const chance = async (currentParticipant, pos) => {
       return {
         title: "Tech Startup",
         message: "Collect $20 as an investment in your company.",
+        balance: document5.balance,
       };
       break;
     case 6:
@@ -130,6 +135,7 @@ const chance = async (currentParticipant, pos) => {
         title: "Cryptocurrency Investment",
         message:
           "Invest in cryptocurrrency early. Collect $25 for each property you own.",
+        balance: document6.balance,
       };
       break;
     case 7:
@@ -146,7 +152,11 @@ const chance = async (currentParticipant, pos) => {
         ),
         document7
       );
-      return { title: "Tech Patent", message: "Collect $50 in royalties." };
+      return {
+        title: "Tech Patent",
+        message: "Collect $50 in royalties.",
+        balance: document7.balance,
+      };
       break;
     default:
       break;
@@ -174,6 +184,7 @@ const communityChest = async (currentParticipant, pos) => {
         title: "Open-Source Contribution",
         message:
           "Contribute to an open-source project. Collect $50 in recognition of your tech skills.",
+        balance: document1.balance,
       };
       break;
     case 2:
@@ -197,6 +208,7 @@ const communityChest = async (currentParticipant, pos) => {
         title: "Virus Scan",
         message:
           "Your antivirus software has detected a virus. Pay $25 for cleanup.",
+        balance: document2.balance,
       };
       break;
     case 3:
@@ -216,6 +228,7 @@ const communityChest = async (currentParticipant, pos) => {
       return {
         title: "Tech IPO",
         message: "Your tech company is going public. Collect $100",
+        balance: document3.balance,
       };
       break;
     case 4:
@@ -236,6 +249,7 @@ const communityChest = async (currentParticipant, pos) => {
         title: "Tech Blog",
         message:
           "Your tech blog gains popularity. Collect $10 as advertising revenue. ",
+        balance: document4.balance,
       };
       break;
     case 5:
@@ -256,6 +270,7 @@ const communityChest = async (currentParticipant, pos) => {
         title: "Virtual Reality Project",
         message:
           "Work on a VR project. Collect $60 for your futuristic creation.",
+        balance: document5.balance,
       };
       break;
     case 6:
@@ -278,6 +293,7 @@ const communityChest = async (currentParticipant, pos) => {
       return {
         title: "Tech Acquisition",
         message: "Acquire a rival tech startup. Pay $75 for the puchase.",
+        balance: document6.balance,
       };
       break;
     case 7:
@@ -300,6 +316,7 @@ const communityChest = async (currentParticipant, pos) => {
       return {
         title: "Smart Home Upgrade",
         message: "Upgrade your home with smart tech. Pay $50 for the upgrade.",
+        balance: document7.balance,
       };
       break;
     case 8:
@@ -323,6 +340,7 @@ const communityChest = async (currentParticipant, pos) => {
           title: "BlockChain Investment",
           message:
             "Invest in blockchain technology. Collect $25 for each property you own.",
+          balance: document8.balance,
         };
       }
     default:

@@ -23,7 +23,7 @@ module.exports = async (req, res) => {
   // const dice1 = 2;
   // const dice2 = 3;
   // const pos = parseInt(player.position) + parseInt(dice1) + parseInt(dice2);
-  const pos = 13;
+  const pos = 27;
   if (pos >= 32) {
     //----------------------------------------------------------
     //Edge case to increase amount after rounds
@@ -32,7 +32,12 @@ module.exports = async (req, res) => {
     player.position = pos % 32;
     player.balance = parseInt(player.balance) + 200;
     await setDoc(doc(db, batchNo.toString(), player.teamName), player);
-    return res.json({ dice1, dice2, position: pos % 32 });
+    return res.json({
+      dice1,
+      dice2,
+      position: pos % 32,
+      balance: player.balance,
+    });
   } else if (pos % 32 === 11 || pos % 32 === 25) {
     //----------------------------------------------------------
     //Chance logic
@@ -51,13 +56,25 @@ module.exports = async (req, res) => {
     //Jail - No wifi connection
     //-----------------------------------------------------------
     const objt = await jail(player);
-    return res.json({ ...objt, dice1, dice2, position: pos % 32 });
+    return res.json({
+      ...objt,
+      dice1,
+      dice2,
+      position: pos % 32,
+      balance: player.balance,
+    });
   } else if (pos % 32 === 8) {
     //----------------------------------------------------------
     //Crypto Locker
     //-----------------------------------------------------------
     const obj1 = await cryptoLocker(player, pos % 32);
-    return res.json({ ...obj1, dice1, dice2, position: pos % 32 });
+    return res.json({
+      ...obj1,
+      dice1,
+      dice2,
+      position: pos % 32,
+      balance: player.balance,
+    });
   } else if (pos % 32 === 24) {
     //----------------------------------------------------------
     //Kronos
@@ -76,6 +93,11 @@ module.exports = async (req, res) => {
     //-----------------------------------------------------------
     player.position = pos % 32;
     await setDoc(doc(db, batchNo.toString(), player.teamName), player);
-    return res.json({ dice1, dice2, position: pos % 32 });
+    return res.json({
+      dice1,
+      dice2,
+      position: pos % 32,
+      balance: player.balance,
+    });
   }
 };
