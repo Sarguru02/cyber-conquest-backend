@@ -132,7 +132,7 @@ app.post("/buy", async (req, res) => {
       propertyArray: req.session.properties,
     }
   );
-  res.status(200).send("Hello mf");
+  res.status(200).json({ balance: parseInt(currentParticipant.balance) });
 });
 
 app.post("/reset", async (req, res) => {
