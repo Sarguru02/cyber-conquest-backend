@@ -41,14 +41,12 @@
     "owner": "",
     "price": 100,
     "position": 6,
-    "propertyName": "Pictography",
-    "quizName": "pictography"
+    "propertyName": "Pictography"
   },
   {
     "category": "Tech",
     "owner": "",
     "position": 7,
-    "price": 100,
     "propertyName": "Git",
     "quizName": "GIT"
   },
@@ -61,13 +59,14 @@
     "owner": "",
     "price": 100,
     "position": 9,
-    "propertyName": "Panchathanthiram",
-    "quizName": "Panchathanthiram"
+    "propertyName": "Panchathanthiram"
   },
   {
+    "category": "Tech",
+    "owner": "",
+    "price": 100,
     "position": 10,
-    "propertyName": "Do Nothing, Eat ⭐⭐⭐⭐⭐",
-    "quizName": "rip"
+    "propertyName": "Codeacy"
   },
   {
     "position": 11,
@@ -86,7 +85,7 @@
     "price": 100,
     "position": 13,
     "propertyName": "Memory Game",
-    "quizName": "Memory_Quiz"
+    "quizName": "Memory Quiz"
   },
   {
     "category": "Tech",
@@ -101,8 +100,7 @@
     "owner": "",
     "price": 100,
     "position": 15,
-    "propertyName": "Connections",
-    "quizName": "Connections"
+    "propertyName": "Connection"
   },
   {
     "position": 16,
@@ -121,16 +119,14 @@
     "owner": "",
     "price": 100,
     "position": 18,
-    "propertyName": "Sales Pitch",
-    "quizName": "Sales_pitch"
+    "propertyName": "Sales Pitch"
   },
   {
     "category": "Tech",
     "owner": "",
     "price": 100,
     "position": 19,
-    "propertyName": "Cyber Security",
-    "quizName": "Cyber_Security"
+    "propertyName": "Cyber Security"
   },
   {
     "position": 20,
@@ -180,24 +176,21 @@
     "owner": "",
     "price": 100,
     "position": 27,
-    "propertyName": "Fact or Myth",
-    "quizName": "Fact_or_Myth"
+    "propertyName": "Fact or Myth"
   },
   {
     "category": "Non-Tech",
     "owner": "",
     "price": 100,
     "position": 28,
-    "propertyName": "Tech Anagrams",
-    "quizName": "Tech Anagrams"
+    "propertyName": "Tech Anagrams"
   },
   {
     "category": "Non-Tech",
     "owner": "",
     "price": 100,
     "position": 29,
-    "propertyName": "Tongue Twister",
-    "quizName": "tongueTwister"
+    "propertyName": "Do or Die"
   },
   {
     "category": "Tech",
@@ -212,7 +205,6 @@
     "owner": "",
     "price": 100,
     "position": 31,
-    "propertyName": "Historical Places",
-    "quizName": "Historical Places"
+    "propertyName": "Historical Places"
   }
 ]
