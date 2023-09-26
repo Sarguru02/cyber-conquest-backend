@@ -22,8 +22,8 @@ module.exports = async (req, res) => {
   const dice2 = Math.ceil(Math.random() * 6);
   // const dice1 = 2;
   // const dice2 = 3;
-  const pos = parseInt(player.position) + parseInt(dice1) + parseInt(dice2);
-  // const pos = 5;
+  // const pos = parseInt(player.position) + parseInt(dice1) + parseInt(dice2);
+  const pos = 6;
   if (pos >= 32) {
     //----------------------------------------------------------
     //Edge case to increase amount after rounds

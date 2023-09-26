@@ -47,7 +47,10 @@ const chance = async (currentParticipant, pos) => {
     case 3:
       const document3 = {
         ...currentParticipant,
-        balance: parseInt(currentParticipant.balance) - 50,
+        balance:
+          parseInt(currentParticipant.balance) - 50 > 0
+            ? parseInt(currentParticipant.balance) - 50
+            : 0,
         position: pos + 3,
       };
       await setDoc(
@@ -67,7 +70,10 @@ const chance = async (currentParticipant, pos) => {
     case 4:
       const document4 = {
         ...currentParticipant,
-        balance: parseInt(currentParticipant.balance) - 50,
+        balance:
+          parseInt(currentParticipant.balance) - 50 > 0
+            ? parseInt(currentParticipant.balance) - 50
+            : 0,
         position: pos,
       };
       await setDoc(
@@ -173,7 +179,10 @@ const communityChest = async (currentParticipant, pos) => {
     case 2:
       const document2 = {
         ...currentParticipant,
-        balance: parseInt(currentParticipant.balance) - 25,
+        balance:
+          parseInt(currentParticipant.balance) - 25 > 0
+            ? parseInt(currentParticipant.balance) - 25
+            : 0,
         position: pos,
       };
       await setDoc(
@@ -252,7 +261,10 @@ const communityChest = async (currentParticipant, pos) => {
     case 6:
       const document6 = {
         ...currentParticipant,
-        balance: parseInt(currentParticipant.balance) - 75,
+        balance:
+          parseInt(currentParticipant.balance) - 75 > 0
+            ? parseInt(currentParticipant.balance) - 75
+            : 0,
         position: pos,
       };
       await setDoc(
@@ -271,7 +283,10 @@ const communityChest = async (currentParticipant, pos) => {
     case 7:
       const document7 = {
         ...currentParticipant,
-        balance: parseInt(currentParticipant.balance) - 50,
+        balance:
+          parseInt(currentParticipant.balance) - 50 > 0
+            ? parseInt(currentParticipant.balance) - 50
+            : 0,
         position: pos,
       };
       await setDoc(

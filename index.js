@@ -162,7 +162,7 @@ app.post("/reset", async (req, res) => {
   res.status(200).send("Everything Reset properly");
 });
 
-app.post("/properties", setDocument, async (req, res) => {
+app.post("/properties", async (req, res) => {
   const { batchNo } = req.body;
   getDoc(doc(db, "gameProperties", `propertyDocument_${batchNo}`)).then((d) => {
     if (d.exists()) {
@@ -194,17 +194,23 @@ app.post("/rent", async (req, res) => {
   );
   if (ownerRef.exists()) {
     const owner = ownerRef.data();
-    await setDoc(doc(db, owner.batchNo.toString(), owner.teamName), {
-      ...owner,
-      position: owner.position,
-      balance: parseInt(owner.balance) + parseInt(property.price) * 0.5,
-    });
-    await setDoc(doc(db, player.batchNo.toString(), player.teamName), {
-      ...player,
-      position: parseInt(player.position),
-      balance: parseInt(player.balance) - parseInt(property.price) * 0.5,
-    });
-    return res.send("Rent paid successfully");
+    if (parseInt(player.balance) - parseInt(owner.balance)) {
+      await setDoc(doc(db, owner.batchNo.toString(), owner.teamName), {
+        ...owner,
+        position: owner.position,
+        balance: parseInt(owner.balance) + parseInt(property.price) * 0.5,
+      });
+      await setDoc(doc(db, player.batchNo.toString(), player.teamName), {
+        ...player,
+        position: parseInt(player.position),
+        balance: parseInt(player.balance) - parseInt(property.price) * 0.5,
+      });
+      return res.send("Rent paid successfully");
+    } else {
+      return res.json({
+        message: "Bro does not have enough money to pay rent it seems!",
+      });
+    }
   } else {
     return res
       .status(401)

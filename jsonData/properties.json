@@ -64,11 +64,9 @@
     "propertyName": "Panchathanthiram"
   },
   {
-    "category": "Tech",
-    "owner": "",
-    "price": 100,
     "position": 10,
-    "propertyName": "Codeacy"
+    "propertyName": "Do Nothing, Eat ⭐⭐⭐⭐⭐",
+    "quizName": "rip"
   },
   {
     "position": 11,
@@ -102,7 +100,8 @@
     "owner": "",
     "price": 100,
     "position": 15,
-    "propertyName": "Connection"
+    "propertyName": "Connections",
+    "quizName": "Connections"
   },
   {
     "position": 16,
@@ -121,14 +120,16 @@
     "owner": "",
     "price": 100,
     "position": 18,
-    "propertyName": "Sales Pitch"
+    "propertyName": "Sales Pitch",
+    "quizName": "Sales_pitch"
   },
   {
     "category": "Tech",
     "owner": "",
     "price": 100,
     "position": 19,
-    "propertyName": "Cyber Security"
+    "propertyName": "Cyber Security",
+    "quizName": "Cyber_Security"
   },
   {
     "position": 20,
@@ -178,21 +179,24 @@
     "owner": "",
     "price": 100,
     "position": 27,
-    "propertyName": "Fact or Myth"
+    "propertyName": "Fact or Myth",
+    "quizName": "Fact_or_Myth"
   },
   {
     "category": "Non-Tech",
     "owner": "",
     "price": 100,
     "position": 28,
-    "propertyName": "Tech Anagrams"
+    "propertyName": "Tech Anagrams",
+    "quizName": "Tech Anagrams"
   },
   {
     "category": "Non-Tech",
     "owner": "",
     "price": 100,
     "position": 29,
-    "propertyName": "Do or Die"
+    "propertyName": "Tongue Twister",
+    "quizName": "tongueTwister"
   },
   {
     "category": "Tech",
@@ -207,6 +211,7 @@
     "owner": "",
     "price": 100,
     "position": 31,
-    "propertyName": "Historical Places"
+    "propertyName": "Historical Places",
+    "quizName": "Historical Places"
   }
 ]
